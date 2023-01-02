@@ -1,0 +1,1557 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+@media (max-width: 768px) {
+  header .top .accountAndLanguages {
+    justify-content: center !important;
+  }
+  header .top .accountAndLanguages .myAccountList {
+    top: 30px !important;
+  }
+  header .top .UsdList {
+    top: 30px !important;
+  }
+  header .top .EnglishList {
+    top: 30px !important;
+  }
+  header .top #triangle {
+    top: 18px !important;
+  }
+  header .top .support {
+    justify-content: center;
+  }
+  header .middle {
+    overflow: hidden;
+  }
+  header .middle .logo img {
+    width: 40% !important;
+  }
+  header .middle .logo {
+    text-align: center;
+  }
+  header .middle .lastForPrice {
+    display: none;
+  }
+  header .middle .rightForMiddle {
+    justify-content: center;
+  }
+  header .middle .basketIcon #triangle {
+    left: 400px !important;
+  }
+  header .middle .basketIcon .basket {
+    width: 65% !important;
+    left: 110px !important;
+  }
+  header .bottom {
+    display: none;
+  }
+  header .bottomForMobileGeneral {
+    overflow: hidden;
+    display: block !important;
+  }
+}
+@media (max-width: 991px) {
+  header .top .accountAndLanguages {
+    justify-content: center !important;
+  }
+  header .top .accountAndLanguages .myAccountList {
+    top: 30px !important;
+  }
+  header .top .UsdList {
+    top: 30px !important;
+  }
+  header .top .EnglishList {
+    top: 30px !important;
+  }
+  header .top #triangle {
+    top: 18px !important;
+  }
+  header .top .support {
+    justify-content: center;
+  }
+  header .middle {
+    overflow: hidden;
+  }
+  header .middle .logo img {
+    width: 100%;
+  }
+  header .middle #categoryInputOnSearch {
+    display: none;
+  }
+  header .middle input {
+    padding-left: 1rem !important;
+  }
+  header .middle .logo {
+    text-align: center;
+  }
+  header .middle .lastForPrice {
+    display: none;
+  }
+  header .middle .rightForMiddle {
+    justify-content: center;
+  }
+  header .middle .basketIcon #triangle {
+    left: 400px !important;
+  }
+  header .middle .basketIcon .basket {
+    width: 65% !important;
+    left: 110px !important;
+  }
+  header .bottom {
+    display: none;
+  }
+  header .bottomForMobileGeneral {
+    overflow: hidden;
+    display: block !important;
+  }
+}
+@media (max-width: 1025px) {
+  header {
+    overflow: hidden;
+  }
+  header .bottom .megaMenu {
+    left: 20px !important;
+  }
+}
+@media (max-width: 1281px) {
+  header {
+    overflow: hidden;
+  }
+  header .bottom .megaMenu {
+    left: 20px !important;
+  }
+}
+header #overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+header .top {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+header .top a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+header .top ul {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  display: flex;
+}
+header .top ul :hover {
+  transition-duration: 0.3s;
+  color: rgb(242, 139, 0);
+}
+header .top ul :last-child {
+  border: none;
+}
+header .top ul :first-child {
+  padding-left: 0px;
+}
+header .top ul li {
+  border-right: 1px solid rgb(229, 229, 229);
+  padding-right: 10px;
+  padding-left: 7px;
+}
+header .top .accountAndLanguages {
+  justify-content: end;
+}
+header .top .accountAndLanguages .myAccount {
+  position: relative;
+}
+header .top .accountAndLanguages .myAccount .myAccountList {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  z-index: 2;
+  border: 0.01px solid rgb(229, 229, 229);
+  border-radius: 7px;
+  padding: 10px;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+header .top .accountAndLanguages .myAccount .myAccountList a {
+  padding-bottom: 10px;
+}
+header .top .accountAndLanguages .myAccount #triangle {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.3s;
+  color: rgb(229, 229, 229);
+}
+header .top .accountAndLanguages .myAccount:hover .myAccountList {
+  top: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+header .top .accountAndLanguages .myAccount:hover #triangle {
+  visibility: visible;
+  opacity: 1;
+  top: 20px;
+}
+header .top .accountAndLanguages .Usd {
+  position: relative;
+}
+header .top .accountAndLanguages .Usd .UsdList {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  z-index: 2;
+  border: 0.01px solid rgb(229, 229, 229);
+  border-radius: 7px;
+  padding: 10px;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+header .top .accountAndLanguages .Usd .UsdList a {
+  padding-bottom: 10px;
+}
+header .top .accountAndLanguages .Usd #triangle {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.3s;
+  color: rgb(229, 229, 229);
+}
+header .top .accountAndLanguages .Usd:hover .UsdList {
+  top: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+header .top .accountAndLanguages .Usd:hover #triangle {
+  visibility: visible;
+  opacity: 1;
+  top: 20px;
+}
+header .top .accountAndLanguages .English {
+  position: relative;
+}
+header .top .accountAndLanguages .English .EnglishList {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  z-index: 2;
+  border: 0.01px solid rgb(229, 229, 229);
+  border-radius: 7px;
+  padding: 10px;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+header .top .accountAndLanguages .English .EnglishList a {
+  padding-bottom: 10px;
+}
+header .top .accountAndLanguages .English #triangle {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.3s;
+  color: rgb(229, 229, 229);
+}
+header .top .accountAndLanguages .English:hover .EnglishList {
+  top: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+header .top .accountAndLanguages .English:hover #triangle {
+  visibility: visible;
+  opacity: 1;
+  top: 20px;
+}
+header .top .phone {
+  justify-content: center;
+}
+header .top .phone span {
+  color: rgb(242, 139, 0);
+}
+header .top .phone li {
+  padding-right: 0;
+}
+header .middle .logo {
+  margin: 2rem 0rem;
+}
+header .middle .header-search {
+  margin: 2rem 0rem;
+  position: relative;
+  /* Handle on hover */
+}
+header .middle .header-search :focus {
+  outline: none;
+}
+header .middle .header-search .searchSuggestions {
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.3s;
+  background-color: white;
+  width: 120%;
+  z-index: 8;
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+header .middle .header-search .searchSuggestions .title {
+  margin-bottom: 25px;
+  color: rgb(242, 139, 0);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+header .middle .header-search .searchSuggestions .suggestions {
+  background-color: white;
+  height: 350px;
+  padding: 20px 30px;
+}
+header .middle .header-search .searchSuggestions .suggestions img {
+  width: 100%;
+}
+header .middle .header-search .searchSuggestions .suggestions .name {
+  color: rgb(72, 72, 72);
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+header .middle .header-search .searchSuggestions .suggestions .name :hover {
+  color: rgb(242, 139, 0);
+}
+header .middle .header-search .searchSuggestions .suggestions .price {
+  display: flex;
+  margin-top: 10px;
+}
+header .middle .header-search .searchSuggestions .suggestions .price .sale {
+  margin-right: 15px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
+header .middle .header-search .searchSuggestions .suggestions .price .regular {
+  color: rgb(197, 197, 197);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration: line-through;
+}
+header .middle .header-search .searchSuggestions .categories {
+  padding: 20px 30px;
+  background-color: rgb(245, 245, 245);
+  height: 350px;
+}
+header .middle .header-search .searchSuggestions .categories ul li {
+  padding-bottom: 10px;
+}
+header .middle .header-search .searchSuggestions .categories ul li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(101, 101, 101);
+}
+header .middle .header-search .category {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  cursor: pointer;
+  border-right: 1px solid rgb(229, 229, 229);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(114, 114, 114);
+}
+header .middle .header-search .category i {
+  padding: 0rem 1rem;
+}
+header .middle .header-search .allCategories {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 55px;
+  left: -20px;
+  z-index: 5;
+  background-color: white;
+  transition-duration: 0.3s;
+  width: 215px;
+  height: 250px;
+  overflow: auto;
+  text-align: justify;
+  border: 2px solid rgb(72, 72, 72);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+header .middle .header-search .allCategories .title {
+  color: rgb(242, 139, 0);
+  margin-bottom: 8px;
+}
+header .middle .header-search .allCategories ul {
+  padding-left: 0.7rem;
+  margin-bottom: 10px;
+}
+header .middle .header-search .allCategories ul :hover {
+  transition-duration: 0.3s;
+  color: rgb(242, 139, 0);
+}
+header .middle .header-search .allCategories ul li {
+  margin-bottom: 6px;
+}
+header .middle .header-search ::-webkit-scrollbar {
+  width: 7px;
+}
+header .middle .header-search ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+header .middle .header-search ::-webkit-scrollbar-thumb {
+  background: rgb(242, 139, 0);
+  border-radius: 10px;
+}
+header .middle .header-search ::-webkit-scrollbar-thumb:hover {
+  background: rgb(207, 118, 2);
+}
+header .middle .header-search input {
+  width: 100%;
+  padding: 0.8rem 0rem;
+  padding-left: 10rem;
+  border-radius: 2rem;
+  border: 2px solid rgb(229, 229, 229);
+  color: #292b2c;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+header .middle .header-search button {
+  padding: 0.6rem 1.8rem;
+  background-color: rgb(229, 229, 229);
+  border-radius: 4rem;
+  border: 0px none transparent !important;
+  position: absolute;
+  right: -3px;
+  bottom: 0;
+}
+header .middle .compareWishBasket {
+  position: relative;
+}
+header .middle .compareWishBasket .inner-box {
+  display: flex;
+  justify-content: center;
+}
+header .middle .compareWishBasket .inner-box a {
+  border: 2px solid rgb(229, 229, 229);
+  padding: 10px;
+  border-radius: 100px;
+}
+header .middle .compareWishBasket .price {
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+header .middle .compareWishBasket .basketIcon #triangle {
+  position: absolute;
+  top: 90px;
+  left: 165px;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.3s;
+  color: rgb(229, 229, 229);
+}
+header .middle .compareWishBasket .basketIcon .basket {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  transition-duration: 0.3s;
+  background-color: white;
+  height: 350px;
+  width: 115%;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 5;
+  padding: 20px 30px;
+}
+header .middle .compareWishBasket .basketIcon .basket .checkOut .btn1 {
+  border-radius: 20px;
+  color: rgb(242, 139, 0);
+  border: 2px solid rgb(242, 139, 0);
+  background-color: white;
+  padding: 10px 20px;
+}
+header .middle .compareWishBasket .basketIcon .basket .checkOut .btn1:hover {
+  background-color: rgb(242, 139, 0);
+  color: white;
+}
+header .middle .compareWishBasket .basketIcon .basket .checkOut .btn2 {
+  border-radius: 20px;
+  color: white;
+  border: 2px solid rgb(72, 72, 72);
+  background-color: rgb(72, 72, 72);
+  padding: 10px 20px;
+}
+header .middle .compareWishBasket .basketIcon .basket .checkOut .btn2:hover {
+  background-color: rgb(242, 139, 0);
+  color: white;
+  border-color: rgb(242, 139, 0);
+}
+header .middle .compareWishBasket .basketIcon .basket .subTotal {
+  color: rgb(72, 72, 72);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+header .middle .compareWishBasket .basketIcon .basket .subTotal .price {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+header .middle .compareWishBasket .basketIcon .basket .imgForBasket img {
+  width: 100%;
+}
+header .middle .compareWishBasket .basketIcon .basket .name {
+  margin-bottom: 3px;
+  color: rgb(72, 72, 72);
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+header .middle .compareWishBasket .basketIcon .basket .name :hover {
+  color: rgb(242, 139, 0);
+}
+header .middle .compareWishBasket .basketIcon .basket .price {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: rgb(242, 139, 0);
+}
+header .middle .compareWishBasket .basketIcon .basket .closeX :hover {
+  color: rgb(242, 139, 0);
+}
+header .middle .compareWishBasket .basketIcon:hover .basket {
+  visibility: visible;
+  opacity: 1;
+  top: 70px;
+}
+header .middle .compareWishBasket .basketIcon:hover #triangle {
+  opacity: 1;
+  visibility: visible;
+  top: 60px;
+}
+header .bottom {
+  position: relative;
+  background-color: rgb(242, 139, 0);
+  color: white;
+  padding: 0px 0;
+}
+header .bottom .todayDeals {
+  position: relative;
+}
+header .bottom .todayDeals .underline {
+  position: absolute;
+  top: 20px;
+  right: 14px;
+  border: 1px solid white;
+  background-color: white;
+  transition-duration: 0.5s;
+  height: 1px;
+  width: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+header .bottom .todayDeals:hover .underline {
+  left: 85px;
+  width: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+header .bottom .megaMenu {
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+  background-color: rgb(72, 72, 72);
+  padding: 22px 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+header .bottom .megaMenu .btnMega {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(254, 254, 254);
+}
+header .bottom .megaMenu .btnMega i {
+  font-size: 21px;
+  padding-right: 20px;
+}
+header .bottom .megaMenu .megaMenuList {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  width: 100%;
+  transition-duration: 0.7s;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+}
+header .bottom .megaMenu .megaMenuList ul {
+  border: 1px solid rgb(101, 101, 101);
+}
+header .bottom .megaMenu .megaMenuList ul :last-child {
+  border-bottom: 1px none transparent;
+}
+header .bottom .megaMenu .megaMenuList ul li {
+  padding: 0.8rem 0rem;
+  border-bottom: 0.1px solid rgba(101, 101, 101, 0.2);
+}
+header .bottom .megaMenu .megaMenuList ul li img {
+  margin-right: 18px;
+  margin-left: 20px;
+}
+header .bottom .megaMenu .megaMenuList ul li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+header .bottom .megaMenu .megaMenuList ul li a i {
+  padding-left: 1.2rem;
+}
+header .bottom .megaMenu .megaMenuList ul li a:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList {
+  width: 350%;
+  height: 100%;
+  margin-left: 22rem;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+  position: absolute;
+  transition-duration: 0.5s;
+  top: 0;
+  left: -150px;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList h2 {
+  color: rgb(242, 139, 0);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul {
+  color: white;
+  border: 0 none transparent !important;
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul li {
+  border-bottom: 0 none transparent !important;
+  padding: 0.4rem 0;
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul li a:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul :last-child {
+  padding: 0;
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul :last-child a {
+  color: rgb(242, 139, 0);
+  font-weight: 700;
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList .rightOnSubCategoryList h1 {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(242, 139, 0);
+  margin-bottom: 0.5rem;
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList .rightOnSubCategoryList .boxForSubCategoryList {
+  background-color: rgb(229, 229, 229);
+  border: 3px solid rgb(229, 229, 229) !important;
+  padding: 1rem 0.2rem;
+  margin-bottom: 1.7rem;
+  border-radius: 10px;
+}
+header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList .rightOnSubCategoryList .boxForSubCategoryList:hover {
+  background-color: white;
+}
+header .bottom .megaMenu .megaMenuList .laptopMac:hover .megaMenuListSubList {
+  visibility: visible;
+  opacity: 1;
+  left: -90px;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 {
+  width: 350%;
+  height: 100%;
+  margin-left: 22rem;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+  position: absolute;
+  transition-duration: 0.5s;
+  top: 0;
+  left: -150px;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 h2 {
+  color: rgb(242, 139, 0);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul {
+  color: white;
+  border: 0 none transparent !important;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul li {
+  border-bottom: 0 none transparent !important;
+  padding: 0.4rem 0;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul li a:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul :last-child {
+  padding: 0;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul :last-child a {
+  color: rgb(242, 139, 0);
+  font-weight: 700;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 .rightOnSubCategoryList h1 {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(242, 139, 0);
+  margin-bottom: 0.5rem;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 .rightOnSubCategoryList .boxForSubCategoryList {
+  background-color: rgb(229, 229, 229);
+  border: 3px solid rgb(229, 229, 229) !important;
+  padding: 1rem 0.2rem;
+  margin-bottom: 1.7rem;
+  border-radius: 10px;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+  background-color: white;
+}
+header .bottom .megaMenu .megaMenuList .mobileAndTablet:hover .megaMenuListSubList2 {
+  visibility: visible;
+  opacity: 1;
+  left: -90px;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 {
+  width: 350%;
+  height: 100%;
+  margin-left: 22rem;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+  position: absolute;
+  transition-duration: 0.5s;
+  top: 0;
+  left: -150px;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 h2 {
+  color: rgb(242, 139, 0);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul {
+  color: white;
+  border: 0 none transparent !important;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul li {
+  border-bottom: 0 none transparent !important;
+  padding: 0.4rem 0;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul li a:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul :last-child {
+  padding: 0;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul :last-child a {
+  color: rgb(242, 139, 0);
+  font-weight: 700;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 .rightOnSubCategoryList h1 {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(242, 139, 0);
+  margin-bottom: 0.5rem;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 .rightOnSubCategoryList .boxForSubCategoryList {
+  background-color: rgb(229, 229, 229);
+  border: 3px solid rgb(229, 229, 229) !important;
+  padding: 1rem 0.2rem;
+  margin-bottom: 1.7rem;
+  border-radius: 10px;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+  background-color: white;
+}
+header .bottom .megaMenu .megaMenuList .homeDevices:hover .megaMenuListSubList3 {
+  visibility: visible;
+  opacity: 1;
+  left: -90px;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 {
+  width: 350%;
+  height: 100%;
+  margin-left: 22rem;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+  position: absolute;
+  transition-duration: 0.5s;
+  top: 0;
+  left: -150px;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 h2 {
+  color: rgb(242, 139, 0);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul {
+  color: white;
+  border: 0 none transparent !important;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul li {
+  border-bottom: 0 none transparent !important;
+  padding: 0.4rem 0;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul li a:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul :last-child {
+  padding: 0;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul :last-child a {
+  color: rgb(242, 139, 0);
+  font-weight: 700;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 .rightOnSubCategoryList h1 {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(242, 139, 0);
+  margin-bottom: 0.5rem;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 .rightOnSubCategoryList .boxForSubCategoryList {
+  background-color: rgb(229, 229, 229);
+  border: 3px solid rgb(229, 229, 229) !important;
+  padding: 1rem 0.2rem;
+  margin-bottom: 1.7rem;
+  border-radius: 10px;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+  background-color: white;
+}
+header .bottom .megaMenu .megaMenuList .gamesAndToys:hover .megaMenuListSubList5 {
+  visibility: visible;
+  opacity: 1;
+  left: -90px;
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 {
+  width: 350%;
+  height: 100%;
+  margin-left: 22rem;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+  position: absolute;
+  transition-duration: 0.5s;
+  top: 0;
+  left: -150px;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 h2 {
+  color: rgb(242, 139, 0);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul {
+  color: white;
+  border: 0 none transparent !important;
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul li {
+  border-bottom: 0 none transparent !important;
+  padding: 0.4rem 0;
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul li a:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul :last-child {
+  padding: 0;
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul :last-child a {
+  color: rgb(242, 139, 0);
+  font-weight: 700;
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 .rightOnSubCategoryList h1 {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(242, 139, 0);
+  margin-bottom: 0.5rem;
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 .rightOnSubCategoryList .boxForSubCategoryList {
+  background-color: rgb(229, 229, 229);
+  border: 3px solid rgb(229, 229, 229) !important;
+  padding: 1rem 0.2rem;
+  margin-bottom: 1.7rem;
+  border-radius: 10px;
+}
+header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+  background-color: white;
+}
+header .bottom .megaMenu .megaMenuList .Accessories:hover .megaMenuListSubList6 {
+  visibility: visible;
+  opacity: 1;
+  left: -90px;
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 {
+  width: 350%;
+  height: 100%;
+  margin-left: 22rem;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+  position: absolute;
+  transition-duration: 0.5s;
+  top: 0;
+  left: -150px;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 h2 {
+  color: rgb(242, 139, 0);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul {
+  color: white;
+  border: 0 none transparent !important;
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul li {
+  border-bottom: 0 none transparent !important;
+  padding: 0.4rem 0;
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul li a:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul :last-child {
+  padding: 0;
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul :last-child a {
+  color: rgb(242, 139, 0);
+  font-weight: 700;
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 .rightOnSubCategoryList h1 {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(242, 139, 0);
+  margin-bottom: 0.5rem;
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 .rightOnSubCategoryList .boxForSubCategoryList {
+  background-color: rgb(229, 229, 229);
+  border: 3px solid rgb(229, 229, 229) !important;
+  padding: 1rem 0.2rem;
+  margin-bottom: 1.7rem;
+  border-radius: 10px;
+}
+header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+  background-color: white;
+}
+header .bottom .megaMenu .megaMenuList .Security:hover .megaMenuListSubList7 {
+  visibility: visible;
+  opacity: 1;
+  left: -90px;
+}
+header .bottom .megaMenu:hover .megaMenuList {
+  visibility: visible;
+  opacity: 1;
+}
+header .bottom .mainNavCol {
+  position: relative;
+}
+header .bottom .mainNav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu {
+  position: absolute;
+  top: 90px;
+  left: 80px;
+  width: 90%;
+  background-color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList {
+  transition-duration: 0.3s;
+  padding: 18px 0px;
+  background-color: white;
+  width: 263px;
+}
+header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList :first-child {
+  color: rgb(242, 139, 0);
+  font-size: 17px;
+  padding-bottom: 8px;
+}
+header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList li {
+  display: flex;
+  align-items: center;
+  border: 1px none none;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(72, 72, 72);
+}
+header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList li i {
+  font-size: 7px;
+  padding-right: 15px;
+}
+header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList :last-child {
+  margin-bottom: 0;
+  color: rgb(242, 139, 0);
+  font-weight: 700;
+}
+header .bottom .mainNav .electronicsOnMainNav .bottomOnElectronicsBigMenu {
+  margin-top: 1rem;
+}
+header .bottom .mainNav .electronicsOnMainNav:hover .electronicsBigMenu {
+  top: 56px;
+  visibility: visible;
+  opacity: 1;
+}
+header .bottom .mainNav .homeOnMainNav {
+  position: relative;
+}
+header .bottom .mainNav .homeOnMainNav .homeOnMainNavList {
+  position: absolute;
+  transition-duration: 0.3s;
+  top: 50px;
+  left: -22px;
+  padding: 18px 0px;
+  background-color: white;
+  width: 263px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+}
+header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li {
+  display: flex;
+  align-items: center;
+  border: 1px none none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(72, 72, 72);
+}
+header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li i {
+  font-size: 7px;
+  padding-right: 15px;
+}
+header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .mainNav .homeOnMainNav .homeOnMainNavList :last-child {
+  margin-bottom: 0;
+}
+header .bottom .mainNav .homeOnMainNav:hover .homeOnMainNavList {
+  top: 36px;
+  visibility: visible;
+  opacity: 1;
+}
+header .bottom .mainNav .homeOnMainNav:hover #overlay {
+  display: block;
+}
+header .bottom .mainNav .featuresOnMainNav {
+  position: relative;
+}
+header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList {
+  position: absolute;
+  transition-duration: 0.3s;
+  top: 50px;
+  left: -22px;
+  padding: 18px 0px;
+  background-color: white;
+  width: 263px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+}
+header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li {
+  display: flex;
+  align-items: center;
+  border: 1px none none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(72, 72, 72);
+}
+header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li i {
+  font-size: 7px;
+  padding-right: 15px;
+}
+header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList :last-child {
+  margin-bottom: 0;
+}
+header .bottom .mainNav .featuresOnMainNav:hover .homeOnMainNavList {
+  top: 36px;
+  visibility: visible;
+  opacity: 1;
+}
+header .bottom .mainNav .featuresOnMainNav:hover #overlay {
+  display: block;
+}
+header .bottom .mainNav .shopOnMainNav {
+  position: relative;
+}
+header .bottom .mainNav .shopOnMainNav .homeOnMainNavList {
+  position: absolute;
+  transition-duration: 0.3s;
+  top: 50px;
+  left: -22px;
+  padding: 18px 0px;
+  background-color: white;
+  width: 263px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+}
+header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li {
+  display: flex;
+  align-items: center;
+  border: 1px none none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(72, 72, 72);
+}
+header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li i {
+  font-size: 7px;
+  padding-right: 15px;
+}
+header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .mainNav .shopOnMainNav .homeOnMainNavList :last-child {
+  margin-bottom: 0;
+}
+header .bottom .mainNav .shopOnMainNav:hover .homeOnMainNavList {
+  top: 36px;
+  visibility: visible;
+  opacity: 1;
+}
+header .bottom .mainNav .shopOnMainNav:hover #overlay {
+  display: block;
+}
+header .bottom .mainNav .pagesOnMainNav {
+  position: relative;
+}
+header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList {
+  position: absolute;
+  transition-duration: 0.3s;
+  top: 50px;
+  left: -22px;
+  padding: 18px 0px;
+  background-color: white;
+  width: 263px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+}
+header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li {
+  display: flex;
+  align-items: center;
+  border: 1px none none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(72, 72, 72);
+}
+header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li i {
+  font-size: 7px;
+  padding-right: 15px;
+}
+header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList :last-child {
+  margin-bottom: 0;
+}
+header .bottom .mainNav .pagesOnMainNav:hover .homeOnMainNavList {
+  top: 36px;
+  visibility: visible;
+  opacity: 1;
+}
+header .bottom .mainNav .pagesOnMainNav:hover #overlay {
+  display: block;
+}
+header .bottom .mainNav .blogOnMainNav {
+  position: relative;
+}
+header .bottom .mainNav .blogOnMainNav .homeOnMainNavList {
+  position: absolute;
+  transition-duration: 0.3s;
+  top: 50px;
+  left: -22px;
+  padding: 18px 0px;
+  background-color: white;
+  width: 263px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+}
+header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li {
+  display: flex;
+  align-items: center;
+  border: 1px none none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(72, 72, 72);
+}
+header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li i {
+  font-size: 7px;
+  padding-right: 15px;
+}
+header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .mainNav .blogOnMainNav .homeOnMainNavList :last-child {
+  margin-bottom: 0;
+}
+header .bottom .mainNav .blogOnMainNav:hover .homeOnMainNavList {
+  top: 36px;
+  visibility: visible;
+  opacity: 1;
+}
+header .bottom .mainNav .blogOnMainNav:hover #overlay {
+  display: block;
+}
+header .bottom .mainNav .contactOnMainNav {
+  position: relative;
+}
+header .bottom .mainNav .contactOnMainNav .homeOnMainNavList {
+  position: absolute;
+  transition-duration: 0.3s;
+  top: 50px;
+  left: -22px;
+  padding: 18px 0px;
+  background-color: white;
+  width: 263px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+}
+header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li {
+  display: flex;
+  align-items: center;
+  border: 1px none none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(72, 72, 72);
+}
+header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li i {
+  font-size: 7px;
+  padding-right: 15px;
+}
+header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+header .bottom .mainNav .contactOnMainNav .homeOnMainNavList :last-child {
+  margin-bottom: 0;
+}
+header .bottom .mainNav .contactOnMainNav:hover .homeOnMainNavList {
+  top: 36px;
+  visibility: visible;
+  opacity: 1;
+}
+header .bottom .mainNav .contactOnMainNav:hover #overlay {
+  display: block;
+}
+header .bottom .mainNav li {
+  border-right: 1px solid rgba(254, 254, 254, 0.5);
+}
+header .bottom .mainNav li a {
+  color: rgb(254, 254, 254);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  padding-right: 25px;
+  text-align: center;
+}
+header .bottom .mainNav :last-child {
+  border-right: 1px none transparent;
+}
+header .bottom .todayDeals a {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(254, 254, 254);
+  font-size: 14px;
+  font-weight: 600;
+}
+header .bottomForMobileGeneral {
+  display: none;
+}
+header .bottomForMobileGeneral .bottomForMobile {
+  background-color: rgb(242, 139, 0);
+  margin-top: 1.5rem;
+  padding: 0.5rem 0rem;
+}
+header .bottomForMobileGeneral .bottomForMobile .leftOnBottomForMobile i {
+  border: 1px solid #292b2c;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #292b2c;
+}
+header .bottomForMobileGeneral .bottomForMobile .rightOnBottomForMobile i {
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 5px;
+}
+header .bottomForMobileGeneral .bottomForMobile .rightOnBottomForMobile span {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+header .bottomForMobileGeneral .bottomForMobileList {
+  display: none;
+  background-color: rgb(51, 51, 51);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+header .bottomForMobileGeneral .bottomForMobileList ul li .parentList {
+  padding: 15px;
+  border-bottom: 1px solid rgba(254, 254, 254, 0.1);
+}
+header .bottomForMobileGeneral .bottomForMobileList ul li a {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+header .bottomForMobileGeneral .bottomForMobileList ul li ul {
+  display: none;
+}
+header .bottomForMobileGeneral .bottomForMobileList ul li ul li .parentChildList {
+  padding: 15px !important;
+  margin: 0rem 52px 0 35px;
+  border-bottom: 1px solid rgba(254, 254, 254, 0.1);
+}
+header .bottomForMobileGeneral .bottomForMobileList ul li ul li ul {
+  display: none;
+}
+header .bottomForMobileGeneral .bottomForMobileList ul li ul li ul li .parentChildList {
+  padding: 15px !important;
+  margin-left: 82px;
+  border-bottom: 1px solid rgba(254, 254, 254, 0.1);
+}
+header .bottomForMobileGeneral .bottomForMobileListRight {
+  display: none;
+  background-color: rgb(51, 51, 51);
+  position: absolute;
+  width: 100%;
+  z-index: 155445;
+}
+header .bottomForMobileGeneral .bottomForMobileListRight ul li .parentList {
+  padding: 15px;
+  border-bottom: 1px solid rgba(254, 254, 254, 0.1);
+}
+header .bottomForMobileGeneral .bottomForMobileListRight ul li a {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+header .bottomForMobileGeneral .bottomForMobileListRight ul li ul {
+  display: none;
+}
+header .bottomForMobileGeneral .bottomForMobileListRight ul li ul li {
+  padding: 15px 4rem !important;
+  border-bottom: 1px solid rgba(254, 254, 254, 0.1);
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+header .bottomForMobileGeneral .bottomForMobileListRight ul li ul li i {
+  padding-right: 1rem;
+}/*# sourceMappingURL=style.css.map */

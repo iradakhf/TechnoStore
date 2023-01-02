@@ -1,0 +1,148 @@
+@media (max-width:768px) {
+    header{
+            .top{
+            .accountAndLanguages{
+                justify-content: center !important;
+                .myAccountList{
+                    top: 30px !important;
+                }
+            }
+            .UsdList{
+                top: 30px !important;
+            }
+            .EnglishList{
+                top: 30px !important;
+            }
+            #triangle{
+                top: 18px !important;
+            }
+            .support{
+                justify-content: center;
+            }
+           }
+           .middle{
+            overflow: hidden;
+            .logo{
+                img{
+                   width: 40% !important; 
+                }
+    
+            }
+    
+            .logo{
+                text-align: center;
+            }
+            .lastForPrice{
+                display: none;
+            }
+            .rightForMiddle{
+                justify-content: center;
+            }
+            .basketIcon{
+                #triangle{
+                    left: 400px !important;
+                }
+                .basket{
+                    width: 65% !important;
+                    left: 110px !important;
+                }
+            }
+           }
+           .bottom{
+            display: none;
+           }
+           .bottomForMobileGeneral{
+            overflow: hidden;
+            display: block !important;
+           }
+    }
+
+}
+@media (max-width:991px)  { 
+    header{
+        .top{
+        .accountAndLanguages{
+            justify-content: center !important;
+            .myAccountList{
+                top: 30px !important;
+            }
+        }
+        .UsdList{
+            top: 30px !important;
+        }
+        .EnglishList{
+            top: 30px !important;
+        }
+        #triangle{
+            top: 18px !important;
+        }
+        .support{
+            justify-content: center;
+        }
+       }
+       .middle{
+        .logo{
+            img{
+               width: 100%; 
+            }
+
+        }
+        
+        overflow: hidden;
+        #categoryInputOnSearch{
+            display: none;
+        }
+        input{
+            padding-left: 1rem !important;
+
+        }
+
+        .logo{
+            text-align: center;
+        }
+        .lastForPrice{
+            display: none;
+        }
+        .rightForMiddle{
+            justify-content: center;
+        }
+        .basketIcon{
+            #triangle{
+                left: 400px !important;
+            }
+            .basket{
+                width: 65% !important;
+                left: 110px !important;
+            }
+        }
+       }
+       .bottom{
+        display: none;
+       }
+       .bottomForMobileGeneral{
+        overflow: hidden;
+        display: block !important;
+       }
+}
+ }
+@media (max-width:1025px) { 
+    header{
+        overflow: hidden;
+        .bottom{
+            .megaMenu{
+               left: 20px !important;
+            }
+        }
+    }
+
+ }
+@media (max-width:1281px) { 
+    header{
+        overflow: hidden;
+        .bottom{
+            .megaMenu{
+               left: 20px !important;
+            }
+        }
+    }
+}
