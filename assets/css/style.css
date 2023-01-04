@@ -56,6 +56,20 @@ a {
   color: rgb(51, 51, 51);
 }
 
+@media (max-width: 576px) {
+  main .mainSliderSection .generalForSlider .image img {
+    display: none !important;
+  }
+  main .mainSliderSection .generalForSlider .image #backImage {
+    display: block !important;
+    right: 1rem !important;
+    top: -7rem !important;
+  }
+  main .mainSliderSection .generalForSlider .priceDiscount {
+    margin-top: -0.7rem !important;
+    margin-bottom: 2rem !important;
+  }
+}
 @media (max-width: 768px) {
   header .top .accountAndLanguages {
     justify-content: center !important;
@@ -104,8 +118,62 @@ a {
     overflow: hidden;
     display: block !important;
   }
+  main #mainSliderSection {
+    padding: 1.9rem 0rem !important;
+  }
+  main #mainSliderSection .mainSliderSection {
+    margin: 0rem 1rem !important;
+    padding: 0rem !important;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider p {
+    margin-left: 40px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider h2 {
+    font-size: 44px !important;
+    margin-left: 40px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider span {
+    font-size: 44px !important;
+  }
+  main #mainSliderSection .mainSliderSection .buttonSection {
+    display: inline-block !important;
+    margin-left: 40px !important;
+  }
+  main #mainSliderSection .mainSliderSection .buttonSection .shopNow {
+    margin-top: 10px;
+  }
+  main #mainSliderSection .mainSliderSection .priceDiscount {
+    margin-left: 70px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider {
+    padding: 0rem !important;
+  }
+  main #mainSliderSection .mainSliderSection .generalForSlider .image img {
+    display: none;
+  }
+  main #mainSliderSection .mainSliderSection .generalForSlider .image #backImage {
+    display: block !important;
+    right: 1rem !important;
+    top: -7rem !important;
+  }
+  main #mainSliderSection .mainSliderSection .generalForSlider .priceDiscount {
+    margin-top: -0.7rem !important;
+    margin-bottom: 2rem !important;
+  }
+  main #banner {
+    display: none !important;
+  }
+  main .textPart .text {
+    left: 42% !important;
+  }
 }
 @media (max-width: 991px) {
+  header .searchSuggestions {
+    display: none;
+  }
+  header #overlay {
+    display: none !important;
+  }
   header .top .accountAndLanguages {
     justify-content: center !important;
   }
@@ -159,6 +227,39 @@ a {
     overflow: hidden;
     display: block !important;
   }
+  main #mainSliderSection {
+    padding: 1.9rem 0rem !important;
+  }
+  main #mainSliderSection .mainSliderSection {
+    margin: 0rem 1rem !important;
+    padding: 0rem !important;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider p {
+    margin-left: 40px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider h2 {
+    font-size: 44px !important;
+    margin-left: 40px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider span {
+    font-size: 44px !important;
+  }
+  main #mainSliderSection .mainSliderSection .buttonSection {
+    display: inline-block !important;
+    margin-left: 40px !important;
+  }
+  main #mainSliderSection .mainSliderSection .buttonSection .shopNow {
+    margin-top: 10px;
+  }
+  main #mainSliderSection .mainSliderSection .priceDiscount {
+    margin-left: 70px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider {
+    padding: 0rem !important;
+  }
+  main .textPart .text {
+    left: 42% !important;
+  }
 }
 @media (max-width: 1025px) {
   header {
@@ -167,16 +268,131 @@ a {
   header .bottom .megaMenu {
     left: 20px !important;
   }
+  main #mainSliderSection {
+    padding: 1.9rem 0rem !important;
+  }
+  main #mainSliderSection .mainSliderSection {
+    margin: 0rem 1rem !important;
+    padding: 0rem !important;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider p {
+    margin-left: 40px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider h2 {
+    font-size: 44px !important;
+    margin-left: 40px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider span {
+    font-size: 44px !important;
+  }
+  main #mainSliderSection .mainSliderSection .buttonSection {
+    margin-left: 40px !important;
+  }
+  main #mainSliderSection .mainSliderSection .priceDiscount {
+    margin-left: 70px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider {
+    padding: 0rem !important;
+  }
+  main #productBoxesNewArrivalFeaturedTopSelling .productBox .box img {
+    width: 70%;
+  }
 }
 @media (max-width: 1281px) {
   header {
-    overflow: hidden;
+    overflow: hidden !important;
   }
   header .bottom .megaMenu {
     left: 20px !important;
   }
+  main #mainSliderSection {
+    padding: 1.9rem 0rem !important;
+  }
+  main #mainSliderSection .mainSliderSection {
+    margin: 0rem 1rem !important;
+    padding: 0rem !important;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider p {
+    margin-left: 40px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider h2 {
+    margin-left: 40px;
+  }
+  main #mainSliderSection .mainSliderSection .buttonSection {
+    display: inline-block !important;
+    margin-left: 40px !important;
+  }
+  main #mainSliderSection .mainSliderSection .buttonSection .shopNow {
+    margin-top: 10px;
+  }
+  main #mainSliderSection .mainSliderSection .priceDiscount {
+    margin-left: 70px;
+  }
+  main #mainSliderSection .mainSliderSection .leftForMainSlider {
+    padding: 0rem !important;
+  }
+  main #productBoxesNewArrivalFeaturedTopSelling .productBox .box img {
+    width: 70%;
+  }
 }
-header #overlay {
+body .modal-content {
+  padding: 2rem;
+}
+body .modal-content h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+  margin-bottom: 2rem;
+}
+body .modal-content .closeForModalOnBody {
+  position: absolute;
+  top: -20px;
+  right: -15px;
+  cursor: pointer;
+  border-radius: 100px;
+  padding: 0.7rem 0.9rem;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(242, 139, 0);
+}
+body .modal-content p {
+  color: rgb(145, 145, 145);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 2rem;
+  line-height: 20px;
+}
+body .modal-content img {
+  width: 100%;
+}
+body .modal-content .inputForModal {
+  position: relative;
+}
+body .modal-content .inputForModal input {
+  padding: 0.4rem;
+  border-radius: 20px;
+  border: 2px solid rgb(229, 229, 229);
+  color: rgb(229, 229, 229);
+  margin-bottom: 2rem;
+  outline: 1px none transparent;
+  padding-left: 2rem;
+}
+body .modal-content .inputForModal i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+body .modal-content input {
+  border: 1px solid rgb(229, 229, 229);
+}
+body .modal-content span {
+  color: rgb(72, 72, 72);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+body header #overlay {
   position: fixed;
   display: none;
   width: 100%;
@@ -189,41 +405,41 @@ header #overlay {
   z-index: 2;
   cursor: pointer;
 }
-header .top {
+body header .top {
   border-bottom: 1px solid rgb(229, 229, 229);
 }
-header .top a {
+body header .top a {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
 }
-header .top ul {
+body header .top ul {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   display: flex;
 }
-header .top ul :hover {
+body header .top ul :hover {
   transition-duration: 0.3s;
   color: rgb(242, 139, 0);
 }
-header .top ul :last-child {
+body header .top ul :last-child {
   border: none;
 }
-header .top ul :first-child {
+body header .top ul :first-child {
   padding-left: 0px;
 }
-header .top ul li {
+body header .top ul li {
   border-right: 1px solid rgb(229, 229, 229);
   padding-right: 10px;
   padding-left: 7px;
 }
-header .top .accountAndLanguages {
+body header .top .accountAndLanguages {
   justify-content: end;
 }
-header .top .accountAndLanguages .myAccount {
+body header .top .accountAndLanguages .myAccount {
   position: relative;
 }
-header .top .accountAndLanguages .myAccount .myAccountList {
+body header .top .accountAndLanguages .myAccount .myAccountList {
   position: absolute;
   top: 60px;
   left: 0;
@@ -239,10 +455,10 @@ header .top .accountAndLanguages .myAccount .myAccountList {
   opacity: 0;
   transition-duration: 0.4s;
 }
-header .top .accountAndLanguages .myAccount .myAccountList a {
+body header .top .accountAndLanguages .myAccount .myAccountList a {
   padding-bottom: 10px;
 }
-header .top .accountAndLanguages .myAccount #triangle {
+body header .top .accountAndLanguages .myAccount #triangle {
   position: absolute;
   top: 50px;
   left: 10px;
@@ -251,20 +467,20 @@ header .top .accountAndLanguages .myAccount #triangle {
   transition-duration: 0.3s;
   color: rgb(229, 229, 229);
 }
-header .top .accountAndLanguages .myAccount:hover .myAccountList {
+body header .top .accountAndLanguages .myAccount:hover .myAccountList {
   top: 30px;
   opacity: 1;
   visibility: visible;
 }
-header .top .accountAndLanguages .myAccount:hover #triangle {
+body header .top .accountAndLanguages .myAccount:hover #triangle {
   visibility: visible;
   opacity: 1;
   top: 20px;
 }
-header .top .accountAndLanguages .Usd {
+body header .top .accountAndLanguages .Usd {
   position: relative;
 }
-header .top .accountAndLanguages .Usd .UsdList {
+body header .top .accountAndLanguages .Usd .UsdList {
   position: absolute;
   top: 60px;
   left: 0;
@@ -280,10 +496,10 @@ header .top .accountAndLanguages .Usd .UsdList {
   opacity: 0;
   transition-duration: 0.4s;
 }
-header .top .accountAndLanguages .Usd .UsdList a {
+body header .top .accountAndLanguages .Usd .UsdList a {
   padding-bottom: 10px;
 }
-header .top .accountAndLanguages .Usd #triangle {
+body header .top .accountAndLanguages .Usd #triangle {
   position: absolute;
   top: 50px;
   left: 10px;
@@ -292,20 +508,20 @@ header .top .accountAndLanguages .Usd #triangle {
   transition-duration: 0.3s;
   color: rgb(229, 229, 229);
 }
-header .top .accountAndLanguages .Usd:hover .UsdList {
+body header .top .accountAndLanguages .Usd:hover .UsdList {
   top: 30px;
   opacity: 1;
   visibility: visible;
 }
-header .top .accountAndLanguages .Usd:hover #triangle {
+body header .top .accountAndLanguages .Usd:hover #triangle {
   visibility: visible;
   opacity: 1;
   top: 20px;
 }
-header .top .accountAndLanguages .English {
+body header .top .accountAndLanguages .English {
   position: relative;
 }
-header .top .accountAndLanguages .English .EnglishList {
+body header .top .accountAndLanguages .English .EnglishList {
   position: absolute;
   top: 60px;
   left: 0;
@@ -321,10 +537,10 @@ header .top .accountAndLanguages .English .EnglishList {
   opacity: 0;
   transition-duration: 0.4s;
 }
-header .top .accountAndLanguages .English .EnglishList a {
+body header .top .accountAndLanguages .English .EnglishList a {
   padding-bottom: 10px;
 }
-header .top .accountAndLanguages .English #triangle {
+body header .top .accountAndLanguages .English #triangle {
   position: absolute;
   top: 50px;
   left: 10px;
@@ -333,37 +549,37 @@ header .top .accountAndLanguages .English #triangle {
   transition-duration: 0.3s;
   color: rgb(229, 229, 229);
 }
-header .top .accountAndLanguages .English:hover .EnglishList {
+body header .top .accountAndLanguages .English:hover .EnglishList {
   top: 30px;
   opacity: 1;
   visibility: visible;
 }
-header .top .accountAndLanguages .English:hover #triangle {
+body header .top .accountAndLanguages .English:hover #triangle {
   visibility: visible;
   opacity: 1;
   top: 20px;
 }
-header .top .phone {
+body header .top .phone {
   justify-content: center;
 }
-header .top .phone span {
+body header .top .phone span {
   color: rgb(242, 139, 0);
 }
-header .top .phone li {
+body header .top .phone li {
   padding-right: 0;
 }
-header .middle .logo {
+body header .middle .logo {
   margin: 2rem 0rem;
 }
-header .middle .header-search {
+body header .middle .header-search {
   margin: 2rem 0rem;
   position: relative;
   /* Handle on hover */
 }
-header .middle .header-search :focus {
+body header .middle .header-search :focus {
   outline: none;
 }
-header .middle .header-search .searchSuggestions {
+body header .middle .header-search .searchSuggestions {
   visibility: hidden;
   opacity: 0;
   transition-duration: 0.3s;
@@ -374,63 +590,63 @@ header .middle .header-search .searchSuggestions {
   top: 70px;
   left: 0;
 }
-header .middle .header-search .searchSuggestions .title {
+body header .middle .header-search .searchSuggestions .title {
   margin-bottom: 25px;
   color: rgb(242, 139, 0);
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
-header .middle .header-search .searchSuggestions .suggestions {
+body header .middle .header-search .searchSuggestions .suggestions {
   background-color: white;
   height: 350px;
   padding: 20px 30px;
 }
-header .middle .header-search .searchSuggestions .suggestions img {
+body header .middle .header-search .searchSuggestions .suggestions img {
   width: 100%;
 }
-header .middle .header-search .searchSuggestions .suggestions .name {
+body header .middle .header-search .searchSuggestions .suggestions .name {
   color: rgb(72, 72, 72);
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;
 }
-header .middle .header-search .searchSuggestions .suggestions .name :hover {
+body header .middle .header-search .searchSuggestions .suggestions .name :hover {
   color: rgb(242, 139, 0);
 }
-header .middle .header-search .searchSuggestions .suggestions .price {
+body header .middle .header-search .searchSuggestions .suggestions .price {
   display: flex;
   margin-top: 10px;
 }
-header .middle .header-search .searchSuggestions .suggestions .price .sale {
+body header .middle .header-search .searchSuggestions .suggestions .price .sale {
   margin-right: 15px;
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: rgb(72, 72, 72);
 }
-header .middle .header-search .searchSuggestions .suggestions .price .regular {
+body header .middle .header-search .searchSuggestions .suggestions .price .regular {
   color: rgb(197, 197, 197);
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 13px;
   text-decoration: line-through;
 }
-header .middle .header-search .searchSuggestions .categories {
+body header .middle .header-search .searchSuggestions .categories {
   padding: 20px 30px;
   background-color: rgb(245, 245, 245);
   height: 350px;
 }
-header .middle .header-search .searchSuggestions .categories ul li {
+body header .middle .header-search .searchSuggestions .categories ul li {
   padding-bottom: 10px;
 }
-header .middle .header-search .searchSuggestions .categories ul li a {
+body header .middle .header-search .searchSuggestions .categories ul li a {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: rgb(101, 101, 101);
 }
-header .middle .header-search .category {
+body header .middle .header-search .category {
   position: absolute;
   top: 17px;
   left: 20px;
@@ -441,10 +657,10 @@ header .middle .header-search .category {
   font-weight: 400;
   color: rgb(114, 114, 114);
 }
-header .middle .header-search .category i {
+body header .middle .header-search .category i {
   padding: 0rem 1rem;
 }
-header .middle .header-search .allCategories {
+body header .middle .header-search .allCategories {
   visibility: hidden;
   opacity: 0;
   position: absolute;
@@ -461,36 +677,36 @@ header .middle .header-search .allCategories {
   border-radius: 10px;
   padding: 10px 20px;
 }
-header .middle .header-search .allCategories .title {
+body header .middle .header-search .allCategories .title {
   color: rgb(242, 139, 0);
   margin-bottom: 8px;
 }
-header .middle .header-search .allCategories ul {
+body header .middle .header-search .allCategories ul {
   padding-left: 0.7rem;
   margin-bottom: 10px;
 }
-header .middle .header-search .allCategories ul :hover {
+body header .middle .header-search .allCategories ul :hover {
   transition-duration: 0.3s;
   color: rgb(242, 139, 0);
 }
-header .middle .header-search .allCategories ul li {
+body header .middle .header-search .allCategories ul li {
   margin-bottom: 6px;
 }
-header .middle .header-search ::-webkit-scrollbar {
+body header .middle .header-search ::-webkit-scrollbar {
   width: 7px;
 }
-header .middle .header-search ::-webkit-scrollbar-track {
+body header .middle .header-search ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
-header .middle .header-search ::-webkit-scrollbar-thumb {
+body header .middle .header-search ::-webkit-scrollbar-thumb {
   background: rgb(242, 139, 0);
   border-radius: 10px;
 }
-header .middle .header-search ::-webkit-scrollbar-thumb:hover {
+body header .middle .header-search ::-webkit-scrollbar-thumb:hover {
   background: rgb(207, 118, 2);
 }
-header .middle .header-search input {
+body header .middle .header-search input {
   width: 100%;
   padding: 0.8rem 0rem;
   padding-left: 10rem;
@@ -501,7 +717,7 @@ header .middle .header-search input {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
 }
-header .middle .header-search button {
+body header .middle .header-search button {
   padding: 0.6rem 1.8rem;
   background-color: rgb(229, 229, 229);
   border-radius: 4rem;
@@ -510,25 +726,25 @@ header .middle .header-search button {
   right: -3px;
   bottom: 0;
 }
-header .middle .compareWishBasket {
+body header .middle .compareWishBasket {
   position: relative;
 }
-header .middle .compareWishBasket .inner-box {
+body header .middle .compareWishBasket .inner-box {
   display: flex;
   justify-content: center;
 }
-header .middle .compareWishBasket .inner-box a {
+body header .middle .compareWishBasket .inner-box a {
   border: 2px solid rgb(229, 229, 229);
   padding: 10px;
   border-radius: 100px;
 }
-header .middle .compareWishBasket .price {
+body header .middle .compareWishBasket .price {
   color: rgb(51, 51, 51);
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
-header .middle .compareWishBasket .basketIcon #triangle {
+body header .middle .compareWishBasket .basketIcon #triangle {
   position: absolute;
   top: 90px;
   left: 165px;
@@ -537,7 +753,7 @@ header .middle .compareWishBasket .basketIcon #triangle {
   transition-duration: 0.3s;
   color: rgb(229, 229, 229);
 }
-header .middle .compareWishBasket .basketIcon .basket {
+body header .middle .compareWishBasket .basketIcon .basket {
   position: absolute;
   top: 90px;
   left: 0;
@@ -550,82 +766,82 @@ header .middle .compareWishBasket .basketIcon .basket {
   z-index: 5;
   padding: 20px 30px;
 }
-header .middle .compareWishBasket .basketIcon .basket .checkOut .btn1 {
+body header .middle .compareWishBasket .basketIcon .basket .checkOut .btn1 {
   border-radius: 20px;
   color: rgb(242, 139, 0);
   border: 2px solid rgb(242, 139, 0);
   background-color: white;
   padding: 10px 20px;
 }
-header .middle .compareWishBasket .basketIcon .basket .checkOut .btn1:hover {
+body header .middle .compareWishBasket .basketIcon .basket .checkOut .btn1:hover {
   background-color: rgb(242, 139, 0);
   color: white;
 }
-header .middle .compareWishBasket .basketIcon .basket .checkOut .btn2 {
+body header .middle .compareWishBasket .basketIcon .basket .checkOut .btn2 {
   border-radius: 20px;
   color: white;
   border: 2px solid rgb(72, 72, 72);
   background-color: rgb(72, 72, 72);
   padding: 10px 20px;
 }
-header .middle .compareWishBasket .basketIcon .basket .checkOut .btn2:hover {
+body header .middle .compareWishBasket .basketIcon .basket .checkOut .btn2:hover {
   background-color: rgb(242, 139, 0);
   color: white;
   border-color: rgb(242, 139, 0);
 }
-header .middle .compareWishBasket .basketIcon .basket .subTotal {
+body header .middle .compareWishBasket .basketIcon .basket .subTotal {
   color: rgb(72, 72, 72);
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
-header .middle .compareWishBasket .basketIcon .basket .subTotal .price {
+body header .middle .compareWishBasket .basketIcon .basket .subTotal .price {
   font-size: 22px;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
-header .middle .compareWishBasket .basketIcon .basket .imgForBasket img {
+body header .middle .compareWishBasket .basketIcon .basket .imgForBasket img {
   width: 100%;
 }
-header .middle .compareWishBasket .basketIcon .basket .name {
+body header .middle .compareWishBasket .basketIcon .basket .name {
   margin-bottom: 3px;
   color: rgb(72, 72, 72);
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 400;
 }
-header .middle .compareWishBasket .basketIcon .basket .name :hover {
+body header .middle .compareWishBasket .basketIcon .basket .name :hover {
   color: rgb(242, 139, 0);
 }
-header .middle .compareWishBasket .basketIcon .basket .price {
+body header .middle .compareWishBasket .basketIcon .basket .price {
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   color: rgb(242, 139, 0);
 }
-header .middle .compareWishBasket .basketIcon .basket .closeX :hover {
+body header .middle .compareWishBasket .basketIcon .basket .closeX :hover {
   color: rgb(242, 139, 0);
 }
-header .middle .compareWishBasket .basketIcon:hover .basket {
+body header .middle .compareWishBasket .basketIcon:hover .basket {
   visibility: visible;
   opacity: 1;
   top: 70px;
 }
-header .middle .compareWishBasket .basketIcon:hover #triangle {
+body header .middle .compareWishBasket .basketIcon:hover #triangle {
   opacity: 1;
   visibility: visible;
   top: 60px;
 }
-header .bottom {
+body header .bottom {
   position: relative;
   background-color: rgb(242, 139, 0);
   color: white;
   padding: 0px 0;
 }
-header .bottom .todayDeals {
+body header .bottom .todayDeals {
   position: relative;
 }
-header .bottom .todayDeals .underline {
+body header .bottom .todayDeals .underline {
   position: absolute;
   top: 20px;
   right: 14px;
@@ -637,14 +853,14 @@ header .bottom .todayDeals .underline {
   visibility: hidden;
   opacity: 0;
 }
-header .bottom .todayDeals:hover .underline {
+body header .bottom .todayDeals:hover .underline {
   left: 85px;
   width: 50%;
   visibility: visible;
   opacity: 1;
   transition-duration: 0.5s;
 }
-header .bottom .megaMenu {
+body header .bottom .megaMenu {
   position: absolute;
   bottom: 0;
   left: 90px;
@@ -654,7 +870,7 @@ header .bottom .megaMenu {
   border-top-right-radius: 10px;
   cursor: pointer;
 }
-header .bottom .megaMenu .btnMega {
+body header .bottom .megaMenu .btnMega {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -663,47 +879,48 @@ header .bottom .megaMenu .btnMega {
   font-weight: 600;
   color: rgb(254, 254, 254);
 }
-header .bottom .megaMenu .btnMega i {
+body header .bottom .megaMenu .btnMega i {
   font-size: 21px;
   padding-right: 20px;
 }
-header .bottom .megaMenu .megaMenuList {
+body header .bottom .megaMenu .megaMenuList {
   position: absolute;
   top: 65px;
   left: 0px;
   width: 100%;
+  z-index: 2;
   transition-duration: 0.7s;
   visibility: hidden;
   opacity: 0;
   background-color: white;
 }
-header .bottom .megaMenu .megaMenuList ul {
+body header .bottom .megaMenu .megaMenuList ul {
   border: 1px solid rgb(101, 101, 101);
 }
-header .bottom .megaMenu .megaMenuList ul :last-child {
+body header .bottom .megaMenu .megaMenuList ul :last-child {
   border-bottom: 1px none transparent;
 }
-header .bottom .megaMenu .megaMenuList ul li {
+body header .bottom .megaMenu .megaMenuList ul li {
   padding: 0.8rem 0rem;
   border-bottom: 0.1px solid rgba(101, 101, 101, 0.2);
 }
-header .bottom .megaMenu .megaMenuList ul li img {
+body header .bottom .megaMenu .megaMenuList ul li img {
   margin-right: 18px;
   margin-left: 20px;
 }
-header .bottom .megaMenu .megaMenuList ul li a {
+body header .bottom .megaMenu .megaMenuList ul li a {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: rgb(72, 72, 72);
 }
-header .bottom .megaMenu .megaMenuList ul li a i {
+body header .bottom .megaMenu .megaMenuList ul li a i {
   padding-left: 1.2rem;
 }
-header .bottom .megaMenu .megaMenuList ul li a:hover {
+body header .bottom .megaMenu .megaMenuList ul li a:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList {
   width: 350%;
   height: 100%;
   margin-left: 22rem;
@@ -719,59 +936,59 @@ header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList {
   visibility: hidden;
   opacity: 0;
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList h2 {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList h2 {
   color: rgb(242, 139, 0);
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul {
   color: white;
   border: 0 none transparent !important;
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul li {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul li {
   border-bottom: 0 none transparent !important;
   padding: 0.4rem 0;
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul li a {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul li a {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: rgb(72, 72, 72);
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul li a:hover {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul li a:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul :last-child {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul :last-child {
   padding: 0;
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul :last-child a {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList ul :last-child a {
   color: rgb(242, 139, 0);
   font-weight: 700;
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList .rightOnSubCategoryList h1 {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList .rightOnSubCategoryList h1 {
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: rgb(242, 139, 0);
   margin-bottom: 0.5rem;
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList .rightOnSubCategoryList .boxForSubCategoryList {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList .rightOnSubCategoryList .boxForSubCategoryList {
   background-color: rgb(229, 229, 229);
   border: 3px solid rgb(229, 229, 229) !important;
   padding: 1rem 0.2rem;
   margin-bottom: 1.7rem;
   border-radius: 10px;
 }
-header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList .rightOnSubCategoryList .boxForSubCategoryList:hover {
+body header .bottom .megaMenu .megaMenuList .laptopMac .megaMenuListSubList .rightOnSubCategoryList .boxForSubCategoryList:hover {
   background-color: white;
 }
-header .bottom .megaMenu .megaMenuList .laptopMac:hover .megaMenuListSubList {
+body header .bottom .megaMenu .megaMenuList .laptopMac:hover .megaMenuListSubList {
   visibility: visible;
   opacity: 1;
   left: -90px;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 {
   width: 350%;
   height: 100%;
   margin-left: 22rem;
@@ -787,59 +1004,59 @@ header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 {
   visibility: hidden;
   opacity: 0;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 h2 {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 h2 {
   color: rgb(242, 139, 0);
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul {
   color: white;
   border: 0 none transparent !important;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul li {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul li {
   border-bottom: 0 none transparent !important;
   padding: 0.4rem 0;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul li a {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul li a {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: rgb(72, 72, 72);
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul li a:hover {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul li a:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul :last-child {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul :last-child {
   padding: 0;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul :last-child a {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 ul :last-child a {
   color: rgb(242, 139, 0);
   font-weight: 700;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 .rightOnSubCategoryList h1 {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 .rightOnSubCategoryList h1 {
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: rgb(242, 139, 0);
   margin-bottom: 0.5rem;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 .rightOnSubCategoryList .boxForSubCategoryList {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 .rightOnSubCategoryList .boxForSubCategoryList {
   background-color: rgb(229, 229, 229);
   border: 3px solid rgb(229, 229, 229) !important;
   padding: 1rem 0.2rem;
   margin-bottom: 1.7rem;
   border-radius: 10px;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet .megaMenuListSubList2 .rightOnSubCategoryList .boxForSubCategoryList:hover {
   background-color: white;
 }
-header .bottom .megaMenu .megaMenuList .mobileAndTablet:hover .megaMenuListSubList2 {
+body header .bottom .megaMenu .megaMenuList .mobileAndTablet:hover .megaMenuListSubList2 {
   visibility: visible;
   opacity: 1;
   left: -90px;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 {
   width: 350%;
   height: 100%;
   margin-left: 22rem;
@@ -855,59 +1072,59 @@ header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 {
   visibility: hidden;
   opacity: 0;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 h2 {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 h2 {
   color: rgb(242, 139, 0);
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul {
   color: white;
   border: 0 none transparent !important;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul li {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul li {
   border-bottom: 0 none transparent !important;
   padding: 0.4rem 0;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul li a {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul li a {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: rgb(72, 72, 72);
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul li a:hover {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul li a:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul :last-child {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul :last-child {
   padding: 0;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul :last-child a {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 ul :last-child a {
   color: rgb(242, 139, 0);
   font-weight: 700;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 .rightOnSubCategoryList h1 {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 .rightOnSubCategoryList h1 {
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: rgb(242, 139, 0);
   margin-bottom: 0.5rem;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 .rightOnSubCategoryList .boxForSubCategoryList {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 .rightOnSubCategoryList .boxForSubCategoryList {
   background-color: rgb(229, 229, 229);
   border: 3px solid rgb(229, 229, 229) !important;
   padding: 1rem 0.2rem;
   margin-bottom: 1.7rem;
   border-radius: 10px;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+body header .bottom .megaMenu .megaMenuList .homeDevices .megaMenuListSubList3 .rightOnSubCategoryList .boxForSubCategoryList:hover {
   background-color: white;
 }
-header .bottom .megaMenu .megaMenuList .homeDevices:hover .megaMenuListSubList3 {
+body header .bottom .megaMenu .megaMenuList .homeDevices:hover .megaMenuListSubList3 {
   visibility: visible;
   opacity: 1;
   left: -90px;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 {
   width: 350%;
   height: 100%;
   margin-left: 22rem;
@@ -923,59 +1140,59 @@ header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 {
   visibility: hidden;
   opacity: 0;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 h2 {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 h2 {
   color: rgb(242, 139, 0);
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul {
   color: white;
   border: 0 none transparent !important;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul li {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul li {
   border-bottom: 0 none transparent !important;
   padding: 0.4rem 0;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul li a {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul li a {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: rgb(72, 72, 72);
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul li a:hover {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul li a:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul :last-child {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul :last-child {
   padding: 0;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul :last-child a {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 ul :last-child a {
   color: rgb(242, 139, 0);
   font-weight: 700;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 .rightOnSubCategoryList h1 {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 .rightOnSubCategoryList h1 {
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: rgb(242, 139, 0);
   margin-bottom: 0.5rem;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 .rightOnSubCategoryList .boxForSubCategoryList {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 .rightOnSubCategoryList .boxForSubCategoryList {
   background-color: rgb(229, 229, 229);
   border: 3px solid rgb(229, 229, 229) !important;
   padding: 1rem 0.2rem;
   margin-bottom: 1.7rem;
   border-radius: 10px;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys .megaMenuListSubList5 .rightOnSubCategoryList .boxForSubCategoryList:hover {
   background-color: white;
 }
-header .bottom .megaMenu .megaMenuList .gamesAndToys:hover .megaMenuListSubList5 {
+body header .bottom .megaMenu .megaMenuList .gamesAndToys:hover .megaMenuListSubList5 {
   visibility: visible;
   opacity: 1;
   left: -90px;
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 {
   width: 350%;
   height: 100%;
   margin-left: 22rem;
@@ -991,59 +1208,59 @@ header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 {
   visibility: hidden;
   opacity: 0;
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 h2 {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 h2 {
   color: rgb(242, 139, 0);
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul {
   color: white;
   border: 0 none transparent !important;
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul li {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul li {
   border-bottom: 0 none transparent !important;
   padding: 0.4rem 0;
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul li a {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul li a {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: rgb(72, 72, 72);
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul li a:hover {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul li a:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul :last-child {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul :last-child {
   padding: 0;
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul :last-child a {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 ul :last-child a {
   color: rgb(242, 139, 0);
   font-weight: 700;
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 .rightOnSubCategoryList h1 {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 .rightOnSubCategoryList h1 {
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: rgb(242, 139, 0);
   margin-bottom: 0.5rem;
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 .rightOnSubCategoryList .boxForSubCategoryList {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 .rightOnSubCategoryList .boxForSubCategoryList {
   background-color: rgb(229, 229, 229);
   border: 3px solid rgb(229, 229, 229) !important;
   padding: 1rem 0.2rem;
   margin-bottom: 1.7rem;
   border-radius: 10px;
 }
-header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+body header .bottom .megaMenu .megaMenuList .Accessories .megaMenuListSubList6 .rightOnSubCategoryList .boxForSubCategoryList:hover {
   background-color: white;
 }
-header .bottom .megaMenu .megaMenuList .Accessories:hover .megaMenuListSubList6 {
+body header .bottom .megaMenu .megaMenuList .Accessories:hover .megaMenuListSubList6 {
   visibility: visible;
   opacity: 1;
   left: -90px;
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 {
   width: 350%;
   height: 100%;
   margin-left: 22rem;
@@ -1059,71 +1276,71 @@ header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 {
   visibility: hidden;
   opacity: 0;
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 h2 {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 h2 {
   color: rgb(242, 139, 0);
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul {
   color: white;
   border: 0 none transparent !important;
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul li {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul li {
   border-bottom: 0 none transparent !important;
   padding: 0.4rem 0;
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul li a {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul li a {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: rgb(72, 72, 72);
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul li a:hover {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul li a:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul :last-child {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul :last-child {
   padding: 0;
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul :last-child a {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 ul :last-child a {
   color: rgb(242, 139, 0);
   font-weight: 700;
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 .rightOnSubCategoryList h1 {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 .rightOnSubCategoryList h1 {
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: rgb(242, 139, 0);
   margin-bottom: 0.5rem;
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 .rightOnSubCategoryList .boxForSubCategoryList {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 .rightOnSubCategoryList .boxForSubCategoryList {
   background-color: rgb(229, 229, 229);
   border: 3px solid rgb(229, 229, 229) !important;
   padding: 1rem 0.2rem;
   margin-bottom: 1.7rem;
   border-radius: 10px;
 }
-header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 .rightOnSubCategoryList .boxForSubCategoryList:hover {
+body header .bottom .megaMenu .megaMenuList .Security .megaMenuListSubList7 .rightOnSubCategoryList .boxForSubCategoryList:hover {
   background-color: white;
 }
-header .bottom .megaMenu .megaMenuList .Security:hover .megaMenuListSubList7 {
+body header .bottom .megaMenu .megaMenuList .Security:hover .megaMenuListSubList7 {
   visibility: visible;
   opacity: 1;
   left: -90px;
 }
-header .bottom .megaMenu:hover .megaMenuList {
+body header .bottom .megaMenu:hover .megaMenuList {
   visibility: visible;
   opacity: 1;
 }
-header .bottom .mainNavCol {
+body header .bottom .mainNavCol {
   position: relative;
 }
-header .bottom .mainNav {
+body header .bottom .mainNav {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
 }
-header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu {
+body header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu {
   position: absolute;
   top: 90px;
   left: 80px;
@@ -1132,19 +1349,20 @@ header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu {
   visibility: hidden;
   opacity: 0;
   transition-duration: 0.3s;
+  z-index: 2;
 }
-header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList {
+body header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList {
   transition-duration: 0.3s;
   padding: 18px 0px;
   background-color: white;
   width: 263px;
 }
-header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList :first-child {
+body header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList :first-child {
   color: rgb(242, 139, 0);
   font-size: 17px;
   padding-bottom: 8px;
 }
-header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList li {
+body header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList li {
   display: flex;
   align-items: center;
   border: 1px none none;
@@ -1156,30 +1374,30 @@ header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNav
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
-header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList li i {
+body header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
-header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList li:hover {
+body header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList li:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList :last-child {
+body header .bottom .mainNav .electronicsOnMainNav .electronicsBigMenu .homeOnMainNavList :last-child {
   margin-bottom: 0;
   color: rgb(242, 139, 0);
   font-weight: 700;
 }
-header .bottom .mainNav .electronicsOnMainNav .bottomOnElectronicsBigMenu {
+body header .bottom .mainNav .electronicsOnMainNav .bottomOnElectronicsBigMenu {
   margin-top: 1rem;
 }
-header .bottom .mainNav .electronicsOnMainNav:hover .electronicsBigMenu {
+body header .bottom .mainNav .electronicsOnMainNav:hover .electronicsBigMenu {
   top: 56px;
   visibility: visible;
   opacity: 1;
 }
-header .bottom .mainNav .homeOnMainNav {
+body header .bottom .mainNav .homeOnMainNav {
   position: relative;
 }
-header .bottom .mainNav .homeOnMainNav .homeOnMainNavList {
+body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList {
   position: absolute;
   transition-duration: 0.3s;
   top: 50px;
@@ -1191,7 +1409,7 @@ header .bottom .mainNav .homeOnMainNav .homeOnMainNavList {
   opacity: 0;
   z-index: 10;
 }
-header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li {
+body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li {
   display: flex;
   align-items: center;
   border: 1px none none;
@@ -1203,28 +1421,28 @@ header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
-header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li i {
+body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
-header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li:hover {
+body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .mainNav .homeOnMainNav .homeOnMainNavList :last-child {
+body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList :last-child {
   margin-bottom: 0;
 }
-header .bottom .mainNav .homeOnMainNav:hover .homeOnMainNavList {
+body header .bottom .mainNav .homeOnMainNav:hover .homeOnMainNavList {
   top: 36px;
   visibility: visible;
   opacity: 1;
 }
-header .bottom .mainNav .homeOnMainNav:hover #overlay {
+body header .bottom .mainNav .homeOnMainNav:hover #overlay {
   display: block;
 }
-header .bottom .mainNav .featuresOnMainNav {
+body header .bottom .mainNav .featuresOnMainNav {
   position: relative;
 }
-header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList {
+body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList {
   position: absolute;
   transition-duration: 0.3s;
   top: 50px;
@@ -1236,7 +1454,7 @@ header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList {
   opacity: 0;
   z-index: 10;
 }
-header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li {
+body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li {
   display: flex;
   align-items: center;
   border: 1px none none;
@@ -1248,28 +1466,28 @@ header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
-header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li i {
+body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
-header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li:hover {
+body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList :last-child {
+body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList :last-child {
   margin-bottom: 0;
 }
-header .bottom .mainNav .featuresOnMainNav:hover .homeOnMainNavList {
+body header .bottom .mainNav .featuresOnMainNav:hover .homeOnMainNavList {
   top: 36px;
   visibility: visible;
   opacity: 1;
 }
-header .bottom .mainNav .featuresOnMainNav:hover #overlay {
+body header .bottom .mainNav .featuresOnMainNav:hover #overlay {
   display: block;
 }
-header .bottom .mainNav .shopOnMainNav {
+body header .bottom .mainNav .shopOnMainNav {
   position: relative;
 }
-header .bottom .mainNav .shopOnMainNav .homeOnMainNavList {
+body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList {
   position: absolute;
   transition-duration: 0.3s;
   top: 50px;
@@ -1281,7 +1499,7 @@ header .bottom .mainNav .shopOnMainNav .homeOnMainNavList {
   opacity: 0;
   z-index: 10;
 }
-header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li {
+body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li {
   display: flex;
   align-items: center;
   border: 1px none none;
@@ -1293,28 +1511,28 @@ header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
-header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li i {
+body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
-header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li:hover {
+body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .mainNav .shopOnMainNav .homeOnMainNavList :last-child {
+body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList :last-child {
   margin-bottom: 0;
 }
-header .bottom .mainNav .shopOnMainNav:hover .homeOnMainNavList {
+body header .bottom .mainNav .shopOnMainNav:hover .homeOnMainNavList {
   top: 36px;
   visibility: visible;
   opacity: 1;
 }
-header .bottom .mainNav .shopOnMainNav:hover #overlay {
+body header .bottom .mainNav .shopOnMainNav:hover #overlay {
   display: block;
 }
-header .bottom .mainNav .pagesOnMainNav {
+body header .bottom .mainNav .pagesOnMainNav {
   position: relative;
 }
-header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList {
+body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList {
   position: absolute;
   transition-duration: 0.3s;
   top: 50px;
@@ -1326,7 +1544,7 @@ header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList {
   opacity: 0;
   z-index: 10;
 }
-header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li {
+body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li {
   display: flex;
   align-items: center;
   border: 1px none none;
@@ -1338,28 +1556,28 @@ header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
-header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li i {
+body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
-header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li:hover {
+body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList :last-child {
+body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList :last-child {
   margin-bottom: 0;
 }
-header .bottom .mainNav .pagesOnMainNav:hover .homeOnMainNavList {
+body header .bottom .mainNav .pagesOnMainNav:hover .homeOnMainNavList {
   top: 36px;
   visibility: visible;
   opacity: 1;
 }
-header .bottom .mainNav .pagesOnMainNav:hover #overlay {
+body header .bottom .mainNav .pagesOnMainNav:hover #overlay {
   display: block;
 }
-header .bottom .mainNav .blogOnMainNav {
+body header .bottom .mainNav .blogOnMainNav {
   position: relative;
 }
-header .bottom .mainNav .blogOnMainNav .homeOnMainNavList {
+body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList {
   position: absolute;
   transition-duration: 0.3s;
   top: 50px;
@@ -1371,7 +1589,7 @@ header .bottom .mainNav .blogOnMainNav .homeOnMainNavList {
   opacity: 0;
   z-index: 10;
 }
-header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li {
+body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li {
   display: flex;
   align-items: center;
   border: 1px none none;
@@ -1383,28 +1601,28 @@ header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
-header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li i {
+body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
-header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li:hover {
+body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .mainNav .blogOnMainNav .homeOnMainNavList :last-child {
+body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList :last-child {
   margin-bottom: 0;
 }
-header .bottom .mainNav .blogOnMainNav:hover .homeOnMainNavList {
+body header .bottom .mainNav .blogOnMainNav:hover .homeOnMainNavList {
   top: 36px;
   visibility: visible;
   opacity: 1;
 }
-header .bottom .mainNav .blogOnMainNav:hover #overlay {
+body header .bottom .mainNav .blogOnMainNav:hover #overlay {
   display: block;
 }
-header .bottom .mainNav .contactOnMainNav {
+body header .bottom .mainNav .contactOnMainNav {
   position: relative;
 }
-header .bottom .mainNav .contactOnMainNav .homeOnMainNavList {
+body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList {
   position: absolute;
   transition-duration: 0.3s;
   top: 50px;
@@ -1416,7 +1634,7 @@ header .bottom .mainNav .contactOnMainNav .homeOnMainNavList {
   opacity: 0;
   z-index: 10;
 }
-header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li {
+body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li {
   display: flex;
   align-items: center;
   border: 1px none none;
@@ -1428,28 +1646,28 @@ header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
-header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li i {
+body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
-header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li:hover {
+body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li:hover {
   color: rgb(242, 139, 0);
 }
-header .bottom .mainNav .contactOnMainNav .homeOnMainNavList :last-child {
+body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList :last-child {
   margin-bottom: 0;
 }
-header .bottom .mainNav .contactOnMainNav:hover .homeOnMainNavList {
+body header .bottom .mainNav .contactOnMainNav:hover .homeOnMainNavList {
   top: 36px;
   visibility: visible;
   opacity: 1;
 }
-header .bottom .mainNav .contactOnMainNav:hover #overlay {
+body header .bottom .mainNav .contactOnMainNav:hover #overlay {
   display: block;
 }
-header .bottom .mainNav li {
+body header .bottom .mainNav li {
   border-right: 1px solid rgba(254, 254, 254, 0.5);
 }
-header .bottom .mainNav li a {
+body header .bottom .mainNav li a {
   color: rgb(254, 254, 254);
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -1457,94 +1675,94 @@ header .bottom .mainNav li a {
   padding-right: 25px;
   text-align: center;
 }
-header .bottom .mainNav :last-child {
+body header .bottom .mainNav :last-child {
   border-right: 1px none transparent;
 }
-header .bottom .todayDeals a {
+body header .bottom .todayDeals a {
   font-family: "Open Sans", sans-serif;
   color: rgb(254, 254, 254);
   font-size: 14px;
   font-weight: 600;
 }
-header .bottomForMobileGeneral {
+body header .bottomForMobileGeneral {
   display: none;
 }
-header .bottomForMobileGeneral .bottomForMobile {
+body header .bottomForMobileGeneral .bottomForMobile {
   background-color: rgb(242, 139, 0);
   margin-top: 1.5rem;
   padding: 0.5rem 0rem;
 }
-header .bottomForMobileGeneral .bottomForMobile .leftOnBottomForMobile i {
+body header .bottomForMobileGeneral .bottomForMobile .leftOnBottomForMobile i {
   border: 1px solid #292b2c;
   padding: 8px;
   border-radius: 5px;
   background-color: #292b2c;
 }
-header .bottomForMobileGeneral .bottomForMobile .rightOnBottomForMobile i {
+body header .bottomForMobileGeneral .bottomForMobile .rightOnBottomForMobile i {
   border: 1px solid white;
   padding: 8px;
   border-radius: 5px;
 }
-header .bottomForMobileGeneral .bottomForMobile .rightOnBottomForMobile span {
+body header .bottomForMobileGeneral .bottomForMobile .rightOnBottomForMobile span {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
   margin-left: 0.5rem;
 }
-header .bottomForMobileGeneral .bottomForMobileList {
+body header .bottomForMobileGeneral .bottomForMobileList {
   display: none;
   background-color: rgb(51, 51, 51);
   position: absolute;
   width: 100%;
   z-index: 1;
 }
-header .bottomForMobileGeneral .bottomForMobileList ul li .parentList {
+body header .bottomForMobileGeneral .bottomForMobileList ul li .parentList {
   padding: 15px;
   border-bottom: 1px solid rgba(254, 254, 254, 0.1);
 }
-header .bottomForMobileGeneral .bottomForMobileList ul li a {
+body header .bottomForMobileGeneral .bottomForMobileList ul li a {
   color: white;
   font-size: 13px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
-header .bottomForMobileGeneral .bottomForMobileList ul li ul {
+body header .bottomForMobileGeneral .bottomForMobileList ul li ul {
   display: none;
 }
-header .bottomForMobileGeneral .bottomForMobileList ul li ul li .parentChildList {
+body header .bottomForMobileGeneral .bottomForMobileList ul li ul li .parentChildList {
   padding: 15px !important;
   margin: 0rem 52px 0 35px;
   border-bottom: 1px solid rgba(254, 254, 254, 0.1);
 }
-header .bottomForMobileGeneral .bottomForMobileList ul li ul li ul {
+body header .bottomForMobileGeneral .bottomForMobileList ul li ul li ul {
   display: none;
 }
-header .bottomForMobileGeneral .bottomForMobileList ul li ul li ul li .parentChildList {
+body header .bottomForMobileGeneral .bottomForMobileList ul li ul li ul li .parentChildList {
   padding: 15px !important;
   margin-left: 82px;
   border-bottom: 1px solid rgba(254, 254, 254, 0.1);
 }
-header .bottomForMobileGeneral .bottomForMobileListRight {
+body header .bottomForMobileGeneral .bottomForMobileListRight {
   display: none;
   background-color: rgb(51, 51, 51);
   position: absolute;
   width: 100%;
   z-index: 155445;
 }
-header .bottomForMobileGeneral .bottomForMobileListRight ul li .parentList {
+body header .bottomForMobileGeneral .bottomForMobileListRight ul li .parentList {
   padding: 15px;
   border-bottom: 1px solid rgba(254, 254, 254, 0.1);
 }
-header .bottomForMobileGeneral .bottomForMobileListRight ul li a {
+body header .bottomForMobileGeneral .bottomForMobileListRight ul li a {
   color: white;
   font-size: 13px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
-header .bottomForMobileGeneral .bottomForMobileListRight ul li ul {
+body header .bottomForMobileGeneral .bottomForMobileListRight ul li ul {
   display: none;
 }
-header .bottomForMobileGeneral .bottomForMobileListRight ul li ul li {
+body header .bottomForMobileGeneral .bottomForMobileListRight ul li ul li {
   padding: 15px 4rem !important;
   border-bottom: 1px solid rgba(254, 254, 254, 0.1);
   color: white;
@@ -1552,6 +1770,548 @@ header .bottomForMobileGeneral .bottomForMobileListRight ul li ul li {
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
-header .bottomForMobileGeneral .bottomForMobileListRight ul li ul li i {
+body header .bottomForMobileGeneral .bottomForMobileListRight ul li ul li i {
   padding-right: 1rem;
+}
+body main #mainSliderSection {
+  background-color: rgb(245, 245, 245);
+  padding: 30px 0px;
+}
+body main #mainSliderSection .slick-dots li button {
+  border: 1px solid rgb(101, 101, 101) !important;
+  background-color: white;
+  border-radius: 10rem;
+  text-align: center;
+}
+body main #mainSliderSection .slick-dots li button:hover {
+  border: 1px solid rgb(242, 139, 0) !important;
+}
+body main #mainSliderSection .mainSliderSection {
+  margin: 0rem 80.5px;
+  padding: 14px 12px;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider {
+  border-radius: 7px;
+  padding-top: 4rem;
+  background-color: white;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider {
+  padding: 4rem;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider p {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(145, 145, 145);
+  padding-bottom: 10px;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: rgb(242, 139, 0);
+  margin-right: 20px;
+  display: inline-block;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider span {
+  font-family: "Nunito", sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: rgb(45, 45, 45);
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider .buttonSection {
+  margin: 4rem 0rem 1.5rem;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider .buttonSection .price {
+  background-color: rgb(242, 139, 0);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 1rem 7rem;
+  margin-left: -7rem;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider .buttonSection .shopNow {
+  margin-left: 20px;
+  color: rgb(45, 45, 45);
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px 2rem;
+  border-radius: 20px;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider .buttonSection .shopNow i {
+  padding-left: 10px;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider .buttonSection .shopNow:hover {
+  background-color: rgb(229, 229, 229);
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider .priceDiscount {
+  font-size: 18px;
+  color: rgb(145, 145, 145);
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .image {
+  position: relative;
+}
+body main #mainSliderSection .mainSliderSection .generalForSlider .image #backImage {
+  position: absolute;
+  top: 0;
+  right: 5rem;
+  z-index: 0;
+}
+body main #banner .bannnerGeneral {
+  padding: 2rem;
+}
+body main #banner .bannnerGeneral img {
+  width: 100%;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral {
+  margin-top: 1rem;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productTab {
+  border-bottom: 1px solid rgba(145, 145, 145, 0.5);
+  padding: 1.3rem 0rem;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productTab ul li a {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  color: rgb(145, 145, 145);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox {
+  margin-top: 30px;
+  padding: 2rem 0rem;
+  border: 3px solid transparent;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox:hover {
+  border: 3px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box img {
+  transform-origin: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box i {
+  color: rgb(229, 229, 229);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box img {
+  transform-origin: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box i {
+  color: rgb(229, 229, 229);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box img {
+  transform-origin: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box i {
+  color: rgb(229, 229, 229);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box img {
+  transform-origin: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box i {
+  color: rgb(229, 229, 229);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box img {
+  transform-origin: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box i {
+  color: rgb(229, 229, 229);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box img {
+  transform-origin: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box i {
+  color: rgb(229, 229, 229);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box img {
+  transform-origin: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box i {
+  color: rgb(229, 229, 229);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box img {
+  transform-origin: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box i {
+  color: rgb(229, 229, 229);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .textPart .title {
+  position: relative;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .textPart .title span {
+  color: white;
+  padding: 0rem 6rem;
+  border-bottom: 1px solid rgba(145, 145, 145, 0.5);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .textPart .title .text {
+  position: absolute;
+  top: 10px;
+  left: 37%;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 0rem 1rem;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .textPart .productDescription {
+  margin-top: 2rem;
+  text-align: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .textPart .productDescription a {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+  line-height: 25px;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .textPart .priceSection {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .textPart .priceSection .discount {
+  color: rgb(242, 139, 0);
+  font-weight: 500;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .textPart .priceSection .sale del {
+  color: rgb(197, 197, 197);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList {
+  display: none;
+  padding: 1rem;
+  transition-duration: 0.3s;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .top {
+  display: flex;
+  justify-content: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .top button {
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .top button:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .top button span {
+  color: white;
+  padding-left: 1rem;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .left a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .left a img {
+  padding-right: 10px;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .left a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .right a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .right a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .right a img {
+  padding-right: 10px;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox:hover {
+  border: 3px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox:hover .onHoverBasketCompareWishList {
+  display: block;
+}
+body main #OurProducts {
+  margin-top: 2rem;
+}
+body main #OurProducts .productTab {
+  border-bottom: 0.5px solid rgba(145, 145, 145, 0.5);
+  padding: 1.3rem 0rem;
+}
+body main #OurProducts .productTab ul li a {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  color: rgb(51, 51, 51);
+}
+body main #OurProducts .productBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0rem;
+}
+body main #OurProducts .productBoxes .box {
+  border: 2px solid transparent;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+body main #OurProducts .productBoxes .box .imgPart img {
+  width: 80%;
+}
+body main #OurProducts .productBoxes .box .textPart .productTitle {
+  margin-bottom: 0.6rem;
+}
+body main #OurProducts .productBoxes .box .textPart .productTitle h2 {
+  font-size: 13px;
+  color: rgb(145, 145, 145);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+body main #OurProducts .productBoxes .box .textPart .productDescription {
+  margin-bottom: 1rem;
+}
+body main #OurProducts .productBoxes .box .textPart .productDescription a {
+  color: rgb(72, 72, 72);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+body main #OurProducts .productBoxes .box .textPart .price {
+  margin-top: 2rem;
+}
+body main #OurProducts .productBoxes .box .textPart .price .discount {
+  color: rgb(197, 197, 197);
+  text-decoration: line-through;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+body main #OurProducts .productBoxes .box .textPart .price .sale {
+  color: rgb(242, 139, 0);
+  font-size: 21px;
+  font-family: "Nunito", sans-serif;
+  margin-top: 0.5rem;
+}
+body main #OurProducts .productBoxes .box .compareWishlistCart {
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 0.3s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: -10px;
+}
+body main #OurProducts .productBoxes .box .compareWishlistCart img {
+  display: inline-block;
+  margin-right: 1rem;
+}
+body main #OurProducts .productBoxes .box .compareWishlistCart a {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+body main #OurProducts .productBoxes .box .compareWishlistCart a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #OurProducts .productBoxes .box .compareWishlistCart button {
+  border: 1px solid rgb(249, 36, 0);
+  background-color: rgb(249, 36, 0);
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+body main #OurProducts .productBoxes .box .compareWishlistCart button:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+body main #OurProducts .productBoxes .box:hover {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+body main #OurProducts .productBoxes .box:hover .compareWishlistCart {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0px;
 }/*# sourceMappingURL=style.css.map */

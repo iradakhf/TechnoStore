@@ -1,3 +1,29 @@
+@media (max-width:576px){
+   main{
+    .mainSliderSection{
+        .generalForSlider{
+            .image{
+                img{
+                    display: none !important;
+                }
+                #backImage{
+                    display: block !important;
+                    right: 1rem !important;
+                    top: -7rem !important;
+                }
+            }
+            .priceDiscount{
+                margin-top: -.7rem !important;
+                margin-bottom: 2rem !important;
+            }
+
+        }
+
+    }
+   }
+  
+}
+
 @media (max-width:768px) {
     header{
             .top{
@@ -56,10 +82,84 @@
             display: block !important;
            }
     }
+    main{
+        
+        #mainSliderSection{
+           padding: 1.9rem 0rem !important;
+            .mainSliderSection{
+                .leftForMainSlider{
+                    p{
+                       margin-left: 40px;
+                    }
+                    h2{
+                       font-size: 44px !important;
+                       margin-left: 40px;
+                    }
+                    span{
+                       font-size: 44px !important;
+    
+                    }
+
+                }
+                .buttonSection{
+                    display: inline-block !important;
+                    margin-left: 40px !important;
+                    .shopNow{
+                        margin-top: 10px;
+                    }
+                }
+                .priceDiscount{
+                    margin-left: 70px;
+                }
+                margin: 0rem 1rem !important;
+             padding: 0rem !important;
+             .leftForMainSlider{
+                padding: 0rem !important;
+             }
+
+            }
+            .mainSliderSection{
+                .generalForSlider{
+                    .image{
+                        img{
+                            display: none;
+                        }
+                        #backImage{
+                            display: block !important;
+                            right: 1rem !important;
+                            top: -7rem !important;
+                        }
+                    }
+                    .priceDiscount{
+                        margin-top: -.7rem !important;
+                        margin-bottom: 2rem !important;
+                    }
+        
+                }
+        
+            }
+        }
+        #banner{
+            display: none !important;
+        }
+      .textPart{
+        .text{
+            left: 42% !important;
+        }
+      }
+       
+    }
+
 
 }
 @media (max-width:991px)  { 
     header{
+        .searchSuggestions{
+            display: none;
+        }
+        #overlay{
+            display: none !important;
+        }
         .top{
         .accountAndLanguages{
             justify-content: center !important;
@@ -124,6 +224,48 @@
         display: block !important;
        }
 }
+main{
+    #mainSliderSection{
+       padding: 1.9rem 0rem !important;
+        .mainSliderSection{
+            .leftForMainSlider{
+                p{
+                   margin-left: 40px;
+                }
+                h2{
+                   font-size: 44px !important;
+                   margin-left: 40px;
+                }
+                span{
+                   font-size: 44px !important;
+
+                }
+
+            }
+            .buttonSection{
+                display: inline-block !important;
+                margin-left: 40px !important;
+                .shopNow{
+                    margin-top: 10px;
+                }
+            }
+            .priceDiscount{
+                margin-left: 70px;
+            }
+            margin: 0rem 1rem !important;
+         padding: 0rem !important;
+         .leftForMainSlider{
+            padding: 0rem !important;
+         }
+
+        }
+    }
+    .textPart{
+        .text{
+            left: 42% !important;
+        }
+      }
+}
  }
 @media (max-width:1025px) { 
     header{
@@ -134,15 +276,101 @@
             }
         }
     }
+    main{
+        #mainSliderSection{
+           padding: 1.9rem 0rem !important;
+            .mainSliderSection{
+                .leftForMainSlider{
+                    p{
+                       margin-left: 40px;
+                    }
+                    h2{
+                       font-size: 44px !important;
+                       margin-left: 40px;
+                    }
+                    span{
+                       font-size: 44px !important;
+    
+                    }
+
+                }
+                .buttonSection{
+                    margin-left: 40px !important;
+                    
+                }
+                .priceDiscount{
+                    margin-left: 70px;
+                }
+                margin: 0rem 1rem !important;
+             padding: 0rem !important;
+             .leftForMainSlider{
+                padding: 0rem !important;
+             }
+
+            }
+        }
+         #productBoxesNewArrivalFeaturedTopSelling{
+        .productBox{
+            .box{
+                img{
+                    width: 70%;
+                }
+                
+            }
+        }
+       }
+    }
 
  }
 @media (max-width:1281px) { 
     header{
-        overflow: hidden;
+        overflow: hidden !important;
         .bottom{
             .megaMenu{
                left: 20px !important;
             }
         }
+    }
+    main{
+        #mainSliderSection{
+           padding: 1.9rem 0rem !important;
+            .mainSliderSection{
+                .leftForMainSlider{
+                    p{
+                       margin-left: 40px;
+                    }
+                    h2{
+                       margin-left: 40px;
+                    }
+    
+                }
+                .buttonSection{
+                    display: inline-block !important;
+                    margin-left: 40px !important;
+                    .shopNow{
+                        margin-top: 10px;
+                    }
+                }
+                .priceDiscount{
+                    margin-left: 70px;
+                }
+                margin: 0rem 1rem !important;
+             padding: 0rem !important;
+             .leftForMainSlider{
+                padding: 0rem !important;
+             }
+    
+            }
+        }
+        #productBoxesNewArrivalFeaturedTopSelling{
+            .productBox{
+                .box{
+                    img{
+                        width: 70%;
+                    }
+                    
+                }
+            }
+           }
     }
 }

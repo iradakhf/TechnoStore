@@ -6,13 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <title>Techno Store</title>
 </head>
 <body>
+  <div class="modal fade modalBootstrap" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+       <div class="row">
+        <div class="col-lg-6 col-xl-6 col-xxl-6 col-6 col-sm-6 col-md-6">
+          <div class="closeForModalOnBody">
+            X
+          </div>
+          <h2>Join our newsletter and
+            get discount!</h2>
+            <p>Subscribe to the newsletter to receive updates about new products.
+            </p>
+            <div class="inputForModal">
+              <input type="email" placeholder="Your E-Mail">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            <input type="checkbox"> <span>Dont show this popup again</span>
+        </div>
+        <div class="col-lg-6 col-xl-6 col-xxl-6 col-6 col-sm-6 col-md-6">
+          <img src="assets/images/popup.png" alt="">
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+ 
     <!-- Header Section -->
     <header>
         <div class="top">
-            <div class="container">
+            <div class="container-lg">
                 <div class="row">
                     <div class="col-lg-4 col-md-5 col-xl-4 col-xxl-4 col-sm-12 col-12">
                       <ul class="support">
@@ -72,7 +100,7 @@
             </div>
         </div>
         <div class="middle">
-           <div class="container">
+           <div class="container-lg">
             <div class="row d-flex align-items-center">
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
                     <div class="logo">
@@ -333,7 +361,7 @@
            </div>
         </div>
         <div class="bottom">
-          <div class="container">
+          <div class="container-lg">
             <div class="row align-items-center">
              <div class="col-lg-3">
                <div class="megaMenu">
@@ -1855,7 +1883,958 @@
     </header>
     
     <main>
-       
+      <!-- Slider Section Home -->
+       <section id="mainSliderSection">
+      
+        <div class="mainSliderSection">
+              <div class="generalForSlider">
+              <div class="row">
+                <div class="col-lg-6 col-xl-6 col-xxl-6 col-6 col-sm-6 col-md-6 leftForMainSlider">
+                  <p>Enhanced Technology</p>
+                  <h2>SMART </h2><span>TV</span>
+                  <div class="buttonSection d-flex align-items-center">
+                    <div class="price">
+                      $1.589.99
+                    </div>
+                    <div class="shopNow">
+                      Show Now <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                  </div>
+                  <div class="priceDiscount">
+                    <del>$2.5555</del>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-xl-6 col-xxl-6 col-6 col-sm-6 col-md-6 d-flex justify-content-end align-content-end mt-5">
+                  <div class="image">
+                    <img id="backImage" src="assets/images/homeSlider/01.png" alt="">
+                    <img src="assets/images/homeSlider/MainSliderBack.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="generalForSlider">
+              <div class="row">
+                <div class="col-lg-6 col-xl-6 col-xxl-6 col-6 col-sm-6 col-md-6 leftForMainSlider">
+                  <p>Enhanced Technology</p>
+                  <h2>SMART </h2><span>TV</span>
+                  <div class="buttonSection d-flex align-items-center">
+                    <div class="price">
+                      $1.589.99
+                    </div>
+                    <div class="shopNow">
+                      Show Now <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-xl-6 col-xxl-6 col-6 col-sm-6 col-md-6 d-flex justify-content-end align-content-end mt-5">
+                  <div class="image">
+                    <img id="backImage" src="assets/images/homeSlider/01.png" alt="">
+                    <img src="assets/images/homeSlider/MainSliderBack.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="generalForSlider">
+              <div class="row">
+                <div class="col-lg-6 col-xl-6 col-xxl-6 col-6 col-sm-6 col-md-6 leftForMainSlider">
+                  <p>Enhanced Technology</p>
+                  <h2>SMART </h2><span>TV</span>
+                  <div class="buttonSection d-flex align-items-center">
+                    <div class="price">
+                      $1.589.99
+                    </div>
+                    <div class="shopNow">
+                      Show Now <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-xl-6 col-xxl-6 col-6 col-sm-6 col-md-6 d-flex justify-content-end align-content-end mt-5">
+                  <div class="image">
+                    <img id="backImage" src="assets/images/homeSlider/01.png" alt="">
+                    <img src="assets/images/homeSlider/MainSliderBack.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+       </section>
+       <!-- Banner on Home -->
+       <section id="banner">
+        <div class="bannnerGeneral">
+          <div class="container-lg">
+            <div class="row align-items-center">
+              <div class="col-lg-8 col-xl-8 col-xxl-8 col-sm-8 col-md-8">
+                <div class="row d-flex flex-wrap">
+                  <div class="col-lg-12 col-xl-12 col-xxl-12 col-sm-12 col-md-12">
+                    <div class="row">
+                      <div class="col-lg-6 col-xl-6 col-xxl-6 col-sm-6 col-md-6">
+                        <a href="compare.html"><img src="assets/images/Banner/home-01.jpg" alt=""></a>
+                      </div>
+                      <div class="col-lg-6 col-xl-6 col-xxl-6 col-sm-6 col-md-6">
+                        <a href="shop.html"><img src="assets/images/Banner/home-05.jpg" alt=""></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-xl-12 col-xxl-12 col-sm-12 col-md-12 mt-4">
+                    <a href="shop.html"><img src="assets/images/Banner/home-04.jpg" alt=""></a>
+                  </div>
+                </div>
+                </div>
+              <div class="col-lg-4 col-xl-4 col-xxl-4 col-sm-4 col-md-4">
+                 <a href="shop.html"><img src="assets/images/Banner/home-03.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <!-- Product Boxes --new arrival-- ---featured-- ---top selling----->
+       <section id="productBoxesNewArrivalFeaturedTopSelling">
+        <div class="productBoxesNewArrivalFeaturedTopSellingGeneral">
+          <div class="container-lg">
+            <div class="productTab">
+              <ul class="d-flex">
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Featured</a></li>
+                <li><a href="">Top Selling</a></li>
+              </ul>
+            </div>
+            <div class="productBox">
+              <div class="row d-flex justify-content-between">
+                <div id="product1" class="col-lg-3 col-xxl-3 col-xl-3 col-md-6 col-sm-6 col-12">
+                  <div class="imageAndTextBox">
+                    <div class="productBoxesSectionSliderForSingleProduct1">
+                      <div class="box">
+                        <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                          <img src="assets/images/product/01.jpg" alt="">
+                        <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="box">
+                          <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <img src="assets/images/product/01.jpg" alt="">
+                          <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                          </div>
+                          <div class="box">
+                            <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                              <img src="assets/images/product/01.jpg" alt="">
+                            <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                    </div>
+                    <div class="textPart">
+                         <div class="title d-flex justify-content-center">
+                          <span>-</span>
+                          <div class="text">
+                            Laptop
+                          </div>
+                         </div>
+                         <div class="productDescription">
+                           <a href="shop.html">Apple iPad Mini <br> G2356</a>
+                         </div>
+                         <div class="priceSection d-flex">
+                          <div class="discount">
+                            $1,255.00
+                          </div>
+                          <div class="sale">
+                            <del>
+                              $2,999.11
+                            </del>
+                          </div>
+                         </div>
+                    </div>
+                    <div class="onHoverBasketCompareWishList">
+                      <div class="top">
+                        <button><img src="assets/images/cart.png" alt=""> <span>Add to Cart</span></button>
+                      </div>
+                    <div class="bottom">
+                      <div class="left">
+                        <a href="compare.html"><img src="assets/images/compare.png" alt=""> Compare</a>
+                      </div>
+                      <div class="right">
+                        <a href="wishlist.html"><img src="assets/images/wishlist.png" alt=""> Wishlist</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="product2" class="col-lg-3 col-xxl-3 col-xl-3 col-md-6 col-sm-6 col-12">
+                  <div class="imageAndTextBox">
+                    <div class="productBoxesSectionSliderForSingleProduct2">
+                      <div class="box">
+                        <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                          <img src="assets/images/product/02.jpg" alt="">
+                        <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="box">
+                          <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <img src="assets/images/product/02.jpg" alt="">
+                          <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                          </div>
+                          <div class="box">
+                            <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                              <img src="assets/images/product/01.jpg" alt="">
+                            <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                    </div>
+                    <div class="textPart">
+                         <div class="title d-flex justify-content-center">
+                          <span>-</span>
+                          <div class="text">
+                            Laptop
+                          </div>
+                         </div>
+                         <div class="productDescription">
+                           <a href="shop.html">Apple iPad Mini <br> G2356</a>
+                         </div>
+                         <div class="priceSection d-flex">
+                          <div class="discount">
+                            $1,255.00
+                          </div>
+                          <div class="sale">
+                            <del>
+                              $2,999.11
+                            </del>
+                          </div>
+                         </div>
+                    </div>
+                    <div class="onHoverBasketCompareWishList">
+                      <div class="top">
+                        <button><img src="assets/images/cart.png" alt=""> <span>Add to Cart</span></button>
+                      </div>
+                    <div class="bottom">
+                      <div class="left">
+                        <a href="compare.html"><img src="assets/images/compare.png" alt=""> Compare</a>
+                      </div>
+                      <div class="right">
+                        <a href="wishlist.html"><img src="assets/images/wishlist.png" alt=""> Wishlist</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="product3" class="col-lg-3 col-xxl-3 col-xl-3 col-md-6 col-sm-6 col-12">
+                  <div class="imageAndTextBox">
+                    <div class="productBoxesSectionSliderForSingleProduct3">
+                      <div class="box">
+                        <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                          <img src="assets/images/product/03.jpg" alt="">
+                        <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="box">
+                          <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <img src="assets/images/product/03.jpg" alt="">
+                          <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                          </div>
+                          <div class="box">
+                            <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                              <img src="assets/images/product/03.jpg" alt="">
+                            <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                    </div>
+                    <div class="textPart">
+                         <div class="title d-flex justify-content-center">
+                          <span>-</span>
+                          <div class="text">
+                            Laptop
+                          </div>
+                         </div>
+                         <div class="productDescription">
+                           <a href="shop.html">Apple iPad Mini <br> G2356</a>
+                         </div>
+                         <div class="priceSection d-flex">
+                          <div class="discount">
+                            $1,255.00
+                          </div>
+                          <div class="sale">
+                            <del>
+                              $2,999.11
+                            </del>
+                          </div>
+                         </div>
+                    </div>
+                    <div class="onHoverBasketCompareWishList">
+                      <div class="top">
+                        <button><img src="assets/images/cart.png" alt=""> <span>Add to Cart</span></button>
+                      </div>
+                    <div class="bottom">
+                      <div class="left">
+                        <a href="compare.html"><img src="assets/images/compare.png" alt=""> Compare</a>
+                      </div>
+                      <div class="right">
+                        <a href="wishlist.html"><img src="assets/images/wishlist.png" alt=""> Wishlist</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="product4" class="col-lg-3 col-xxl-3 col-xl-3 col-md-6 col-sm-6 col-12">
+                  <div class="imageAndTextBox">
+                    <div class="productBoxesSectionSliderForSingleProduct4">
+                      <div class="box">
+                        <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                          <img src="assets/images/product/05.jpg" alt="">
+                        <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="box">
+                          <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <img src="assets/images/product/05.jpg" alt="">
+                          <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                          </div>
+                          <div class="box">
+                            <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                              <img src="assets/images/product/01.jpg" alt="">
+                            <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                    </div>
+                    <div class="textPart">
+                         <div class="title d-flex justify-content-center">
+                          <span>-</span>
+                          <div class="text">
+                            Laptop
+                          </div>
+                         </div>
+                         <div class="productDescription">
+                           <a href="shop.html">Apple iPad Mini <br> G2356</a>
+                         </div>
+                         <div class="priceSection d-flex">
+                          <div class="discount">
+                            $1,255.00
+                          </div>
+                          <div class="sale">
+                            <del>
+                              $2,999.11
+                            </del>
+                          </div>
+                         </div>
+                    </div>
+                    <div class="onHoverBasketCompareWishList">
+                      <div class="top">
+                        <button><img src="assets/images/cart.png" alt=""> <span>Add to Cart</span></button>
+                      </div>
+                    <div class="bottom">
+                      <div class="left">
+                        <a href="compare.html"><img src="assets/images/compare.png" alt=""> Compare</a>
+                      </div>
+                      <div class="right">
+                        <a href="wishlist.html"><img src="assets/images/wishlist.png" alt=""> Wishlist</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="product5" class="col-lg-3 col-xxl-3 col-xl-3 col-md-6 col-sm-6 col-12">
+                  <div class="imageAndTextBox">
+                    <div class="productBoxesSectionSliderForSingleProduct5">
+                      <div class="box">
+                        <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                          <img src="assets/images/product/04.jpg" alt="">
+                        <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="box">
+                          <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <img src="assets/images/product/04.jpg" alt="">
+                          <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                          </div>
+                          <div class="box">
+                            <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                              <img src="assets/images/product/01.jpg" alt="">
+                            <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                    </div>
+                    <div class="textPart">
+                         <div class="title d-flex justify-content-center">
+                          <span>-</span>
+                          <div class="text">
+                            Laptop
+                          </div>
+                         </div>
+                         <div class="productDescription">
+                           <a href="shop.html">Apple iPad Mini <br> G2356</a>
+                         </div>
+                         <div class="priceSection d-flex">
+                          <div class="discount">
+                            $1,255.00
+                          </div>
+                          <div class="sale">
+                            <del>
+                              $2,999.11
+                            </del>
+                          </div>
+                         </div>
+                    </div>
+                    <div class="onHoverBasketCompareWishList">
+                      <div class="top">
+                        <button><img src="assets/images/cart.png" alt=""> <span>Add to Cart</span></button>
+                      </div>
+                    <div class="bottom">
+                      <div class="left">
+                        <a href="compare.html"><img src="assets/images/compare.png" alt=""> Compare</a>
+                      </div>
+                      <div class="right">
+                        <a href="wishlist.html"><img src="assets/images/wishlist.png" alt=""> Wishlist</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="product6" class="col-lg-3 col-xxl-3 col-xl-3 col-md-6 col-sm-6 col-12">
+                  <div class="imageAndTextBox">
+                    <div class="productBoxesSectionSliderForSingleProduct6">
+                      <div class="box">
+                        <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                          <img src="assets/images/product/01.jpg" alt="">
+                        <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="box">
+                          <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <img src="assets/images/product/01.jpg" alt="">
+                          <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                          </div>
+                          <div class="box">
+                            <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                              <img src="assets/images/product/01.jpg" alt="">
+                            <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                    </div>
+                    <div class="textPart">
+                         <div class="title d-flex justify-content-center">
+                          <span>-</span>
+                          <div class="text">
+                            Laptop
+                          </div>
+                         </div>
+                         <div class="productDescription">
+                           <a href="shop.html">Apple iPad Mini <br> G2356</a>
+                         </div>
+                         <div class="priceSection d-flex">
+                          <div class="discount">
+                            $1,255.00
+                          </div>
+                          <div class="sale">
+                            <del>
+                              $2,999.11
+                            </del>
+                          </div>
+                         </div>
+                    </div>
+                    <div class="onHoverBasketCompareWishList">
+                      <div class="top">
+                        <button><img src="assets/images/cart.png" alt=""> <span>Add to Cart</span></button>
+                      </div>
+                    <div class="bottom">
+                      <div class="left">
+                        <a href="compare.html"><img src="assets/images/compare.png" alt=""> Compare</a>
+                      </div>
+                      <div class="right">
+                        <a href="wishlist.html"><img src="assets/images/wishlist.png" alt=""> Wishlist</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="product7" class="col-lg-3 col-xxl-3 col-xl-3 col-md-6 col-sm-6 col-12">
+                  <div class="imageAndTextBox">
+                    <div class="productBoxesSectionSliderForSingleProduct7">
+                      <div class="box">
+                        <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                          <img src="assets/images/product/01.jpg" alt="">
+                        <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="box">
+                          <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <img src="assets/images/product/01.jpg" alt="">
+                          <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                          </div>
+                          <div class="box">
+                            <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                              <img src="assets/images/product/01.jpg" alt="">
+                            <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                    </div>
+                    <div class="textPart">
+                         <div class="title d-flex justify-content-center">
+                          <span>-</span>
+                          <div class="text">
+                            Laptop
+                          </div>
+                         </div>
+                         <div class="productDescription">
+                           <a href="shop.html">Apple iPad Mini <br> G2356</a>
+                         </div>
+                         <div class="priceSection d-flex">
+                          <div class="discount">
+                            $1,255.00
+                          </div>
+                          <div class="sale">
+                            <del>
+                              $2,999.11
+                            </del>
+                          </div>
+                         </div>
+                    </div>
+                    <div class="onHoverBasketCompareWishList">
+                      <div class="top">
+                        <button><img src="assets/images/cart.png" alt=""> <span>Add to Cart</span></button>
+                      </div>
+                    <div class="bottom">
+                      <div class="left">
+                        <a href="compare.html"><img src="assets/images/compare.png" alt=""> Compare</a>
+                      </div>
+                      <div class="right">
+                        <a href="wishlist.html"><img src="assets/images/wishlist.png" alt=""> Wishlist</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="product8" class="col-lg-3 col-xxl-3 col-xl-3 col-md-6 col-sm-6 col-12">
+                  <div class="imageAndTextBox">
+                    <div class="productBoxesSectionSliderForSingleProduct8">
+                      <div class="box">
+                        <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                          <img src="assets/images/product/06.jpg" alt="">
+                        <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="box">
+                          <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <img src="assets/images/product/06.jpg" alt="">
+                          <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                          </div>
+                          <div class="box">
+                            <i id="iconLeft" class="fa-solid fa-arrow-left-long"></i>
+                              <img src="assets/images/product/01.jpg" alt="">
+                            <i id="iconRight" class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                    </div>
+                    <div class="textPart">
+                         <div class="title d-flex justify-content-center">
+                          <span>-</span>
+                          <div class="text">
+                            Laptop
+                          </div>
+                         </div>
+                         <div class="productDescription">
+                           <a href="shop.html">Apple iPad Mini <br> G2356</a>
+                         </div>
+                         <div class="priceSection d-flex">
+                          <div class="discount">
+                            $1,255.00
+                          </div>
+                          <div class="sale">
+                            <del>
+                              $2,999.11
+                            </del>
+                          </div>
+                         </div>
+                    </div>
+                    <div class="onHoverBasketCompareWishList">
+                      <div class="top">
+                        <button><img src="assets/images/cart.png" alt=""> <span>Add to Cart</span></button>
+                      </div>
+                    <div class="bottom">
+                      <div class="left">
+                        <a href="compare.html"><img src="assets/images/compare.png" alt=""> Compare</a>
+                      </div>
+                      <div class="right">
+                        <a href="wishlist.html"><img src="assets/images/wishlist.png" alt=""> Wishlist</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <section id="OurProducts">
+        <div class="container-lg">
+          <div class="productTab">
+            <ul class="d-flex">
+              <li><a href="">Our Products</a></li>
+            </ul>
+          </div>
+          <div class="row productBoxes">
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/01.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Laptop</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/04.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Laptop</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/05.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Laptop</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/06.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Laptop</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/07.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Laptop</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/08.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Computer</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/14.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Laptop</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/01.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Laptop</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/14.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Phone</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/07.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Computer</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3-5">
+                <div class="box">
+                  <div class="ImageAndText d-flex align-items-center justify-content-evenly flex-nowrap">
+                    <div class="imgPart">
+                      <img src="assets/images/product/14.jpg" alt="">
+                    </div>
+                    <div class="textPart">
+                      <div class="productTitle">
+                        <h2>Laptop</h2>
+                      </div>
+                       <div class="productDescription">
+                         <a href="">Apple iPad Mini</a>
+                       </div>
+                       <div class="price">
+                        <div class="discount">
+                          $1.255
+                        </div>
+                        <div class="sale">
+                          $2200
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="compareWishlistCart">
+                    <div class="compare d-flex align-items-center"><a href="compare.html"><img src="assets/images/compare.png" alt="">Compare</a></div>
+                    <div class="wishlist d-flex align-items-center"><a href="wishlist.html"><img src="assets/images/wishlist.png" alt="">Wishlist</a></div>
+                    <div class="addToCart">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+          </div>
+        </div>
+       </section>
     </main>
 
     <!-- Footer Section -->
@@ -1863,6 +2842,9 @@
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
 </body>
 </html>
