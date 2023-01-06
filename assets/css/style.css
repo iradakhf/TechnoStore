@@ -61,12 +61,17 @@ a {
     display: none !important;
   }
   main .mainSliderSection .generalForSlider .image #backImage {
-    display: block !important;
     right: 1rem !important;
     top: -7rem !important;
   }
   main .mainSliderSection .generalForSlider .priceDiscount {
     margin-top: -0.7rem !important;
+    margin-bottom: 2rem !important;
+  }
+  main .RIGHT button {
+    padding: 0.4rem 1rem !important;
+  }
+  footer .FooterTopMobile {
     margin-bottom: 2rem !important;
   }
 }
@@ -166,6 +171,43 @@ a {
   main .textPart .text {
     left: 42% !important;
   }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList button {
+    padding: 0.1rem 0.5rem !important;
+    font-size: 10px !important;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .box {
+    width: 100%;
+    padding: 1rem;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .box img {
+    padding: 0.4rem !important;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .textPart span {
+    padding: 0rem 3rem !important;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .text {
+    left: 22% !important;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .priceSection .sale {
+    display: none;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .bottom {
+    font-size: 10px !important;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBoxLeft {
+    padding: 4rem 0rem !important;
+  }
+  main #highlights .heading {
+    margin-top: 20px;
+  }
+  main .boox {
+    margin-top: 20px;
+  }
+  footer .FooterTopMobile {
+    margin-bottom: 2rem !important;
+  }
 }
 @media (max-width: 991px) {
   header .searchSuggestions {
@@ -259,6 +301,52 @@ a {
   }
   main .textPart .text {
     left: 42% !important;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList button {
+    padding: 0.1rem 0.5rem !important;
+    font-size: 10px !important;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .box {
+    width: 100%;
+    padding: 1rem;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .box img {
+    padding: 0.4rem !important;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .textPart span {
+    padding: 0rem 3rem !important;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .text {
+    left: 27% !important;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .priceSection .sale {
+    display: none;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBox .bottom {
+    font-size: 10px !important;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  main #categories .categoryGeneral .productPart .imageAndTextBoxLeft {
+    padding: 4rem 0rem !important;
+  }
+  main #specialOffer {
+    overflow: hidden;
+  }
+  main #specialOffer .LEFT {
+    padding-right: 10px !important;
+  }
+  main #specialOffer .LEFT .ph {
+    text-align: center;
+  }
+  main #specialOffer .LEFT .countDown {
+    justify-content: center !important;
+  }
+  main #specialOffer .RIGHT {
+    padding-left: 10px !important;
+  }
+  footer .FooterTopMobile {
+    margin-bottom: 2rem !important;
   }
 }
 @media (max-width: 1025px) {
@@ -1828,8 +1916,8 @@ body main #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSl
   background-color: rgb(242, 139, 0);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  padding: 1rem 7rem;
-  margin-left: -7rem;
+  padding: 1rem 4rem;
+  margin-left: -15%;
   color: white;
   font-size: 35px;
   font-weight: 700;
@@ -1870,7 +1958,7 @@ body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeatu
   margin-top: 1rem;
 }
 body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productTab {
-  border-bottom: 1px solid rgba(145, 145, 145, 0.5);
+  border-bottom: 1px solid rgba(101, 101, 101, 0.3);
   padding: 1.3rem 0rem;
 }
 body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productTab ul li a {
@@ -1879,15 +1967,15 @@ body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeatu
   font-size: 18px;
   font-family: "Nunito", sans-serif;
   font-weight: 300;
-  color: rgb(145, 145, 145);
+  color: rgba(145, 145, 145, 0.8);
 }
 body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox {
   margin-top: 30px;
   padding: 2rem 0rem;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
 }
 body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox:hover {
-  border: 3px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
   border-radius: 10px;
 }
 body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box {
@@ -2202,7 +2290,7 @@ body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeatu
   padding-right: 10px;
 }
 body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox:hover {
-  border: 3px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
   border-radius: 10px;
 }
 body main #productBoxesNewArrivalFeaturedTopSelling .productBoxesNewArrivalFeaturedTopSellingGeneral .productBox .imageAndTextBox:hover .onHoverBasketCompareWishList {
@@ -2212,7 +2300,7 @@ body main #OurProducts {
   margin-top: 2rem;
 }
 body main #OurProducts .productTab {
-  border-bottom: 0.5px solid rgba(145, 145, 145, 0.5);
+  border-bottom: 0.5px solid rgba(101, 101, 101, 0.3);
   padding: 1.3rem 0rem;
 }
 body main #OurProducts .productTab ul li a {
@@ -2232,6 +2320,7 @@ body main #OurProducts .productBoxes {
 body main #OurProducts .productBoxes .box {
   border: 2px solid transparent;
   margin-bottom: 20px;
+  padding: 10px 4px;
   padding-bottom: 20px;
 }
 body main #OurProducts .productBoxes .box .imgPart img {
@@ -2314,4 +2403,854 @@ body main #OurProducts .productBoxes .box:hover .compareWishlistCart {
   visibility: visible;
   opacity: 1;
   margin-top: 0px;
+}
+body main #categories {
+  background-color: rgb(245, 245, 245);
+  padding: 3.7rem 0;
+}
+body main #categories .categoryGeneral {
+  background-color: white;
+  border-radius: 15px;
+}
+body main #categories .categoryGeneral .productTab {
+  border-bottom: 1px solid rgba(101, 101, 101, 0.3);
+  padding: 1.3rem 0rem;
+}
+body main #categories .categoryGeneral .productTab ul li a {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  color: rgba(145, 145, 145, 0.8);
+}
+body main #categories .categoryGeneral .productPart {
+  padding: 0rem 1.5rem;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox {
+  margin: 30px 0;
+  transition-duration: 0.3s;
+  padding: 0.5rem 0rem;
+  border: 2px solid transparent;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox:hover {
+  border: 3px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 140px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .box img {
+  transform-origin: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .box i {
+  color: rgb(229, 229, 229);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .title {
+  position: relative;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .title span {
+  color: white;
+  padding: 0rem 6rem;
+  border-bottom: 1px solid rgba(145, 145, 145, 0.5);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .title .text {
+  position: absolute;
+  top: 10px;
+  left: 37%;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 0rem 1rem;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .productDescription {
+  margin-top: 2rem;
+  text-align: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .productDescription a {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+  line-height: 25px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .priceSection {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .priceSection .discount {
+  color: rgb(242, 139, 0);
+  font-weight: 500;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .textPart .priceSection .sale del {
+  color: rgb(197, 197, 197);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList {
+  display: none;
+  padding: 1rem;
+  transition-duration: 0.3s;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top {
+  display: flex;
+  justify-content: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top button {
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top button:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top button span {
+  color: white;
+  padding-left: 1rem;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .bottom .left a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .bottom .left a img {
+  padding-right: 10px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .bottom .left a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .bottom .right a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .bottom .right a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .bottom .right a img {
+  padding-right: 10px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight {
+  padding: 1rem;
+  transition-duration: 0.3s;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top {
+  display: flex;
+  justify-content: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top button {
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top button:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top button span {
+  color: white;
+  padding-left: 1rem;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .bottom .left a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .bottom .left a img {
+  padding-right: 10px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .bottom .left a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .bottom .right a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .bottom .right a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .bottom .right a img {
+  padding-right: 10px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox:hover {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBox:hover .onHoverBasketCompareWishList {
+  display: block;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft {
+  margin: 30px 0;
+  transition-duration: 0.3s;
+  padding: 6rem;
+  border: 2px solid transparent;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft:hover {
+  border: 3px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .box img {
+  transform-origin: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .box i {
+  color: rgb(229, 229, 229);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .box i:hover {
+  color: rgb(51, 51, 51);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .textPart .title {
+  position: relative;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .textPart .title span {
+  color: white;
+  padding: 0rem 6rem;
+  border-bottom: 1px solid rgba(145, 145, 145, 0.5);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .textPart .title .text {
+  position: absolute;
+  top: 10px;
+  left: 37%;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 0rem 1rem;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .textPart .productDescription {
+  margin-top: 2rem;
+  text-align: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .textPart .productDescription a {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+  line-height: 25px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .textPart .priceSection {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .textPart .priceSection .discount {
+  color: rgb(242, 139, 0);
+  font-weight: 500;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .textPart .priceSection .sale del {
+  color: rgb(197, 197, 197);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight {
+  padding: 1rem;
+  transition-duration: 0.3s;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top {
+  display: flex;
+  justify-content: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top button {
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 1rem 5rem;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top button:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top button span {
+  color: white;
+  padding-left: 1rem;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .bottom .left a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .bottom .left a img {
+  padding-right: 10px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .bottom .left a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .bottom .right a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .bottom .right a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .bottom .right a img {
+  padding-right: 10px;
+}
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft:hover {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+body main #specialOffer .specialOffer {
+  padding: 3rem 0rem;
+}
+body main #specialOffer .specialOffer .LEFT {
+  margin-top: 1rem;
+}
+body main #specialOffer .specialOffer .LEFT .top {
+  position: relative;
+}
+body main #specialOffer .specialOffer .LEFT .top .icons {
+  position: absolute;
+  top: 70%;
+  left: 0rem;
+  color: #292b2c;
+  z-index: 2;
+}
+body main #specialOffer .specialOffer .LEFT .top .icons i {
+  margin-right: 1rem;
+}
+body main #specialOffer .specialOffer .LEFT .top p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(45, 45, 45);
+  background-color: rgb(245, 245, 245);
+  padding: 1.5rem 0rem;
+  padding-left: 2.3rem;
+  padding-right: 1rem;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  margin-top: 3rem;
+}
+body main #specialOffer .specialOffer .LEFT .ph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+  margin-top: 4rem;
+  line-height: 25px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown {
+  margin-top: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS {
+  margin-right: 40px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .DAY {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .Hour {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .Min {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .Sec {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .DAY2 {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .Hour2 {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .Min2 {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .Sec2 {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .DAY3 {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .Hour3 {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .Min3 {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS .Sec3 {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+body main #specialOffer .specialOffer .LEFT .countDown .DAYS span {
+  display: inline-block;
+  padding-top: 10px;
+  color: rgb(242, 139, 0);
+}
+body main #specialOffer .specialOffer .RIGHT {
+  margin: 1rem 0rem;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+  position: relative;
+  padding: 3rem 0rem;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .save {
+  position: absolute;
+  top: 9%;
+  left: 0;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .save p {
+  background-color: #f28b00;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+  padding: 1.5rem 0rem;
+  padding-left: 1rem;
+  padding-right: 2.3rem;
+  border: 1px solid rgb(242, 139, 0);
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral a img {
+  width: 100%;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .productName a {
+  font-size: 16px;
+  color: rgb(72, 72, 72);
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .productInfo {
+  margin: 20px 0;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+  line-height: 30px;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .price {
+  margin-bottom: 20px;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .price .discount {
+  font-size: 25px;
+  color: rgb(242, 139, 0);
+  font-family: "Nunito", sans-serif;
+  padding-right: 10px;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .price .sale {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(197, 197, 197);
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .button {
+  margin-bottom: 30px;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .button button {
+  border: 1px solid rgb(249, 36, 0);
+  background-color: rgb(249, 36, 0);
+  color: white;
+  border-radius: 30px;
+  padding: 14px 70px;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .button button:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .button button img {
+  padding-right: 10px;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .compareWishlist .compare {
+  margin-right: 20px;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .compareWishlist img {
+  margin-right: 10px;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .compareWishlist span {
+  color: rgb(145, 145, 145);
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+body main #specialOffer .specialOffer .RIGHT .rightGeneral .compareWishlist span:hover {
+  color: rgb(242, 139, 0);
+}
+body main #mostViewed {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+body main #mostViewed .productTab {
+  border-bottom: 1px solid rgba(101, 101, 101, 0.3);
+  padding: 1.3rem 0rem;
+}
+body main #mostViewed .productTab ul li a {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  color: rgb(45, 45, 45);
+}
+body main #mostViewed .productBox .imageAndTextBox {
+  margin: 0rem 10px;
+  margin-top: 30px;
+  padding: 1rem 0rem;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+body main #mostViewed .productBox .imageAndTextBox img {
+  width: 100%;
+  height: 10% !important;
+}
+body main #mostViewed .productBox .imageAndTextBox:hover {
+  border: 2px solid rgb(242, 139, 0);
+}
+body main #mostViewed .productBox .imageAndTextBox .textPart .title .text {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 0rem 1rem;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+}
+body main #mostViewed .productBox .imageAndTextBox .textPart .productDescription {
+  margin-top: 2rem;
+  text-align: start;
+  padding: 0rem 1rem;
+}
+body main #mostViewed .productBox .imageAndTextBox .textPart .productDescription a {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+  line-height: 25px;
+  transition-duration: 0.3s;
+}
+body main #mostViewed .productBox .imageAndTextBox .textPart .productDescription a:hover {
+  color: #f28b00;
+}
+body main #mostViewed .productBox .imageAndTextBox .textPart .priceSection {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+body main #mostViewed .productBox .imageAndTextBox .textPart .priceSection .discount {
+  color: rgb(242, 139, 0);
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+body main #mostViewed .productBox .imageAndTextBox .textPart .priceSection .sale del {
+  color: rgb(197, 197, 197);
+}
+body main #highlights {
+  background-color: rgb(245, 245, 245);
+  padding: 2rem 0rem;
+}
+body main #highlights .heading {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  margin-bottom: 40px;
+}
+body main #highlights .heading h3 {
+  color: rgb(45, 45, 45);
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+body main #highlights .box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+body main #highlights .box img {
+  width: 100%;
+  border-radius: 10px;
+}
+body main #highlights .box a {
+  font-size: 13px;
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+body main #highlights .box a:hover {
+  color: rgb(242, 139, 0);
+}
+body main #highlights .box .starts {
+  margin: 10px 0;
+}
+body main #highlights .box .starts i {
+  font-size: 10px;
+  color: rgb(242, 139, 0);
+}
+body main #highlights .box .discount {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+  display: inline-block;
+}
+body main #highlights .box .sale {
+  color: rgb(197, 197, 197);
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+}
+body main #services {
+  padding: 2rem;
+}
+body main #services img {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 40px;
+  padding: 15px;
+}
+body main #services img:hover {
+  border-color: rgb(242, 139, 0);
+}
+body main #services h3 {
+  color: rgb(45, 45, 45);
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 32px;
+}
+body main #services p {
+  color: rgb(145, 145, 145);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+body footer {
+  overflow: hidden;
+}
+body footer .top {
+  padding: 2.5rem 0rem;
+  border-top: 1px solid rgba(101, 101, 101, 0.3);
+}
+body footer .top .mobileApp li {
+  margin-right: 20px;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 8px;
+  padding-right: 45px;
+  border-radius: 10px;
+  max-width: 50%;
+}
+body footer .top .mobileApp li:hover {
+  border-color: rgb(242, 139, 0);
+}
+body footer .top .mobileApp img {
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+body footer .top .mobileApp .text {
+  color: rgb(101, 101, 101);
+}
+body footer .top .mobileApp .text h4 {
+  margin-bottom: 5px;
+}
+body footer .top .mobileApp .text p {
+  font-size: 13px;
+  color: rgb(145, 145, 145);
+  margin-bottom: 0;
+}
+body footer .top .input {
+  position: relative;
+  margin-bottom: 30px;
+}
+body footer .top .input input {
+  width: 100%;
+  border-radius: 30px;
+  color: rgb(114, 114, 114);
+  font-size: 13px;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 1rem 0rem;
+  padding-left: 20px;
+}
+body footer .top .input input:focus {
+  outline: none;
+  border: 2px solid rgb(229, 229, 229);
+}
+body footer .top .input img {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+}
+body footer .top .bottomForPay {
+  display: flex;
+  flex-wrap: nowrap;
+}
+body footer .top .bottomForPay img {
+  width: 100%;
+}
+body footer .top h3 {
+  color: rgb(72, 72, 72);
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+body footer .top p {
+  font-size: 13px;
+  color: rgb(145, 145, 145);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+body footer .top li {
+  margin-bottom: 10px;
+}
+body footer .top li a {
+  font-size: 13px;
+  color: rgb(145, 145, 145);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+body footer .top li a:hover {
+  color: rgb(242, 139, 0);
+}
+body footer .top img {
+  margin-bottom: 2rem;
+}
+body footer .top .call .logo {
+  margin-right: 20px;
+}
+body footer .top .call .text {
+  margin-bottom: 20px;
+}
+body footer .top .call .text p {
+  font-size: 14px;
+  color: rgb(145, 145, 145);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+body footer .top .call .text .phone {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(72, 72, 72);
+  font-family: "Open Sans", sans-serif;
+}
+body footer .top a {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+body footer .top a i {
+  color: rgb(213, 213, 213);
+}
+body footer .top a i:hover {
+  color: rgb(51, 51, 51);
+}
+body footer .bottom {
+  background-color: rgb(245, 245, 245);
+  padding: 1.5rem 0rem;
+}
+body footer .bottom p {
+  font-size: 13px;
+  color: rgb(72, 72, 72);
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */

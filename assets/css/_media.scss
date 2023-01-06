@@ -7,7 +7,6 @@
                     display: none !important;
                 }
                 #backImage{
-                    display: block !important;
                     right: 1rem !important;
                     top: -7rem !important;
                 }
@@ -19,6 +18,16 @@
 
         }
 
+    }
+    .RIGHT{
+        button{
+            padding: .4rem 1rem !important;
+        }
+    }
+}
+   footer{
+    .FooterTopMobile{
+        margin-bottom: 2rem !important;
     }
    }
   
@@ -147,10 +156,62 @@
             left: 42% !important;
         }
       }
-       
+      #categories{
+        .categoryGeneral{
+            .productPart{
+                .imageAndTextBox{
+                    .onHoverBasketCompareWishList{
+                        button{
+                            padding: .1rem .5rem !important;
+                            font-size: 10px !important;
+                        }
+                    }
+                    .box{
+                        width: 100%;
+                        padding: 1rem;
+                        img{
+                            padding: .4rem !important;
+                        }
+                    }
+                    .textPart{
+                        span{
+                            padding: 0rem 3rem !important;
+                        }
+                        .text{
+                            left: 22% !important;
+                        }
+                    }
+                    .priceSection{
+                        .sale{
+                            display: none;
+                        }
+                    }
+                    .bottom{
+                        font-size: 10px !important;
+                        text-align: center;
+                        flex-wrap: wrap;
+                    }
+                }
+               .imageAndTextBoxLeft{
+                padding: 4rem 0rem !important;
+               }
+            }
+        }
+      }
+      #highlights{
+        .heading{
+            margin-top: 20px;
+        }
+      }
+       .boox{
+        margin-top: 20px;
+       }
     }
-
-
+    footer{
+        .FooterTopMobile{
+            margin-bottom: 2rem !important;
+        }
+       }
 }
 @media (max-width:991px)  { 
     header{
@@ -265,7 +326,69 @@ main{
             left: 42% !important;
         }
       }
+      #categories{
+        .categoryGeneral{
+            .productPart{
+                .imageAndTextBox{
+                    .onHoverBasketCompareWishList{
+                        button{
+                            padding: .1rem .5rem !important;
+                            font-size: 10px !important;
+                        }
+                    }
+                    .box{
+                        width: 100%;
+                        padding: 1rem;
+                        img{
+                            padding: .4rem !important;
+                        }
+                    }
+                    .textPart{
+                        span{
+                            padding: 0rem 3rem !important;
+                        }
+                        .text{
+                            left: 27% !important;
+                        }
+                    }
+                    .priceSection{
+                        .sale{
+                            display: none;
+                        }
+                    }
+                    .bottom{
+                        font-size: 10px !important;
+                        text-align: center;
+                        flex-wrap: wrap;
+                    }
+                }
+               .imageAndTextBoxLeft{
+                padding: 4rem 0rem !important;
+               }
+            }
+        }
+      }
+      #specialOffer{
+        overflow: hidden;
+        .LEFT{
+            .ph{
+                text-align: center;
+            }
+            .countDown{
+                justify-content: center !important;
+            }
+            padding-right: 10px !important;
+        }
+        .RIGHT{
+            padding-left: 10px !important;
+        }
+      }
 }
+footer{
+    .FooterTopMobile{
+        margin-bottom: 2rem !important;
+    }
+   }
  }
 @media (max-width:1025px) { 
     header{
