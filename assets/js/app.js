@@ -471,10 +471,11 @@ $(document).ready(function() {
     });
     
    $(".modalBootstrap").modal("show");
-   $("a").click(function(e){
-      e.preventDefault();
-
-   })
+   
+     $(".bottomForMobileGeneral a").click(function(e){
+        e.preventDefault();
+     })
+    
    $(".closeForModalOnBody").click(function(){
       $(".modalBootstrap").modal("hide");
    })

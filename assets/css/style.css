@@ -1509,11 +1509,20 @@ body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
+body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
 body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
 body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList li:hover a {
   color: rgb(242, 139, 0);
 }
 body header .bottom .mainNav .homeOnMainNav .homeOnMainNavList :last-child {
@@ -1554,11 +1563,20 @@ body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
+body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
 body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
 body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList li:hover a {
   color: rgb(242, 139, 0);
 }
 body header .bottom .mainNav .featuresOnMainNav .homeOnMainNavList :last-child {
@@ -1599,11 +1617,20 @@ body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
+body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
 body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
 body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList li:hover a {
   color: rgb(242, 139, 0);
 }
 body header .bottom .mainNav .shopOnMainNav .homeOnMainNavList :last-child {
@@ -1644,11 +1671,20 @@ body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
+body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
 body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
 body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList li:hover a {
   color: rgb(242, 139, 0);
 }
 body header .bottom .mainNav .pagesOnMainNav .homeOnMainNavList :last-child {
@@ -1689,11 +1725,20 @@ body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
+body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
 body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
 body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList li:hover a {
   color: rgb(242, 139, 0);
 }
 body header .bottom .mainNav .blogOnMainNav .homeOnMainNavList :last-child {
@@ -1734,11 +1779,20 @@ body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li {
   cursor: pointer;
   color: rgb(72, 72, 72);
 }
+body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
 body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li i {
   font-size: 7px;
   padding-right: 15px;
 }
 body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li:hover {
+  color: rgb(242, 139, 0);
+}
+body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList li:hover a {
   color: rgb(242, 139, 0);
 }
 body header .bottom .mainNav .contactOnMainNav .homeOnMainNavList :last-child {
@@ -3253,4 +3307,566 @@ body footer .bottom p {
   color: rgb(72, 72, 72);
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
+}
+
+#shopMain .breadcrumbGeneral {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 1.2rem 0rem;
+  margin-bottom: 1rem;
+}
+#shopMain .breadcrumbGeneral ul {
+  display: flex;
+  align-items: center;
+}
+#shopMain .breadcrumbGeneral ul li a {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 13px;
+  color: rgb(140, 140, 140);
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+#shopMain .breadcrumbGeneral ul li a i {
+  margin: 0 20px;
+}
+#shopMain .breadcrumbGeneral ul li:last-child {
+  color: #2d2d2d;
+  font-size: 13px;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+#shopMain #BestSeller .productTab {
+  position: relative;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+#shopMain #BestSeller .productTab #dotsForBestSeller {
+  width: 100%;
+}
+#shopMain #BestSeller .productTab #dotsForBestSeller .slick-dots {
+  position: absolute;
+  top: 0;
+  right: -170px;
+}
+#shopMain #BestSeller .productTab #dotsForBestSeller .slick-dots li button {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 20px;
+}
+#shopMain #BestSeller .productTab #dotsForBestSeller .slick-dots li button:hover {
+  border-color: rgb(242, 139, 0);
+}
+#shopMain #BestSeller .productBoxes {
+  overflow: hidden;
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox {
+  margin: 0rem 10px;
+  margin-top: 30px;
+  padding: 1rem 0rem;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox img {
+  width: 100%;
+  height: 10% !important;
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox:hover {
+  border: 2px solid rgb(242, 139, 0);
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox .textPart .title .text {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 0rem 1rem;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox .textPart .productDescription {
+  margin-top: 2rem;
+  text-align: start;
+  padding: 0rem 1rem;
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox .textPart .productDescription a {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+  line-height: 25px;
+  transition-duration: 0.3s;
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox .textPart .productDescription a:hover {
+  color: #f28b00;
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox .textPart .priceSection {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox .textPart .priceSection .discount {
+  color: rgb(242, 139, 0);
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+#shopMain #BestSeller .productBoxes .imageAndTextBox .textPart .priceSection .sale del {
+  color: rgb(197, 197, 197);
+}
+#shopMain .RIGHTonShop .categoryTab {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+#shopMain .RIGHTonShop .categoryTab .category {
+  display: flex;
+  justify-content: space-between;
+}
+#shopMain .RIGHTonShop .categoryList {
+  transition-duration: 0.3s;
+  padding: 18px 0px;
+  background-color: white;
+  width: 263px;
+  z-index: 10;
+  display: block;
+}
+#shopMain .RIGHTonShop .categoryList li {
+  display: flex;
+  align-items: center;
+  border: 1px none none;
+  padding-left: 0px;
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(72, 72, 72);
+}
+#shopMain .RIGHTonShop .categoryList li span {
+  font-size: 12px;
+  color: rgb(186, 186, 186);
+  font-weight: 400;
+  margin-left: 10px;
+}
+#shopMain .RIGHTonShop .categoryList li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
+#shopMain .RIGHTonShop .categoryList li i {
+  font-size: 7px;
+  padding-right: 15px;
+}
+#shopMain .RIGHTonShop .categoryList li:hover {
+  color: rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .categoryList li:hover a {
+  color: rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .categoryList :last-child {
+  margin-bottom: 0;
+}
+#shopMain #SortProduct .productTab {
+  position: relative;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+#shopMain #SortProduct .productTab span {
+  font-size: 13px;
+  color: rgb(101, 101, 101);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+#shopMain #SortProduct .menuproductTab {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+#shopMain #SortProduct .menuproductTab img {
+  margin-right: 10px;
+}
+#shopMain #SortProduct .menuproductTab .popularity {
+  margin-right: 30px;
+}
+#shopMain #SortProduct .menuproductTab .popularity select {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 20px;
+  font-size: 13px;
+  color: rgb(114, 114, 114);
+  padding: 5px;
+}
+#shopMain #SortProduct .menuproductTab .popularity select:focus {
+  border: 1px solid rgb(229, 229, 229);
+  outline: 1px solid rgb(229, 229, 229);
+}
+#shopMain #SortProduct .menuproductTab .Show select {
+  padding: 5px;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 20px;
+  font-size: 13px;
+  color: rgb(114, 114, 114);
+}
+#shopMain #SortProduct .menuproductTab .Show select:focus {
+  border: 1px solid rgb(229, 229, 229);
+  outline: 1px solid rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox {
+  margin-top: 10px;
+  padding: 2rem 0rem;
+  border: 2px solid transparent;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox:hover {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box img {
+  transform-origin: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box i {
+  color: rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct1 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box img {
+  transform-origin: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box i {
+  color: rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct2 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box img {
+  transform-origin: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box i {
+  color: rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct3 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box img {
+  transform-origin: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box i {
+  color: rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct4 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box img {
+  transform-origin: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box i {
+  color: rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct5 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box img {
+  transform-origin: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box i {
+  color: rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct6 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box img {
+  transform-origin: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box i {
+  color: rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct7 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box img {
+  transform-origin: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box i {
+  color: rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct8 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct9 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct9 .box img {
+  transform-origin: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct9 .box i {
+  color: rgb(229, 229, 229);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct9 .box i:hover {
+  color: rgb(51, 51, 51);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct9 .box #iconLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .productBoxesSectionSliderForSingleProduct9 .box #iconRight {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .textPart .title {
+  position: relative;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .textPart .title span {
+  color: white;
+  padding: 0rem 6rem;
+  border-bottom: 1px solid rgba(145, 145, 145, 0.5);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .textPart .title .text {
+  position: absolute;
+  top: 10px;
+  left: 37%;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 0rem 1rem;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .textPart .productDescription {
+  margin-top: 2rem;
+  text-align: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .textPart .productDescription a {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+  line-height: 25px;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .textPart .priceSection {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .textPart .priceSection .discount {
+  color: rgb(242, 139, 0);
+  font-weight: 500;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .textPart .priceSection .sale del {
+  color: rgb(197, 197, 197);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList {
+  display: none;
+  padding: 1rem;
+  transition-duration: 0.3s;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .top {
+  display: flex;
+  justify-content: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .top button {
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .top button:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .top button span {
+  color: white;
+  padding-left: 1rem;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .left a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .left a img {
+  padding-right: 10px;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .left a:hover {
+  color: rgb(242, 139, 0);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .right a {
+  color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .right a:hover {
+  color: rgb(242, 139, 0);
+}
+#shopMain #SortProduct .productBox .imageAndTextBox .onHoverBasketCompareWishList .bottom .right a img {
+  padding-right: 10px;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox:hover {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+#shopMain #SortProduct .productBox .imageAndTextBox:hover .onHoverBasketCompareWishList {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
