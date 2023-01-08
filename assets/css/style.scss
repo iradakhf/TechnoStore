@@ -3521,4 +3521,314 @@ body{
             font-weight: 400;
         }
     }
+    .checkoutGeneral{
+        margin-top: 20px;
+        h3{
+            font-size: 20px;
+            font-family: $secondary_font;
+            color: rgb(45, 45, 45);
+        }
+        .checkoutLogin{
+            border: 2px dashed $secondary_color;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            padding: 1rem 0;
+            padding-left: 15px;
+            font-size: 14px;
+            font-family: $primary_font;
+            a{
+                color: $primary_color;
+            }
+        }
+        .billingDetail{
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-family: $primary_font;
+            h3{
+                border-bottom: 1px solid $secondary_color;
+                padding-bottom: 10px;
+            }
+            .billingDetails{
+                margin-top: 40px;
+                margin-bottom: 20px;
+             display: flex;
+             justify-content: space-between;
+             .left{
+                width: 45%;
+                .label{
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+                input{
+                    width: 100%;
+                    margin-top: 10px;
+                    border-radius: 20px;
+                    padding-left: 1rem;
+                    border: 2px solid $secondary_color;
+                    padding: .5rem 0;
+                    padding-left: 1rem;
+                    font-size: 12px;
+                    &:focus{
+                        outline: 2px solid $secondary_color;
+                        border: 2px solid $secondary_color;
+                    }
+                }
+             }
+             .right{
+                width: 45%;
+                .label{
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+                input{
+                    width: 100%;
+                    margin-top: 6px;
+                    border-radius: 20px;
+                    border: 2px solid $secondary_color;
+                    padding: .5rem 0;
+                    padding-left: 1rem;
+                    font-size: 12px;
+                    &:focus{
+                        outline: 2px solid $secondary_color;
+                        border: 2px solid $secondary_color;
+                    }
+                }
+             }
+            }
+        }
+        .companyName{
+            margin-top: 40px;
+            margin-bottom: 20px;
+            p{
+            font-size: 13px;
+            font-family: $primary_font;
+
+            }
+            input{
+                width: 100%;
+                margin-top: 10px;
+                border-radius: 20px;
+                padding-left: 1rem;
+                border: 2px solid $secondary_color;
+                padding: .5rem 0;
+                padding-left: 1rem;
+                font-size: 12px;
+                &:focus{
+                    outline: 2px solid $secondary_color;
+                    border: 2px solid $secondary_color;
+                }
+            }
+         
+        }
+        .country{
+            margin-top: 40px;
+            margin-bottom: 20px;
+            p{
+            font-size: 13px;
+            font-family: $primary_font;
+
+            }
+            input{
+                width: 100%;
+                margin-top: 10px;
+                border-radius: 20px;
+                padding-left: 1rem;
+                border: 2px solid $secondary_color;
+                padding: .5rem 0;
+                padding-left: 1rem;
+                font-size: 12px;
+                &:focus{
+                    outline: 2px solid $secondary_color;
+                    border: 2px solid $secondary_color;
+                }
+            }
+        }
+        .createAnAccount{
+            font-size: 13px;
+            font-family: $primary_font;
+
+        }
+        .contact{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            p{
+            font-size: 13px;
+            font-family: $primary_font;
+
+            }
+            input{
+                width: 100%;
+                margin-top: 10px;
+                border-radius: 20px;
+                padding-left: 1rem;
+                border: 2px solid $secondary_color;
+                padding: .5rem 0;
+                padding-left: 1rem;
+                font-size: 12px;
+                &:focus{
+                    outline: 2px solid $secondary_color;
+                    border: 2px solid $secondary_color;
+                }
+            }
+            .left{
+                width: 45%;
+            }
+            .right{
+                width: 45%;
+            }
+        }
+        .shippingAddress{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            h3{
+           font-size: 16px;
+           font-family: $primary_font;
+           color: rgb(72, 72, 72);
+           border-bottom: 1px solid $secondary_color;
+           padding-bottom: 1rem;
+            }
+            .createAnAccount{
+                margin-top: 30px;
+            }
+        }
+        .order{
+            margin-bottom: 50px;
+            p{
+                margin-bottom: 10px;
+            }
+            textarea{
+           border: 2px solid $secondary_color;
+           border-radius: 8px;
+           padding: 1rem 0rem;
+           padding-left: 2rem;
+           width: 100%;
+           font-size: 13px;
+           font-family: $primary_font;
+           color: rgb(114, 114, 114);
+            }
+        }
+        .rightCart{
+            background-color: rgb(245, 245, 245);
+            padding: 35px;
+            border-radius: 7px;
+            h3{
+                margin-bottom: 26px;
+                font-size: 18px;
+                font-family: $primary_font;
+                color: rgb(72, 72, 72);
+                font-weight: 700;
+            }
+            p{
+                font-size: 15px;
+                font-family: $primary_font;
+                color: rgb(45, 45, 45);
+               
+            }
+            .productNameAndPrice{
+                margin-top: 30px;
+                .productName{
+                    font-size: 14px;
+                    color: rgb(140, 140, 140);
+                    font-family: $secondary_font;
+                }
+                .productPrice{
+                    font-size: 14px;
+                    color: rgb(140, 140, 140);
+                    font-family: $secondary_font;
+                }
+               
+                margin-bottom: 20px;
+            }
+            .shipping{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30px;
+             .rightPartForShipping{
+                .flatRate{
+                    margin-bottom: 10px;
+                }
+                .free{
+                    margin-bottom: 10px;
+                }
+                .calculateShipping{
+                    cursor: pointer;
+                    text-decoration: underline;
+                    font-size: 14px;
+                }
+                
+                span{
+                    font-size: 14px;
+                    color: rgb(131, 131, 131);
+                    span{
+                        font-weight: 700;
+                    }
+                }
+             }
+            }
+            .total{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 40px;
+                .totalPrice{
+                    font-size: 24px;
+                    color: $primary_color;
+                }
+            }
+            .totalFirst{
+                display: flex;
+                justify-content: space-between;
+                .totalPrice{
+                    font-size: 24px;
+                    color: rgb(131, 131, 131);
+                }
+            }
+            .buttons{
+                margin-top: 50px;
+                button{
+                    display: block;
+                    padding: 1rem;
+                    width: 100%;
+                    border-radius: 30px;
+                    color: white;
+                    margin-top: 1.2rem;
+                }
+                #ProceedToCheckout{
+                    background-color: rgb(249, 36, 0);
+                    border: 1px solid rgb(249, 36, 0);
+                    transition-duration: .5s;
+                    &:hover{
+                        background-color: rgb(45, 45, 45);
+                        border-color: rgb(45, 45, 45);
+                    }
+                }
+            }
+            .checkPayment{
+                margin-top: 50px;
+                font-size: 14px;
+                color: rgb(45, 45, 45);
+                font-family: $primary_font;
+                p{
+                    font-size: 13px;
+                    font-family: $primary_font;
+                    color: rgb(131, 131, 131);
+                    margin: 20px 0px;
+                }
+                input{
+                    margin-top: 10px;
+                }
+            }
+            .readAndAccept{
+                margin-top: 50px;
+                font-size: 14px;
+                color: rgb(45, 45, 45);
+                font-family: $primary_font;
+               input{
+                margin-right: 10px;
+               }
+            }
+        }
+    }
 }

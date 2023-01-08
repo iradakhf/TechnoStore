@@ -4537,4 +4537,304 @@ body footer .bottom p {
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+}
+#checkoutMain .checkoutGeneral {
+  margin-top: 20px;
+}
+#checkoutMain .checkoutGeneral h3 {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  color: rgb(45, 45, 45);
+}
+#checkoutMain .checkoutGeneral .checkoutLogin {
+  border: 2px dashed rgb(229, 229, 229);
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  padding: 1rem 0;
+  padding-left: 15px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+#checkoutMain .checkoutGeneral .checkoutLogin a {
+  color: rgb(242, 139, 0);
+}
+#checkoutMain .checkoutGeneral .billingDetail {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+#checkoutMain .checkoutGeneral .billingDetail h3 {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding-bottom: 10px;
+}
+#checkoutMain .checkoutGeneral .billingDetail .billingDetails {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#checkoutMain .checkoutGeneral .billingDetail .billingDetails .left {
+  width: 45%;
+}
+#checkoutMain .checkoutGeneral .billingDetail .billingDetails .left .label {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+#checkoutMain .checkoutGeneral .billingDetail .billingDetails .left input {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-left: 1rem;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  font-size: 12px;
+}
+#checkoutMain .checkoutGeneral .billingDetail .billingDetails .left input:focus {
+  outline: 2px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
+}
+#checkoutMain .checkoutGeneral .billingDetail .billingDetails .right {
+  width: 45%;
+}
+#checkoutMain .checkoutGeneral .billingDetail .billingDetails .right .label {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+#checkoutMain .checkoutGeneral .billingDetail .billingDetails .right input {
+  width: 100%;
+  margin-top: 6px;
+  border-radius: 20px;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  font-size: 12px;
+}
+#checkoutMain .checkoutGeneral .billingDetail .billingDetails .right input:focus {
+  outline: 2px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
+}
+#checkoutMain .checkoutGeneral .companyName {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#checkoutMain .checkoutGeneral .companyName p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+#checkoutMain .checkoutGeneral .companyName input {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-left: 1rem;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  font-size: 12px;
+}
+#checkoutMain .checkoutGeneral .companyName input:focus {
+  outline: 2px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
+}
+#checkoutMain .checkoutGeneral .country {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#checkoutMain .checkoutGeneral .country p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+#checkoutMain .checkoutGeneral .country input {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-left: 1rem;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  font-size: 12px;
+}
+#checkoutMain .checkoutGeneral .country input:focus {
+  outline: 2px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
+}
+#checkoutMain .checkoutGeneral .createAnAccount {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+#checkoutMain .checkoutGeneral .contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#checkoutMain .checkoutGeneral .contact p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+#checkoutMain .checkoutGeneral .contact input {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-left: 1rem;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  font-size: 12px;
+}
+#checkoutMain .checkoutGeneral .contact input:focus {
+  outline: 2px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
+}
+#checkoutMain .checkoutGeneral .contact .left {
+  width: 45%;
+}
+#checkoutMain .checkoutGeneral .contact .right {
+  width: 45%;
+}
+#checkoutMain .checkoutGeneral .shippingAddress {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#checkoutMain .checkoutGeneral .shippingAddress h3 {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(72, 72, 72);
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding-bottom: 1rem;
+}
+#checkoutMain .checkoutGeneral .shippingAddress .createAnAccount {
+  margin-top: 30px;
+}
+#checkoutMain .checkoutGeneral .order {
+  margin-bottom: 50px;
+}
+#checkoutMain .checkoutGeneral .order p {
+  margin-bottom: 10px;
+}
+#checkoutMain .checkoutGeneral .order textarea {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 8px;
+  padding: 1rem 0rem;
+  padding-left: 2rem;
+  width: 100%;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(114, 114, 114);
+}
+#checkoutMain .checkoutGeneral .rightCart {
+  background-color: rgb(245, 245, 245);
+  padding: 35px;
+  border-radius: 7px;
+}
+#checkoutMain .checkoutGeneral .rightCart h3 {
+  margin-bottom: 26px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(72, 72, 72);
+  font-weight: 700;
+}
+#checkoutMain .checkoutGeneral .rightCart p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(45, 45, 45);
+}
+#checkoutMain .checkoutGeneral .rightCart .productNameAndPrice {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#checkoutMain .checkoutGeneral .rightCart .productNameAndPrice .productName {
+  font-size: 14px;
+  color: rgb(140, 140, 140);
+  font-family: "Nunito", sans-serif;
+}
+#checkoutMain .checkoutGeneral .rightCart .productNameAndPrice .productPrice {
+  font-size: 14px;
+  color: rgb(140, 140, 140);
+  font-family: "Nunito", sans-serif;
+}
+#checkoutMain .checkoutGeneral .rightCart .shipping {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#checkoutMain .checkoutGeneral .rightCart .shipping .rightPartForShipping .flatRate {
+  margin-bottom: 10px;
+}
+#checkoutMain .checkoutGeneral .rightCart .shipping .rightPartForShipping .free {
+  margin-bottom: 10px;
+}
+#checkoutMain .checkoutGeneral .rightCart .shipping .rightPartForShipping .calculateShipping {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+#checkoutMain .checkoutGeneral .rightCart .shipping .rightPartForShipping span {
+  font-size: 14px;
+  color: rgb(131, 131, 131);
+}
+#checkoutMain .checkoutGeneral .rightCart .shipping .rightPartForShipping span span {
+  font-weight: 700;
+}
+#checkoutMain .checkoutGeneral .rightCart .total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+#checkoutMain .checkoutGeneral .rightCart .total .totalPrice {
+  font-size: 24px;
+  color: rgb(242, 139, 0);
+}
+#checkoutMain .checkoutGeneral .rightCart .totalFirst {
+  display: flex;
+  justify-content: space-between;
+}
+#checkoutMain .checkoutGeneral .rightCart .totalFirst .totalPrice {
+  font-size: 24px;
+  color: rgb(131, 131, 131);
+}
+#checkoutMain .checkoutGeneral .rightCart .buttons {
+  margin-top: 50px;
+}
+#checkoutMain .checkoutGeneral .rightCart .buttons button {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 30px;
+  color: white;
+  margin-top: 1.2rem;
+}
+#checkoutMain .checkoutGeneral .rightCart .buttons #ProceedToCheckout {
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+  transition-duration: 0.5s;
+}
+#checkoutMain .checkoutGeneral .rightCart .buttons #ProceedToCheckout:hover {
+  background-color: rgb(45, 45, 45);
+  border-color: rgb(45, 45, 45);
+}
+#checkoutMain .checkoutGeneral .rightCart .checkPayment {
+  margin-top: 50px;
+  font-size: 14px;
+  color: rgb(45, 45, 45);
+  font-family: "Open Sans", sans-serif;
+}
+#checkoutMain .checkoutGeneral .rightCart .checkPayment p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(131, 131, 131);
+  margin: 20px 0px;
+}
+#checkoutMain .checkoutGeneral .rightCart .checkPayment input {
+  margin-top: 10px;
+}
+#checkoutMain .checkoutGeneral .rightCart .readAndAccept {
+  margin-top: 50px;
+  font-size: 14px;
+  color: rgb(45, 45, 45);
+  font-family: "Open Sans", sans-serif;
+}
+#checkoutMain .checkoutGeneral .rightCart .readAndAccept input {
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
