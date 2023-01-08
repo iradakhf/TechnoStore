@@ -212,6 +212,15 @@
             margin-bottom: 2rem !important;
         }
        }
+       #cartMain{
+        .totalPrice{
+            width: 50% !important;
+            font-size: 10px !important;
+        }
+        .trash{
+            margin: 0;
+        }
+       }
 }
 @media (max-width:991px)  { 
     header{
@@ -389,6 +398,17 @@ footer{
         margin-bottom: 2rem !important;
     }
    }
+   #shopMain{
+    overflow: hidden;
+ .basket{
+    img{
+        width: 50% !important;
+    }
+ }
+ .banner{
+    margin-top: 150px !important;
+ }
+   }
  }
 @media (max-width:1025px) { 
     header{
@@ -443,7 +463,13 @@ footer{
         }
        }
     }
-
+    #servicesCart{
+        h3{
+         margin: 5px 0 !important;
+         font-size: 15px !important;
+        }
+        }
+     
  }
 @media (max-width:1281px) { 
     header{
@@ -496,4 +522,11 @@ footer{
             }
            }
     }
+    #servicesCart{
+        h3{
+         margin-bottom: 10px !important;
+         font-size: 15px !important;
+        }
+        }
+    
 }

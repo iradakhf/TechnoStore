@@ -208,6 +208,13 @@ a {
   footer .FooterTopMobile {
     margin-bottom: 2rem !important;
   }
+  #cartMain .totalPrice {
+    width: 50% !important;
+    font-size: 10px !important;
+  }
+  #cartMain .trash {
+    margin: 0;
+  }
 }
 @media (max-width: 991px) {
   header .searchSuggestions {
@@ -348,6 +355,15 @@ a {
   footer .FooterTopMobile {
     margin-bottom: 2rem !important;
   }
+  #shopMain {
+    overflow: hidden;
+  }
+  #shopMain .basket img {
+    width: 50% !important;
+  }
+  #shopMain .banner {
+    margin-top: 150px !important;
+  }
 }
 @media (max-width: 1025px) {
   header {
@@ -385,6 +401,10 @@ a {
   main #productBoxesNewArrivalFeaturedTopSelling .productBox .box img {
     width: 70%;
   }
+  #servicesCart h3 {
+    margin: 5px 0 !important;
+    font-size: 15px !important;
+  }
 }
 @media (max-width: 1281px) {
   header {
@@ -421,6 +441,10 @@ a {
   }
   main #productBoxesNewArrivalFeaturedTopSelling .productBox .box img {
     width: 70%;
+  }
+  #servicesCart h3 {
+    margin-bottom: 10px !important;
+    font-size: 15px !important;
   }
 }
 body .modal-content {
@@ -3427,6 +3451,9 @@ body footer .bottom p {
   display: flex;
   justify-content: space-between;
 }
+#shopMain .RIGHTonShop .categoryTab i {
+  cursor: pointer;
+}
 #shopMain .RIGHTonShop .categoryList {
   transition-duration: 0.3s;
   padding: 18px 0px;
@@ -3471,6 +3498,290 @@ body footer .bottom p {
 }
 #shopMain .RIGHTonShop .categoryList :last-child {
   margin-bottom: 0;
+}
+#shopMain .RIGHTonShop .price {
+  margin-top: 10px;
+}
+#shopMain .RIGHTonShop .price i {
+  cursor: pointer;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral {
+  display: block;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral span {
+  margin-top: 20px;
+  display: inline-block;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range .range_container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 15% auto;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range .range {
+  color: rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range .sliders_control {
+  position: relative;
+  min-height: 50px;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range .form_control {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  color: rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(242, 139, 0);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgb(242, 139, 0);
+  cursor: pointer;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range input[type=range]::-moz-range-thumb {
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: 24px;
+  height: 24px;
+  background-color: rgb(242, 139, 0);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #C6C6C6;
+  cursor: pointer;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range input[type=range]::-webkit-slider-thumb:hover {
+  background: rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range input[type=range]::-webkit-slider-thumb:active {
+  box-shadow: inset 0 0 3px rgb(242, 139, 0), 0 0 9px rgb(242, 139, 0);
+  -webkit-box-shadow: inset 0 0 3px rgb(242, 139, 0), 0 0 9px rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range input[type=number] {
+  color: #8a8383;
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range input[type=number]::-webkit-inner-spin-button,
+#shopMain .RIGHTonShop .price .rangeGeneral .range input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range input[type=range] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  pointer-events: none;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range .form_control {
+  margin-top: -30px;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range .form_control span {
+  margin-left: -15px;
+  font-size: 15px;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range #fromSlider {
+  height: 0;
+  z-index: 1;
+}
+#shopMain .RIGHTonShop .price .rangeGeneral .range input {
+  border: none;
+  width: 20%;
+  font-size: 12px;
+}
+#shopMain .RIGHTonShop .price .priceTab {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+#shopMain .RIGHTonShop .price .priceTab .price {
+  display: flex;
+  justify-content: space-between;
+}
+#shopMain .RIGHTonShop .brands {
+  margin-top: 20px;
+  display: block;
+}
+#shopMain .RIGHTonShop .brands i {
+  cursor: pointer;
+}
+#shopMain .RIGHTonShop .brands .brandTab {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+#shopMain .RIGHTonShop .brands .brandTab .brand {
+  display: flex;
+  justify-content: space-between;
+}
+#shopMain .RIGHTonShop .brands .brandSearch {
+  margin-top: 30px;
+}
+#shopMain .RIGHTonShop .brands .brandSearch .search input {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 40px;
+  padding: 10px;
+  padding-left: 20px;
+  width: 100%;
+}
+#shopMain .RIGHTonShop .brands .brandSearch .search input:focus {
+  outline: 1px none transparent;
+  border: 1px solid rgb(229, 229, 229);
+}
+#shopMain .RIGHTonShop .brands .brandSearch .context {
+  margin-top: 30px;
+}
+#shopMain .RIGHTonShop .brands .brandSearch .context .box {
+  margin-top: 30px;
+}
+#shopMain .RIGHTonShop .brands .brandSearch .context .box span {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(101, 101, 101);
+}
+#shopMain .RIGHTonShop .brands .brandSearch .context .box span span {
+  color: rgb(186, 186, 186);
+  margin-left: 5px;
+}
+#shopMain .RIGHTonShop .brands .brandSearch .context input {
+  width: 50px;
+}
+#shopMain .RIGHTonShop .colors {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#shopMain .RIGHTonShop .colors i {
+  cursor: pointer;
+}
+#shopMain .RIGHTonShop .colors .colorTab {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+#shopMain .RIGHTonShop .colors .colorTab .color {
+  display: flex;
+  justify-content: space-between;
+}
+#shopMain .RIGHTonShop .colors .colorSearch {
+  margin-top: 30px;
+}
+#shopMain .RIGHTonShop .colors .colorSearch .search input {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 40px;
+  padding: 10px;
+  padding-left: 20px;
+  width: 100%;
+}
+#shopMain .RIGHTonShop .colors .colorSearch .search input:focus {
+  outline: 1px none transparent;
+  border: 1px solid rgb(229, 229, 229);
+}
+#shopMain .RIGHTonShop .colors .colorSearch .context {
+  margin-top: 30px;
+}
+#shopMain .RIGHTonShop .colors .colorSearch .context .box {
+  margin-top: 30px;
+}
+#shopMain .RIGHTonShop .colors .colorSearch .context .box span {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(101, 101, 101);
+}
+#shopMain .RIGHTonShop .colors .colorSearch .context .box span span {
+  color: rgb(186, 186, 186);
+  margin-left: 5px;
+}
+#shopMain .RIGHTonShop .colors .colorSearch .context input {
+  width: 50px;
+}
+#shopMain .RIGHTonShop .bestseller {
+  display: block;
+}
+#shopMain .RIGHTonShop .bestseller i {
+  cursor: pointer;
+}
+#shopMain .RIGHTonShop .bestseller .bestsellerTab {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+#shopMain .RIGHTonShop .bestseller .bestsellerTab .bestseller {
+  display: flex;
+  justify-content: space-between;
+}
+#shopMain .RIGHTonShop .bestseller .basket {
+  transition-duration: 0.3s;
+  background-color: white;
+  height: 350px;
+  width: 115%;
+  z-index: 5;
+  padding: 20px 30px;
+}
+#shopMain .RIGHTonShop .bestseller .basket .stars {
+  font-size: 10px;
+  margin-top: 10px;
+  color: rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .bestseller .basket .stars i {
+  margin-right: 5px;
+}
+#shopMain .RIGHTonShop .bestseller .basket .priceSection {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#shopMain .RIGHTonShop .bestseller .basket .priceSection .discount {
+  color: rgb(242, 139, 0);
+  font-weight: 500;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+#shopMain .RIGHTonShop .bestseller .basket .priceSection .sale {
+  margin-left: 5px;
+}
+#shopMain .RIGHTonShop .bestseller .basket .priceSection .sale del {
+  font-size: 11px;
+  color: rgb(197, 197, 197);
+}
+#shopMain .RIGHTonShop .bestseller .basket .imgForBasket img {
+  width: 100%;
+}
+#shopMain .RIGHTonShop .bestseller .basket .name {
+  margin-bottom: 3px;
+  color: rgb(72, 72, 72);
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+#shopMain .RIGHTonShop .bestseller .basket .name :hover {
+  color: rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .bestseller .basket .price {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .bestseller .basket .closeX :hover {
+  color: rgb(242, 139, 0);
+}
+#shopMain .RIGHTonShop .banner {
+  margin-bottom: 6rem;
+  margin-top: 20px;
 }
 #shopMain #SortProduct .productTab {
   position: relative;
@@ -3869,4 +4180,361 @@ body footer .bottom p {
 }
 #shopMain #SortProduct .productBox .imageAndTextBox:hover .onHoverBasketCompareWishList {
   display: block;
+}
+#shopMain #PrevNext {
+  margin: 20px 0 80px;
+}
+#shopMain #PrevNext .blog-pagination {
+  border-top: 1px solid rgb(229, 229, 229);
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 30px 0;
+}
+#shopMain #PrevNext .blog-pagination span {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(101, 101, 101);
+}
+#shopMain #PrevNext .blog-pagination ul li {
+  font-size: 13px;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+#shopMain #PrevNext .blog-pagination ul li:hover {
+  color: #f28b00;
+}
+#shopMain #PrevNext .blog-pagination ul li i {
+  margin: 0rem 10px;
+}
+#shopMain #PrevNext .blog-pagination ul li a {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 20px;
+  padding: 10px;
+}
+#shopMain #PrevNext .blog-pagination ul li a:hover {
+  background-color: #f28b00;
+  color: white;
+}
+
+#cartMain .breadcrumbGeneral {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 1.2rem 0rem;
+  margin-bottom: 1rem;
+  margin-bottom: 40px;
+}
+#cartMain .breadcrumbGeneral ul {
+  display: flex;
+  align-items: center;
+}
+#cartMain .breadcrumbGeneral ul li a {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 13px;
+  color: rgb(140, 140, 140);
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+#cartMain .breadcrumbGeneral ul li a i {
+  margin: 0 20px;
+}
+#cartMain .breadcrumbGeneral ul li:last-child {
+  color: #2d2d2d;
+  font-size: 13px;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+#cartMain .generalCart {
+  margin-bottom: 40px;
+}
+#cartMain .generalCart .leftCart {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+}
+#cartMain .generalCart .leftCart h3 {
+  margin-bottom: 40px;
+}
+#cartMain .generalCart .leftCart table {
+  width: 100%;
+}
+#cartMain .generalCart .leftCart table thead {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+#cartMain .generalCart .leftCart table thead tr {
+  display: flex;
+  justify-content: space-between;
+}
+#cartMain .generalCart .leftCart table thead tr th {
+  font-size: 14px;
+  color: rgb(72, 72, 72);
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 15px;
+}
+#cartMain .generalCart .leftCart table thead tr :first-child {
+  width: 60%;
+}
+#cartMain .generalCart .leftCart table tbody tr {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#cartMain .generalCart .leftCart table tbody tr #inputForCount {
+  width: 30%;
+}
+#cartMain .generalCart .leftCart table tbody tr td {
+  display: flex;
+  align-items: center;
+}
+#cartMain .generalCart .leftCart table tbody tr td .inputForCount {
+  margin-right: 10px;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+#cartMain .generalCart .leftCart table tbody tr td .inputForCount i {
+  padding: 0rem 0.8rem;
+}
+#cartMain .generalCart .leftCart table tbody tr td .totalPrice {
+  font-size: 20px;
+  color: rgb(242, 139, 0);
+  margin-right: 30px;
+}
+#cartMain .generalCart .leftCart table tbody tr td .trash {
+  cursor: pointer;
+  margin-left: 10px;
+}
+#cartMain .generalCart .leftCart table tbody tr td img {
+  width: 40%;
+}
+#cartMain .generalCart .leftCart table tbody tr td .name {
+  margin-right: 30px;
+}
+#cartMain .generalCart .leftCart table tbody tr td .name p {
+  font-size: 15px;
+  color: rgb(72, 72, 72);
+  font-family: "Open Sans", sans-serif;
+}
+#cartMain .generalCart .leftCart table tbody tr td .price p {
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: rgb(152, 152, 152);
+}
+#cartMain .generalCart .leftCart table tbody .image {
+  width: 35%;
+}
+#cartMain .generalCart .leftCart .coupon {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 1px dashed rgb(229, 229, 229);
+  padding: 80px;
+}
+#cartMain .generalCart .leftCart .coupon input {
+  border-radius: 20px;
+  font-size: 13px;
+  padding-left: 15px;
+  border: 1px solid rgb(229, 229, 229);
+  margin-right: 20px;
+  width: 50%;
+}
+#cartMain .generalCart .leftCart .coupon input:focus {
+  border: 1px solid rgb(229, 229, 229);
+  outline: 1px solid rgb(229, 229, 229);
+}
+#cartMain .generalCart .leftCart .coupon button {
+  background-color: rgb(45, 45, 45);
+  border-radius: 20px;
+  border: 1px solid rgb(45, 45, 45);
+  color: white;
+  font-size: 13px;
+  padding: 10px;
+}
+#cartMain .generalCart .leftCart .coupon button:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+#cartMain .generalCart .rightCart {
+  background-color: rgb(245, 245, 245);
+  padding: 35px;
+  border-radius: 7px;
+}
+#cartMain .generalCart .rightCart h3 {
+  margin-bottom: 26px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(72, 72, 72);
+  font-weight: 700;
+}
+#cartMain .generalCart .rightCart p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(45, 45, 45);
+}
+#cartMain .generalCart .rightCart .subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#cartMain .generalCart .rightCart .subtotal .subtotalPrice {
+  font-size: 19px;
+  color: rgb(140, 140, 140);
+  font-family: "Nunito", sans-serif;
+}
+#cartMain .generalCart .rightCart .shipping {
+  display: flex;
+  justify-content: space-between;
+}
+#cartMain .generalCart .rightCart .shipping .rightPartForShipping .flatRate {
+  margin-bottom: 10px;
+}
+#cartMain .generalCart .rightCart .shipping .rightPartForShipping .free {
+  margin-bottom: 10px;
+}
+#cartMain .generalCart .rightCart .shipping .rightPartForShipping .calculateShipping {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+#cartMain .generalCart .rightCart .shipping .rightPartForShipping span {
+  font-size: 14px;
+  color: rgb(131, 131, 131);
+}
+#cartMain .generalCart .rightCart .shipping .rightPartForShipping span span {
+  font-weight: 700;
+}
+#cartMain .generalCart .rightCart .total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+#cartMain .generalCart .rightCart .total .totalPrice {
+  font-size: 24px;
+  color: rgb(242, 139, 0);
+}
+#cartMain .generalCart .rightCart .buttons {
+  margin-top: 100px;
+}
+#cartMain .generalCart .rightCart .buttons button {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 30px;
+  color: white;
+  margin-top: 1.2rem;
+}
+#cartMain .generalCart .rightCart .buttons #firstBtn {
+  background-color: rgb(173, 173, 173);
+  border: 1px solid rgb(173, 173, 173);
+}
+#cartMain .generalCart .rightCart .buttons #firstBtn:hover {
+  background-color: rgb(45, 45, 45);
+  border-color: rgb(45, 45, 45);
+}
+#cartMain .generalCart .rightCart .buttons #ProceedToCheckout {
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+}
+#cartMain .generalCart .rightCart .buttons #ProceedToCheckout:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+#cartMain #servicesCart {
+  margin-bottom: 40px;
+}
+#cartMain #servicesCart .boox {
+  border: 1px solid rgb(229, 229, 229);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100px;
+  padding: 1rem 1.2rem;
+}
+#cartMain #servicesCart img {
+  margin-right: 20px;
+}
+#cartMain #servicesCart h3 {
+  width: 100%;
+  color: rgb(45, 45, 45);
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+#cartMain #servicesCart p {
+  color: rgb(145, 145, 145);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+#checkoutMain .breadcrumbGeneral {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 1.2rem 0rem;
+  margin-bottom: 1rem;
+  margin-bottom: 40px;
+}
+#checkoutMain .breadcrumbGeneral ul {
+  display: flex;
+  align-items: center;
+}
+#checkoutMain .breadcrumbGeneral ul li a {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 13px;
+  color: rgb(140, 140, 140);
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+#checkoutMain .breadcrumbGeneral ul li a i {
+  margin: 0 20px;
+}
+#checkoutMain .breadcrumbGeneral ul li:last-child {
+  color: #2d2d2d;
+  font-size: 13px;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+#checkoutMain #servicesCart {
+  margin-bottom: 40px;
+}
+#checkoutMain #servicesCart .boox {
+  border: 1px solid rgb(229, 229, 229);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100px;
+  padding: 1rem 1.2rem;
+}
+#checkoutMain #servicesCart img {
+  margin-right: 20px;
+}
+#checkoutMain #servicesCart h3 {
+  width: 100%;
+  color: rgb(45, 45, 45);
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+#checkoutMain #servicesCart p {
+  color: rgb(145, 145, 145);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
