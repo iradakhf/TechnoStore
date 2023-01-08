@@ -221,6 +221,19 @@
             margin: 0;
         }
        }
+       #aboutMain{
+        #second{
+            a{
+                margin-top: 20px !important;
+            }
+            p{
+                margin-bottom: 30px !important;
+            }
+            img{
+             width: 100% !important;
+            }
+         }
+       }
 }
 @media (max-width:991px)  { 
     header{
@@ -469,6 +482,13 @@ footer{
          font-size: 15px !important;
         }
         }
+        #aboutMain{
+            #firstSection{
+                img{
+                    position: static !important;
+                }
+            }
+        }
      
  }
 @media (max-width:1281px) { 
@@ -527,6 +547,22 @@ footer{
          margin-bottom: 10px !important;
          font-size: 15px !important;
         }
+        }
+        #aboutMain{
+            #firstSection{
+                img{
+                    position: static !important;
+                    width: 100% !important;
+                }
+                .Right{
+                    margin-top: 30px !important;
+                }
+            }
+            #second{
+               img{
+                width: 80%;
+               }
+            }
         }
     
 }
