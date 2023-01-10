@@ -285,6 +285,9 @@ a {
     overflow: hidden;
     display: block !important;
   }
+  .addtoCatButtoon button {
+    padding: 0.3rem 0 !important;
+  }
   main #mainSliderSection {
     padding: 1.9rem 0rem !important;
   }
@@ -360,6 +363,9 @@ a {
   }
   main #specialOffer .RIGHT {
     padding-left: 10px !important;
+  }
+  #singleProduct .rightCart {
+    margin-top: 30px;
   }
   footer .FooterTopMobile {
     margin-bottom: 2rem !important;
@@ -3355,16 +3361,16 @@ body footer .bottom p {
   font-family: "Open Sans", sans-serif;
 }
 
-#shopMain .breadcrumbGeneral {
+.breadcrumbGeneral {
   border-bottom: 1px solid rgb(229, 229, 229);
   padding: 1.2rem 0rem;
   margin-bottom: 1rem;
 }
-#shopMain .breadcrumbGeneral ul {
+.breadcrumbGeneral ul {
   display: flex;
   align-items: center;
 }
-#shopMain .breadcrumbGeneral ul li a {
+.breadcrumbGeneral ul li a {
   display: flex;
   align-items: center;
   margin-left: 10px;
@@ -3373,10 +3379,10 @@ body footer .bottom p {
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
 }
-#shopMain .breadcrumbGeneral ul li a i {
+.breadcrumbGeneral ul li a i {
   margin: 0 20px;
 }
-#shopMain .breadcrumbGeneral ul li:last-child {
+.breadcrumbGeneral ul li:last-child {
   color: #2d2d2d;
   font-size: 13px;
   border: 1px solid rgb(229, 229, 229);
@@ -3384,6 +3390,7 @@ body footer .bottom p {
   border-radius: 20px;
   letter-spacing: 1px;
 }
+
 #shopMain #BestSeller .productTab {
   position: relative;
   border-bottom: 1px solid rgb(229, 229, 229);
@@ -4238,36 +4245,6 @@ body footer .bottom p {
   color: white;
 }
 
-#cartMain .breadcrumbGeneral {
-  border-bottom: 1px solid rgb(229, 229, 229);
-  padding: 1.2rem 0rem;
-  margin-bottom: 1rem;
-  margin-bottom: 40px;
-}
-#cartMain .breadcrumbGeneral ul {
-  display: flex;
-  align-items: center;
-}
-#cartMain .breadcrumbGeneral ul li a {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  font-size: 13px;
-  color: rgb(140, 140, 140);
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-}
-#cartMain .breadcrumbGeneral ul li a i {
-  margin: 0 20px;
-}
-#cartMain .breadcrumbGeneral ul li:last-child {
-  color: #2d2d2d;
-  font-size: 13px;
-  border: 1px solid rgb(229, 229, 229);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  letter-spacing: 1px;
-}
 #cartMain .generalCart {
   margin-bottom: 40px;
 }
@@ -4500,36 +4477,6 @@ body footer .bottom p {
   font-weight: 400;
 }
 
-#checkoutMain .breadcrumbGeneral {
-  border-bottom: 1px solid rgb(229, 229, 229);
-  padding: 1.2rem 0rem;
-  margin-bottom: 1rem;
-  margin-bottom: 40px;
-}
-#checkoutMain .breadcrumbGeneral ul {
-  display: flex;
-  align-items: center;
-}
-#checkoutMain .breadcrumbGeneral ul li a {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  font-size: 13px;
-  color: rgb(140, 140, 140);
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-}
-#checkoutMain .breadcrumbGeneral ul li a i {
-  margin: 0 20px;
-}
-#checkoutMain .breadcrumbGeneral ul li:last-child {
-  color: #2d2d2d;
-  font-size: 13px;
-  border: 1px solid rgb(229, 229, 229);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  letter-spacing: 1px;
-}
 #checkoutMain #servicesCart {
   margin-bottom: 40px;
 }
@@ -4861,36 +4808,6 @@ body footer .bottom p {
   margin-right: 10px;
 }
 
-#aboutMain .breadcrumbGeneral {
-  border-bottom: 1px solid rgb(229, 229, 229);
-  padding: 1.2rem 0rem;
-  margin-bottom: 1rem;
-  margin-bottom: 40px;
-}
-#aboutMain .breadcrumbGeneral ul {
-  display: flex;
-  align-items: center;
-}
-#aboutMain .breadcrumbGeneral ul li a {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  font-size: 13px;
-  color: rgb(140, 140, 140);
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-}
-#aboutMain .breadcrumbGeneral ul li a i {
-  margin: 0 20px;
-}
-#aboutMain .breadcrumbGeneral ul li:last-child {
-  color: #2d2d2d;
-  font-size: 13px;
-  border: 1px solid rgb(229, 229, 229);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  letter-spacing: 1px;
-}
 #aboutMain #firstSection {
   margin-top: 70px;
 }
@@ -5030,4 +4947,643 @@ body footer .bottom p {
   font-family: "Open Sans", sans-serif;
   color: rgb(145, 145, 145);
   margin: 20px 0;
+}
+
+#singleProductMain {
+  overflow: hidden;
+}
+#singleProductMain #singleProduct {
+  margin-top: 2rem;
+}
+#singleProductMain #singleProduct .product {
+  margin-left: 0;
+  margin-right: 0;
+}
+#singleProductMain #singleProduct .product .product-main .product-slide {
+  width: 100% !important;
+  position: relative;
+}
+#singleProductMain #singleProduct .product .product-main .product-slide .slider-for {
+  background-color: #fff;
+  margin-bottom: 30px;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+#singleProductMain #singleProduct .product .product-main .product-slide .slider-for .product-1 img {
+  max-width: 100%;
+  width: 100%;
+}
+#singleProductMain #singleProduct .product .product-main .product-slide .slider-nav .product-2 {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+  margin-right: 18px;
+  padding: 0.2rem;
+  width: 30%;
+  height: 80px;
+}
+#singleProductMain #singleProduct .product .product-main .product-slide .slider-nav .product-2 img {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+#singleProductMain #singleProduct .product .product-main .product-slide .slider-nav .product-2:hover {
+  border-color: #f28b00;
+  cursor: pointer;
+}
+#singleProductMain #singleProduct .rightCart {
+  background-color: rgb(245, 245, 245);
+  padding: 35px;
+  border-radius: 7px;
+}
+#singleProductMain #singleProduct .rightCart h3 {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(72, 72, 72);
+  font-weight: 700;
+}
+#singleProductMain #singleProduct .rightCart .category {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(145, 145, 145);
+}
+#singleProductMain #singleProduct .rightCart .review .top .i {
+  margin-bottom: 12px;
+}
+#singleProductMain #singleProduct .rightCart .review .top .text {
+  display: flex;
+  align-items: center;
+}
+#singleProductMain #singleProduct .rightCart .review .top .text span {
+  color: rgb(131, 131, 131);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 10px;
+}
+#singleProductMain #singleProduct .rightCart .review .top .text p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(72, 72, 72);
+}
+#singleProductMain #singleProduct .rightCart .review .bottom p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(72, 72, 72);
+  margin-right: 10px;
+}
+#singleProductMain #singleProduct .rightCart .review h3 {
+  background-color: rgb(249, 36, 0);
+  border-radius: 30px;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0.4rem 0.7rem;
+  margin-bottom: 0;
+}
+#singleProductMain #singleProduct .rightCart .review i {
+  color: #f28b00;
+  margin-right: 0.5rem;
+  font-size: 10px;
+}
+#singleProductMain #singleProduct .rightCart p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(45, 45, 45);
+}
+#singleProductMain #singleProduct .rightCart .buttons {
+  margin-top: 100px;
+}
+#singleProductMain #singleProduct .rightCart .buttons button {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 30px;
+  color: white;
+  margin-top: 1.2rem;
+}
+#singleProductMain #singleProduct .rightCart .buttons #firstBtn {
+  background-color: rgb(173, 173, 173);
+  border: 1px solid rgb(173, 173, 173);
+}
+#singleProductMain #singleProduct .rightCart .buttons #firstBtn:hover {
+  background-color: rgb(45, 45, 45);
+  border-color: rgb(45, 45, 45);
+}
+#singleProductMain #singleProduct .rightCart .buttons #ProceedToCheckout {
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+}
+#singleProductMain #singleProduct .rightCart .buttons #ProceedToCheckout:hover {
+  background-color: rgb(242, 139, 0);
+  border-color: rgb(242, 139, 0);
+}
+#singleProductMain #singleProduct .rightCart .addtoCatButtoon {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#singleProductMain #singleProduct .rightCart .addtoCatButtoon button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+  padding: 0.9rem 0px;
+  padding-right: 0;
+  border-radius: 30px;
+  transition-duration: 0.2s;
+  width: 45%;
+}
+#singleProductMain #singleProduct .rightCart .addtoCatButtoon button img {
+  margin-right: 10px;
+}
+#singleProductMain #singleProduct .rightCart .addtoCatButtoon button:hover {
+  background-color: rgb(72, 72, 72);
+  border-color: rgb(72, 72, 72);
+}
+#singleProductMain #singleProduct .rightCart .addtoCatButtoon .compare {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+#singleProductMain #singleProduct .rightCart .addtoCatButtoon .compare span {
+  margin-left: 6px;
+  color: rgb(145, 145, 145);
+}
+#singleProductMain #singleProduct .rightCart .addtoCatButtoon .wishlist {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+#singleProductMain #singleProduct .rightCart .addtoCatButtoon .wishlist span {
+  margin-left: 6px;
+  color: rgb(145, 145, 145);
+}
+#singleProductMain #singleProduct .rightCart .price {
+  margin-top: 30px;
+}
+#singleProductMain #singleProduct .rightCart .price .regular {
+  text-decoration: line-through;
+  color: rgb(197, 197, 197);
+}
+#singleProductMain #singleProduct .rightCart .price .sale {
+  font-size: 35px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(242, 139, 0);
+  margin-top: 10px;
+}
+#singleProductMain #singleProduct .rightCart .info-txt {
+  color: rgb(131, 131, 131);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 21px;
+  line-height: 20px;
+}
+#singleProductMain #singleProduct .rightCart .product-id {
+  margin-top: 20px;
+}
+#singleProductMain #singleProduct .rightCart .product-id span {
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+#singleProductMain #singleProduct .rightCart .product-id span span {
+  color: rgb(131, 131, 131);
+  font-weight: 400;
+}
+#singleProductMain #singleProduct .rightCart .selectAndQuantity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+#singleProductMain #singleProduct .rightCart .selectAndQuantity .quantity {
+  background-color: white;
+  padding: 1rem 2rem;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+#singleProductMain #singleProduct .rightCart .selectAndQuantity select {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: 1px none transparent;
+}
+#singleProductMain #singleProduct .rightCart .socialSingle {
+  margin-top: 4rem;
+}
+#singleProductMain #singleProduct .rightCart .socialSingle span {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(72, 72, 72);
+}
+#singleProductMain #singleProduct .rightCart .socialSingle i {
+  color: rgb(213, 213, 213);
+  margin-left: 18px;
+}
+#singleProductMain #recentProduct {
+  margin: 5rem 0;
+}
+#singleProductMain #recentProduct .productTab {
+  border-bottom: 1px solid rgba(101, 101, 101, 0.3);
+  padding: 1.3rem 0rem;
+}
+#singleProductMain #recentProduct .productTab ul li a {
+  margin-right: 10px;
+  padding: 10px 0px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  color: rgb(45, 45, 45);
+}
+#singleProductMain #recentProduct .productBox {
+  padding: 0.1rem 0 1.5rem;
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox {
+  margin: 0rem 10px;
+  margin-top: 30px;
+  padding: 1rem 0rem;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox img {
+  width: 100%;
+  height: 10% !important;
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox:hover {
+  border: 2px solid rgb(242, 139, 0);
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox .textPart .title .text {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 0rem 1rem;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox .textPart .productDescription {
+  margin-top: 2rem;
+  text-align: start;
+  padding: 0rem 1rem;
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox .textPart .productDescription a {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+  line-height: 25px;
+  transition-duration: 0.3s;
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox .textPart .productDescription a:hover {
+  color: #f28b00;
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox .textPart .priceSection {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox .textPart .priceSection .discount {
+  color: rgb(242, 139, 0);
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+#singleProductMain #recentProduct .productBox .imageAndTextBox .textPart .priceSection .sale del {
+  color: rgb(197, 197, 197);
+}
+#singleProductMain #recentProduct .slick-dots li button {
+  border: 1px solid rgb(101, 101, 101) !important;
+  background-color: white;
+  border-radius: 10rem;
+  text-align: center;
+}
+#singleProductMain #recentProduct .slick-dots li button:hover {
+  border: 1px solid rgb(242, 139, 0) !important;
+}
+#singleProductMain .descriptionTechnicalSpecsReviews {
+  margin-top: 4rem;
+  padding: 2rem 0rem 0rem;
+}
+#singleProductMain .descriptionTechnicalSpecsReviews .single .active {
+  background-color: rgb(245, 245, 245);
+}
+#singleProductMain .descriptionTechnicalSpecsReviews .single p {
+  cursor: pointer;
+  width: 95%;
+  color: rgb(145, 145, 145);
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  padding: 1rem 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#singleProductMain .descriptionTechnicalSpecsReviews .single p:hover {
+  background-color: rgb(245, 245, 245);
+}
+#singleProductMain #Description {
+  display: block;
+  padding: 6rem 0rem;
+  background-color: rgb(245, 245, 245);
+}
+#singleProductMain #Description .bottom .rightText {
+  text-align: end;
+  margin-top: 7rem;
+}
+#singleProductMain #Description .bottom .imgOnLeft {
+  margin-top: 1rem;
+  width: 65%;
+}
+#singleProductMain #Description .bottom img {
+  width: 100%;
+}
+#singleProductMain #Description .bottom .imgOnLeftLine {
+  margin-left: 14rem;
+  margin-top: 8rem;
+  width: 50%;
+}
+#singleProductMain #Description .bottom .imgOnRightLine {
+  margin-top: 10rem;
+}
+#singleProductMain #Description h4 {
+  color: rgb(72, 72, 72);
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+#singleProductMain #Description p {
+  color: rgb(131, 131, 131);
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  margin-bottom: 4rem;
+}
+#singleProductMain #Description .lastP {
+  margin-bottom: 0;
+}
+#singleProductMain #Description .top img {
+  margin-bottom: 2rem;
+}
+#singleProductMain #TechnicalSpecs {
+  display: none;
+  padding: 6rem 0rem;
+  background-color: rgb(245, 245, 245);
+}
+#singleProductMain #TechnicalSpecs h4 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(72, 72, 72);
+  margin-bottom: 3rem;
+}
+#singleProductMain #TechnicalSpecs p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(72, 72, 72);
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 1.2rem;
+}
+#singleProductMain #TechnicalSpecs p span {
+  color: rgb(101, 101, 101);
+  font-weight: 400;
+}
+#singleProductMain #TechnicalSpecs .lastP {
+  border-bottom: none;
+}
+#singleProductMain #Reviews {
+  display: none;
+  padding: 6rem 0rem;
+  background-color: rgb(245, 245, 245);
+}
+#singleProductMain #Reviews .bottomForReviews {
+  margin-top: 6rem;
+}
+#singleProductMain #Reviews .bottomForReviews .textPart {
+  margin-top: 30px;
+}
+#singleProductMain #Reviews .bottomForReviews .textPart .ph {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(131, 131, 131);
+  margin-top: 1rem;
+  line-height: 20px;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+#singleProductMain #Reviews .bottomForReviews .textPart i {
+  color: rgb(242, 139, 0);
+  font-size: 10px;
+  margin-right: 0.3rem;
+}
+#singleProductMain #Reviews .bottomForReviews .textPart .name {
+  color: rgb(72, 72, 72);
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 5px;
+}
+#singleProductMain #Reviews .bottomForReviews .textPart .name span {
+  color: rgb(131, 131, 131);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+#singleProductMain #Reviews .Right input {
+  margin-top: 15px;
+  display: block;
+  border-radius: 20px;
+  border: 1px none transparent;
+  padding: 0.7rem 0;
+  width: 60%;
+  padding-left: 30px;
+}
+#singleProductMain #Reviews .Right input:focus {
+  outline: 1px none transparent;
+  border: 1px none transparent;
+}
+#singleProductMain #Reviews .Right input::-moz-placeholder {
+  color: rgb(114, 114, 114);
+}
+#singleProductMain #Reviews .Right input:-ms-input-placeholder {
+  color: rgb(114, 114, 114);
+}
+#singleProductMain #Reviews .Right input::placeholder {
+  color: rgb(114, 114, 114);
+}
+#singleProductMain #Reviews .Right textarea {
+  display: block;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+}
+#singleProductMain #Reviews .Right textarea:focus {
+  outline: 1px none transparent;
+  border: 1px solid transparent;
+}
+#singleProductMain #Reviews .Right textarea::-moz-placeholder {
+  color: rgb(114, 114, 114);
+}
+#singleProductMain #Reviews .Right textarea:-ms-input-placeholder {
+  color: rgb(114, 114, 114);
+}
+#singleProductMain #Reviews .Right textarea::placeholder {
+  color: rgb(114, 114, 114);
+}
+#singleProductMain #Reviews .Right .button {
+  margin-top: 20px;
+}
+#singleProductMain #Reviews .Right .button button {
+  padding: 20px;
+  background-color: rgb(249, 36, 0);
+  border: 1px solid rgb(249, 36, 0);
+  border-radius: 30px;
+  width: 40%;
+  color: white;
+}
+#singleProductMain #Reviews .Right .yourRating {
+  margin-top: 2rem;
+}
+#singleProductMain #Reviews .Right .yourRating span {
+  margin-right: 20px;
+  font-size: 13px;
+  color: rgb(131, 131, 131);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+#singleProductMain #Reviews .Right .yourRating i {
+  font-size: 12px;
+  margin: 0.5rem 0;
+  color: #f28b00;
+  margin-right: 0.8rem;
+}
+#singleProductMain #Reviews .boxCommon {
+  display: flex;
+  align-items: center;
+}
+#singleProductMain #Reviews .boxCommon span {
+  margin-right: 10px;
+}
+#singleProductMain #Reviews .box {
+  width: 100%;
+  background-color: rgb(101, 101, 101);
+  border: 1px solid rgb(101, 101, 101);
+  margin: 0.8rem 0;
+}
+#singleProductMain #Reviews .fiveStar {
+  margin-top: 2rem;
+}
+#singleProductMain #Reviews .fiveStar .general {
+  align-items: center;
+}
+#singleProductMain #Reviews .fiveStar i {
+  font-size: 12px;
+  margin: 0.5rem 0;
+  color: #f28b00;
+  margin-right: 0.8rem;
+}
+#singleProductMain #Reviews .average-score {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+#singleProductMain #Reviews .average-score .left {
+  padding: 2rem 0;
+  background-color: white;
+  border-radius: 10px;
+}
+#singleProductMain #Reviews .average-score .left .num {
+  font-size: 30px;
+  color: rgb(72, 72, 72);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+#singleProductMain #Reviews .average-score .left .text {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(145, 145, 145);
+  margin-top: 15px;
+}
+#singleProductMain #Reviews .average-score .right i {
+  margin-right: 0.5rem;
+  color: #f28b00;
+}
+#singleProductMain #Reviews h4 {
+  color: rgb(53, 53, 53);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+#_404PageMain .general {
+  margin-top: 8rem !important;
+}
+#_404PageMain .general .form-search-error {
+  border-radius: 10px;
+  border: 1px dashed rgb(229, 229, 229);
+  width: 70%;
+  margin-top: 60px;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+#_404PageMain .general .form-search-error input {
+  width: 50%;
+  min-width: 80%;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 30px;
+  margin-right: 20px;
+  padding: 0.5rem 1rem;
+  padding-left: 20px;
+}
+#_404PageMain .general .form-search-error input::-moz-placeholder {
+  color: rgb(114, 114, 114);
+  font-size: 13px;
+}
+#_404PageMain .general .form-search-error input:-ms-input-placeholder {
+  color: rgb(114, 114, 114);
+  font-size: 13px;
+}
+#_404PageMain .general .form-search-error input::placeholder {
+  color: rgb(114, 114, 114);
+  font-size: 13px;
+}
+#_404PageMain .general .form-search-error input:focus {
+  border: 1px none transparent;
+  outline: 2px solid rgb(229, 229, 229);
+}
+#_404PageMain .general .form-search-error button {
+  background-color: #292b2c;
+  border: 1px solid #292b2c;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  color: white;
+  width: 1005;
+}
+#_404PageMain .general h1 {
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  margin-top: 30px;
+}
+#_404PageMain .general p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */

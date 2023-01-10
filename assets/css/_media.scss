@@ -307,6 +307,11 @@
         display: block !important;
        }
 }
+.addtoCatButtoon{
+    button{
+        padding: .3rem 0 !important;
+    }
+}
 main{
     #mainSliderSection{
        padding: 1.9rem 0rem !important;
@@ -405,6 +410,11 @@ main{
             padding-left: 10px !important;
         }
       }
+}
+#singleProduct{
+    .rightCart{
+        margin-top: 30px;
+    }
 }
 footer{
     .FooterTopMobile{
@@ -564,5 +574,6 @@ footer{
                }
             }
         }
+       
     
 }
