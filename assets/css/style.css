@@ -5586,4 +5586,291 @@ body footer .bottom p {
   font-weight: 400;
   color: rgb(145, 145, 145);
   margin-top: 20px;
+}
+
+#_BrandMain {
+  background-color: rgb(245, 245, 245);
+}
+#_BrandMain h3 {
+  padding-top: 3rem;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+  font-family: "Nunito", sans-serif;
+}
+#_BrandMain .brands-tablist {
+  margin-top: 30px;
+  background-color: white;
+  padding: 3rem 7rem;
+  width: 100%;
+  justify-content: space-between;
+  color: rgb(72, 72, 72);
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+}
+#_BrandMain .brands-tablist div:hover {
+  color: rgb(242, 139, 0);
+  cursor: pointer;
+}
+#_BrandMain .brands {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#_BrandMain .brands .apple {
+  display: block;
+  margin-bottom: 25px;
+  background-color: white;
+  padding: 2.5rem 3rem;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+#_BrandMain .brands .apple:hover {
+  background-color: #f28b00;
+}
+#_BrandMain .brands .apple:hover .name {
+  color: white;
+}
+#_BrandMain .brands .apple:hover .productcountOnThisBrand {
+  color: white;
+}
+#_BrandMain .brands .apple .name {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(72, 72, 72);
+}
+#_BrandMain .brands .apple .productcountOnThisBrand {
+  text-align: center;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+}
+
+#categoryMain .productTitle h2 {
+  margin-top: 10px;
+}
+#categoryMain #mainSliderSection {
+  background-color: white;
+  height: 100%;
+}
+#categoryMain #mainSliderSection .mainSliderSection {
+  border-radius: 8px;
+  margin: 0;
+  padding: 7px 0 20px;
+}
+#categoryMain #mainSliderSection .mainSliderSection .generalForSlider {
+  border-radius: 7px;
+  padding: 1rem 0;
+  background-color: rgb(245, 245, 245);
+}
+#categoryMain #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider {
+  padding: 0 4rem;
+  background-color: rgb(245, 245, 245);
+}
+#categoryMain #mainSliderSection .mainSliderSection .generalForSlider .leftForMainSlider h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 70px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: rgb(45, 45, 45);
+  margin-right: 20px;
+  display: inline-block;
+}
+#categoryMain #mainSliderSection .mainSliderSection .generalForSlider img {
+  margin-right: 40px;
+}
+#categoryMain #OurProducts {
+  margin-top: 0;
+}
+#categoryMain #OurProducts .ImageAndText img {
+  width: 100%;
+}
+#categoryMain #OurProducts .ImageAndText:hover {
+  border: 1px none transparent;
+}
+#categoryMain #highlights {
+  margin-bottom: 30px;
+}
+#categoryMain #highlights {
+  background-color: white;
+}
+#categoryMain #highlights .discount {
+  margin-top: 20px;
+}
+
+#contactMain .LeaveUsMessage {
+  margin-top: 60px;
+}
+#contactMain .LeaveUsMessage .firstP {
+  color: rgb(131, 131, 131);
+}
+#contactMain .LeaveUsMessage button {
+  background-color: rgb(249, 36, 0);
+  border-radius: 30px;
+  color: white;
+  width: 20%;
+  border: 1px solid rgb(249, 36, 0);
+  margin-left: 18%;
+  margin-top: 10px;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 50px;
+  transition-duration: 0.3s;
+}
+#contactMain .LeaveUsMessage button:hover {
+  background-color: #2d2d2d;
+  border: 1px solid #2d2d2d;
+  border: 1px solid #2d2d2d;
+}
+#contactMain .LeaveUsMessage .contact {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#contactMain .LeaveUsMessage .contact p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+#contactMain .LeaveUsMessage .contact input {
+  width: 67%;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-left: 1rem;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  font-size: 12px;
+}
+#contactMain .LeaveUsMessage .contact input:focus {
+  outline: 2px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
+}
+#contactMain .LeaveUsMessage .right textarea {
+  margin-top: 15px;
+  width: 65%;
+  border-radius: 10px;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 20px;
+}
+#contactMain .LeaveUsMessage .right textarea:focus {
+  outline: 2px solid rgb(229, 229, 229);
+  border: 1px none transparent;
+}
+#contactMain .LeaveUsMessage .billingDetail {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+#contactMain .LeaveUsMessage .billingDetail .billingDetails {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+}
+#contactMain .LeaveUsMessage .billingDetail .billingDetails .left {
+  margin-top: 10px;
+}
+#contactMain .LeaveUsMessage .billingDetail .billingDetails .left .label {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: rgb(101, 101, 101);
+}
+#contactMain .LeaveUsMessage .billingDetail .billingDetails .left input {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-left: 1rem;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  font-size: 12px;
+}
+#contactMain .LeaveUsMessage .billingDetail .billingDetails .left input:focus {
+  outline: 2px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
+}
+#contactMain .LeaveUsMessage .billingDetail .billingDetails .right {
+  margin-top: 10px;
+}
+#contactMain .LeaveUsMessage .billingDetail .billingDetails .right .label {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: rgb(101, 101, 101);
+}
+#contactMain .LeaveUsMessage .billingDetail .billingDetails .right input {
+  width: 100%;
+  margin-top: 6px;
+  border-radius: 20px;
+  border: 2px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  font-size: 12px;
+}
+#contactMain .LeaveUsMessage .billingDetail .billingDetails .right input:focus {
+  outline: 2px solid rgb(229, 229, 229);
+  border: 2px solid rgb(229, 229, 229);
+}
+#contactMain .LeaveUsMessage .contact {
+  text-align: start;
+}
+#contactMain .LeaveUsMessage h3 {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+#contactMain .LeaveUsMessage p {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(101, 101, 101);
+  font-size: 13px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+#contactMain .mapIframe {
+  border-radius: 10px;
+  margin-top: 15px;
+}
+#contactMain .mapIframe iframe {
+  width: 100% !important;
+}
+#contactMain .iconPart {
+  margin-top: 70px;
+}
+#contactMain .iconPart .box {
+  border: 2px solid rgb(229, 229, 229);
+  position: relative;
+  border-radius: 10px;
+  padding: 3rem 0rem 0;
+  margin-bottom: 30px;
+}
+#contactMain .iconPart .box .icon {
+  position: absolute;
+  top: -20%;
+  left: 40%;
+  border-radius: 150px;
+  height: 50px;
+  background-color: white;
+  padding: 8px;
+  border: 2px solid rgb(229, 229, 229);
+}
+#contactMain .iconPart .box .icon img {
+  width: 100%;
+}
+#contactMain .iconPart .box .heading {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+#contactMain .iconPart .box .ph {
+  font-size: 13px;
+  color: rgb(145, 145, 145);
+  margin-top: 10px;
+  padding-bottom: 40px;
+  line-height: 20px;
 }/*# sourceMappingURL=style.css.map */

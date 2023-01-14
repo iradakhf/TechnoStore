@@ -85,6 +85,7 @@ function on() {
           // instead of a settings object
         ]
       });
+      
       $('.partners').slick({
         dots: true,
         infinite: false,
