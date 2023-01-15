@@ -416,6 +416,9 @@ a {
   main #productBoxesNewArrivalFeaturedTopSelling .productBox .box img {
     width: 70%;
   }
+  footer .top .container {
+    margin: 0 20px !important;
+  }
   #servicesCart h3 {
     margin: 5px 0 !important;
     font-size: 15px !important;
@@ -4458,6 +4461,7 @@ body footer .bottom p {
   border-radius: 10px;
   height: 100px;
   padding: 1rem 1.2rem;
+  margin-bottom: 10px;
 }
 #cartMain #servicesCart img {
   margin-right: 20px;
@@ -4485,6 +4489,7 @@ body footer .bottom p {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
   height: 100px;
@@ -5873,4 +5878,256 @@ body footer .bottom p {
   margin-top: 10px;
   padding-bottom: 40px;
   line-height: 20px;
+}
+
+#_faqMain .heading h3 {
+  font-size: 20px;
+  color: #2d2d2d;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  padding: 3rem 0;
+}
+#_faqMain .accordion {
+  margin-bottom: 4rem;
+}
+#_faqMain .accordion .accordion-item {
+  border: 1px none transparent;
+  margin-bottom: 1rem;
+}
+#_faqMain .accordion .accordion-item h2 {
+  border-radius: 30px;
+  border: 2px solid rgb(229, 229, 229) !important;
+}
+#_faqMain .accordion .accordion-body {
+  color: rgb(145, 145, 145);
+  font-size: 13px;
+  line-height: 24px;
+}
+#_faqMain .accordion button {
+  border-radius: 30px;
+}
+
+#_storeLocationMain {
+  overflow: hidden;
+}
+#_storeLocationMain #services {
+  margin-top: 4rem;
+}
+#_storeLocationMain iframe {
+  width: 100%;
+}
+#_storeLocationMain .breadcrumbGeneral {
+  margin-bottom: 0;
+}
+#_storeLocationMain .left {
+  padding: 20px 10px;
+  background-color: rgb(245, 245, 245);
+}
+#_storeLocationMain .left ul {
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+#_storeLocationMain .left ul li {
+  margin-top: 1.5rem;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+#_storeLocationMain .left h3 {
+  color: rgb(45, 45, 45);
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  padding: 22px;
+  width: 100%;
+  font-size: 20px;
+}
+#_storeLocationMain .left .select {
+  align-items: center;
+  margin-top: 12px;
+}
+#_storeLocationMain .left .select select {
+  margin-left: 20px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 90px;
+  padding: 20px;
+}
+#_storeLocationMain .left .select select:focus {
+  outline: 1px solid white;
+}
+#_storeLocationMain .left .select .shareLocation {
+  background-color: rgb(249, 36, 0);
+  border-radius: 50px;
+}
+#_storeLocationMain .left .select .shareLocation a {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  padding: 0.7rem 0;
+  color: white;
+}
+#_storeLocationMain .left .select .shareLocation a img {
+  margin-right: 10px;
+}
+#_storeLocationMain .middle {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 0rem 2rem;
+}
+#_storeLocationMain .middle .address h3 {
+  margin-bottom: 12px;
+}
+#_storeLocationMain .middle h3 {
+  margin-top: 1.2rem;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+#_storeLocationMain .middle p {
+  color: rgb(145, 145, 145);
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+#_storeLocationMain .middle img {
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+#_orderTrackingMain .breadcrumbGeneral {
+  margin-bottom: 0;
+}
+#_orderTrackingMain .top {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+#_orderTrackingMain #trackOrder {
+  margin-bottom: 3rem;
+  background-color: white;
+  border-radius: 10px;
+  padding: 120px 90px;
+}
+#_orderTrackingMain #trackOrder .heading {
+  text-align: center;
+}
+#_orderTrackingMain #trackOrder .heading h3 {
+  color: rgb(45, 45, 45);
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#_orderTrackingMain #trackOrder .heading p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(145, 145, 145);
+}
+#_orderTrackingMain #trackOrder .inputs {
+  margin-top: 40px;
+}
+#_orderTrackingMain #trackOrder .inputs p {
+  color: rgb(101, 101, 101);
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+}
+#_orderTrackingMain #trackOrder .inputs input {
+  margin-top: 15px;
+  border-radius: 40px;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 100%;
+}
+#_orderTrackingMain #trackOrder .inputs input:focus {
+  border: 1px solid rgb(229, 229, 229);
+  outline: 1px solid rgb(229, 229, 229);
+}
+#_orderTrackingMain #trackOrder .inputs input::-moz-placeholder {
+  color: rgb(173, 173, 173);
+  font-size: 13px;
+}
+#_orderTrackingMain #trackOrder .inputs input:-ms-input-placeholder {
+  color: rgb(173, 173, 173);
+  font-size: 13px;
+}
+#_orderTrackingMain #trackOrder .inputs input::placeholder {
+  color: rgb(173, 173, 173);
+  font-size: 13px;
+}
+#_orderTrackingMain #servicesCart {
+  margin-bottom: 40px;
+}
+#_orderTrackingMain #servicesCart .boox {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  padding: 1rem 1.2rem;
+  background-color: white;
+  cursor: default;
+}
+#_orderTrackingMain #servicesCart .boox:hover {
+  border-color: #f28b00;
+}
+#_orderTrackingMain #servicesCart img {
+  margin-right: 20px;
+}
+#_orderTrackingMain #servicesCart h3 {
+  width: 100%;
+  color: rgb(45, 45, 45);
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+#_orderTrackingMain #servicesCart p {
+  color: rgb(145, 145, 145);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+#_orderTrackingMain .trackButton {
+  text-align: center;
+  margin-top: 3rem;
+}
+#_orderTrackingMain .trackButton button {
+  background-color: rgb(249, 36, 0);
+  border-radius: 30px;
+  border: 1px solid rgb(249, 36, 0);
+  color: white;
+  width: 20%;
+  padding: 0.8rem 0;
+  transition-duration: 0.3s;
+}
+#_orderTrackingMain .trackButton button:hover {
+  background-color: #2d2d2d;
+  border-color: #2d2d2d;
+}
+
+#termsMain .box {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+#termsMain .box h3 {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#termsMain .box p {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
 }/*# sourceMappingURL=style.css.map */
