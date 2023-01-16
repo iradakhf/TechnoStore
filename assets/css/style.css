@@ -6130,4 +6130,167 @@ body footer .bottom p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: rgb(145, 145, 145);
+}
+
+#blogMain .blog img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#blogMain .blog h3 {
+  margin: 20px 0;
+}
+#blogMain .blog h3 a {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+}
+#blogMain .blog ul li {
+  margin-right: 20px;
+}
+#blogMain .blog ul li a {
+  font-size: 14px;
+  color: rgb(249, 36, 0);
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+#blogMain .blog p {
+  font-size: 13px;
+  color: rgb(145, 145, 145);
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  margin-top: 20px;
+}
+#blogMain .blog button {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 80px;
+  background-color: #fff;
+  margin: 30px 0;
+  width: 25%;
+  padding: 1rem 0;
+}
+#blogMain .blog button:hover {
+  background-color: #f28b00;
+  color: white;
+}
+#blogMain .right {
+  margin-top: 20px;
+}
+#blogMain .right #highlights {
+  background-color: white;
+}
+#blogMain .right #highlights h3 {
+  font-size: 20px;
+}
+#blogMain .right input {
+  background-color: rgb(245, 245, 245);
+  border-radius: 50px;
+  border: 1px solid rgb(245, 245, 245);
+  padding: 0.5rem 0;
+  width: 100%;
+  padding-left: 18px;
+}
+#blogMain .right input::-moz-placeholder {
+  text-transform: capitalize;
+  color: rgba(114, 114, 114, 0.5);
+}
+#blogMain .right input:-ms-input-placeholder {
+  text-transform: capitalize;
+  color: rgba(114, 114, 114, 0.5);
+}
+#blogMain .right input::placeholder {
+  text-transform: capitalize;
+  color: rgba(114, 114, 114, 0.5);
+}
+#blogMain .right input:focus {
+  border: 1px solid rgb(245, 245, 245);
+  outline: 1px solid rgb(245, 245, 245);
+}
+#blogMain .right .categoryTab {
+  margin-top: 1.5rem;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 0.5rem 0;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+#blogMain .right .categoryTab .category {
+  display: flex;
+  justify-content: space-between;
+}
+#blogMain .right .categoryTab i {
+  cursor: pointer;
+}
+#blogMain .right .categoryList {
+  transition-duration: 0.3s;
+  padding: 18px 0px;
+  background-color: white;
+  width: 263px;
+  z-index: 10;
+  display: block;
+}
+#blogMain .right .categoryList li {
+  display: flex;
+  align-items: center;
+  border: 1px none none;
+  padding-left: 0px;
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(72, 72, 72);
+}
+#blogMain .right .categoryList li span {
+  font-size: 12px;
+  color: rgb(186, 186, 186);
+  font-weight: 400;
+  margin-left: 10px;
+}
+#blogMain .right .categoryList li a {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
+#blogMain .right .categoryList li i {
+  font-size: 7px;
+  padding-right: 15px;
+}
+#blogMain .right .categoryList li:hover {
+  color: rgb(242, 139, 0);
+}
+#blogMain .right .categoryList li:hover a {
+  color: rgb(242, 139, 0);
+}
+#blogMain .right .categoryList :last-child {
+  margin-bottom: 0;
+}
+#blogMain .right .tags {
+  margin-top: 1.5rem;
+}
+#blogMain .right .tags ul {
+  flex-wrap: wrap;
+}
+#blogMain .right .tags ul li {
+  width: 40%;
+  margin-bottom: 2rem;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(245, 245, 245);
+  padding: 0.5rem;
+  padding: 0.3rem 1rem;
+  border-radius: 30px;
+  margin-right: 0.2rem;
+}
+#blogMain .right .tags ul li a {
+  width: 100%;
+  font-size: 12px;
+  color: rgb(140, 140, 140);
+  font-family: "Open Sans", sans-serif;
+}
+#blogMain .right .tags ul li:hover {
+  background-color: rgb(242, 139, 0);
+}
+#blogMain .right .tags ul li:hover a {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
