@@ -1857,7 +1857,7 @@
         
     </header>
     <!-- main -->
-    <main id="checkoutMain">
+    <main id="compareMain">
         <div class="breadcrumbGeneral">
             <div class="container">
               <ul>
@@ -1868,238 +1868,146 @@
             </div>
           </div>
           <div class="container">
-             <div class="checkoutGeneral">
-                <div class="row">
-                    <div class="col-lg-7 col-xl-7 col-xxl-7 col-md-12 col-sm-12 col-12">
-                       <h3>Checkout</h3>
-                       <div class="checkoutLogin">
-                        Returning customer? <a href="login.html">Click here to login</a>
-                       </div>
-                       <div class="billingDetail">
-                           <h3>Billing details</h3>
-                           <div class="billingDetails">
-                            <div class="left">
-                               <div class="label">First name *</div>
-                                <input type="text" placeholder="Irada">
+              <div class="compareMain">
+                <div class="title">
+                    <h3>Compare</h3>
+                </div>
+                <div class="compare-content">
+                    <div class="product">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3 class="titlePart">Product</h3>
                             </div>
-                            <div class="right">
-                                <div class="label">Last name *</div>
-                                <input type="text" placeholder="Feyzullayeva">
-                            </div>
-                           </div>
-
-                       </div>
-                       <div class="companyName">
-                        <p>Company Name</p>
-                        <input type="text">
-                       </div>
-                       <div class="contact">
-                        <div class="left">
-                            <p>Email Address * </p>
-                            <input type="text">
-                        </div>
-                        <div class="right">
-                            <p>Phone * </p>
-                            <input type="text">
-                        </div>
-                       </div>
-                       <div class="country">
-                        <p>Country *</p>
-                        <input type="text" placeholder="Australia">
-                       </div>
-                       <div class="country">
-                        <p>Address *</p>
-                        <input type="text" placeholder="Street Address">
-                        <input type="text" placeholder="Apartment">
-                       </div>
-                       <div class="country">
-                        <p>Town/City *</p>
-                        <input type="text" placeholder="Australia">
-                       </div>
-                       <div class="contact">
-                        <div class="left">
-                            <p>State/Country * </p>
-                            <input type="text">
-                        </div>
-                        <div class="right">
-                            <p>Postcode/Zip * </p>
-                            <input type="text">
-                        </div>
-                       </div>
-                       <div class="createAnAccount">
-                        <input type="checkbox"> Create an account?
-                       </div>
-                       <div class="shippingAddress">
-                         <h3>Shipping Address</h3>
-                         <div class="createAnAccount">
-                            <input type="checkbox"> Ship to a different address?
-                           </div>
-                           <div class="billingDetail">
-                            <div class="billingDetails">
-                             <div class="left">
-                                <div class="label">First name *</div>
-                                 <input type="text" placeholder="Irada">
-                             </div>
-                             <div class="right">
-                                 <div class="label">Last name *</div>
-                                 <input type="text" placeholder="Feyzullayeva">
-                             </div>
-                            </div>
- 
-                        </div>
-                        <div class="companyName">
-                         <p>Company Name</p>
-                         <input type="text">
-                        </div>
-                        <div class="contact">
-                         <div class="left">
-                             <p>Email Address * </p>
-                             <input type="text">
-                         </div>
-                         <div class="right">
-                             <p>Phone * </p>
-                             <input type="text">
-                         </div>
-                        </div>
-                        <div class="country">
-                         <p>Country *</p>
-                         <input type="text" placeholder="Australia">
-                        </div>
-                        <div class="country">
-                         <p>Address *</p>
-                         <input type="text" placeholder="Street Address">
-                         <input type="text" placeholder="Apartment">
-                        </div>
-                        <div class="country">
-                         <p>Town/City *</p>
-                         <input type="text" placeholder="Australia">
-                        </div>
-                        <div class="contact">
-                         <div class="left">
-                             <p>State/Country * </p>
-                             <input type="text">
-                         </div>
-                         <div class="right">
-                             <p>Postcode/Zip * </p>
-                             <input type="text">
-                         </div>
-                        </div>
-                       </div>
-                       <div class="order country">
-                        <p>Order Notes</p>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Notes about your order"></textarea>
-                       </div>
-                    </div>
-                    <div class="col-lg-5 col-xl-5 col-xxl-5 col-md-12 col-sm-12 col-12">
-                        <div class="rightCart">
-                            <h3>Your Order</h3>
-                            <div class="yourOrderAndTotal d-flex justify-content-between">
-                                <p>Product</p>
-                                <p>Total</p>                               
-                            </div>
-                            <div class="productNameAndPrice d-flex justify-content-between">
-                              <div class="productName">Apple Mini Lorem ipsum dolor</div>
-                              <div class="productPrice">$2,525</div>
-                            </div>
-                            <div class="productNameAndPrice d-flex justify-content-between">
-                                <div class="productName">Apple Mini Lorem ipsum dolor</div>
-                                <div class="productPrice">$2,525</div>
-                              </div>
-                            <div class="totalFirst">
-                                <p>Total</p>
-                                <div class="totalPrice">$3333</div>
-                              </div>
-                            <div class="shipping d-flex">
-                              <p>Shipping</p>
-                              <div class="rightPartForShipping">
-                                <div class="flatRate">
-                                  <input type="checkbox">
-                                  <span>Flat Rate: <span>$3.00</span></span>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <div class="img">
+                                    <img src="assets/images/product/01.jpg" alt="">
+                                    <div class="name">
+                                        Apple Ipad Mini
+                                    </div>
+    
                                 </div>
-                                <div class="free">
-                                  <input type="checkbox">
-                                  <span>Free Shipping</span>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <div class="img">
+                                    <img src="assets/images/product/02.jpg" alt="">
+                                    <div class="name">
+                                        Apple Ipad Mini
+                                    </div>
+    
                                 </div>
-                                <p class="calculateShipping">Calculate Shipping</p>
-                              </div>
                             </div>
-                            <div class="total">
-                              <p>Total</p>
-                              <div class="totalPrice">$3333</div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <div class="img">
+                                    <img src="assets/images/product/03.jpg" alt="">
+                                    <div class="name">
+                                        Apple Ipad Mini
+                                    </div>
+    
+                                </div>
                             </div>
-                            <div class="checkPayment">
-                                <input type="checkbox"> Check Payments
-                                <p>Please send a check to Store Name, Store Street, Store
-                                    Town, Store State / County, Store Postcode.</p>
-                                    <div class="directBank">
-                                        <input type="checkbox"> Direct Bank Transfer
-                                    </div>
-                                    <div class="cash">
-                                        <input type="checkbox"> Cash On Delivery
-                                    </div>
-                                    <div class="paypal">
-                                        <input type="checkbox"> Paypal
+                            
+                        </div>
 
-                                    </div>
+                    </div>
+                    <div class="price">
+                        <div class="row">
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3 class="titlePart">Price</h3>
                             </div>
-                            <div class="readAndAccept">
-                                <input type="checkbox">I’ve read and accept the terms & conditions *
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3>$2,222.00</h3>
                             </div>
-                            <div class="buttons">
-                              <button id="ProceedToCheckout">
-                                Place Order
-                              </button>
-
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3>$2,222.00</h3>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3>$2,222.00</h3>
                             </div>
                         </div>
                     </div>
-                </div>
-             </div>
-          </div>
-          <section id="servicesCart">
-            <div class="container">
-              <div class="row align-items-center justify-content-between">
-                <div class="col-lg-2-5 col-xl-2-5 col-xxl-2-5 col-md-6 col-sm-6 col-12 boox">
-                    <div class="img">
-                        <img src="assets/images/car.png" alt="">
+                    <div class="addToCart">
+                        <div class="row">
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3 class="titlePart">Add to Cart</h3>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <button class="d-flex align-items-center justify-content-center"><img src="assets/images/cart.png" alt=""><span>Add to Cart</span></button>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <button class="d-flex align-items-center justify-content-center"><img src="assets/images/cart.png" alt=""><span>Add to Cart</span></button>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <button class="d-flex align-items-center justify-content-center"><img src="assets/images/cart.png" alt=""><span>Add to Cart</span></button>
+                            </div>
+                        </div>
                     </div>
-                     <div class="text">
-                         <h3>Worldwide Shipping</h3>
-                         <p>Free Shipping On Order Over $100</p>      
-                     </div>
-                </div>
-                <div class="col-lg-2-5 col-xl-2-5 col-xxl-2-5 col-md-6 col-sm-6 col-12 boox">
-                    <div class="img">
-                        <img src="assets/images/order.png" alt="">
+                    <div class="Description">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3 class="titlePart">Description</h3>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                             <span>The iPhone 5c replaces the iPhone 5 in the Apple stable, inheriting its internals, like the A6 processor, 4" screen...</span>   
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                               <span>The iPhone 5c replaces the iPhone 5 in the Apple stable, inheriting its internals, like the A6 processor, 4" screen...</span> 
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                              <span>The iPhone 5c replaces the iPhone 5 in the Apple stable, inheriting its internals, like the A6 processor, 4" screen...</span>  
+                            </div>
+                        </div>
                     </div>
-                    <div class="text">
-                        <h3>Order Online Service</h3>
-                        <p>Free Shipping On Order Over $100</p>
+                    <div class="Description">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3 class="titlePart">Color</h3>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                             <span>Black</span>   
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                               <span>Red</span> 
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                              <span>Blue</span>  
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-2-5 col-xl-2-5 col-xxl-2-5 col-md-6 col-sm-6 col-12 boox">
-                    <div class="img">
-                        <img src="assets/images/payment.png" alt="">
-
+                    <div class="Description">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3 class="titlePart">Stock</h3>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                             <span>In Stock</span>   
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <span>In Stock</span>   
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <span>In Stock</span>   
+                            </div>
+                        </div>
                     </div>
-                    <div class="text">
-                        <h3>Payment</h3>
-                        <p>Free Shipping On Order Over $100</p>
-                    </div>
-                </div>
-                <div class="col-lg-2-5 col-xl-2-5 col-xxl-2-5 col-md-6 col-sm-6 col-12 boox">
-                    <div class="img">
-                        <img src="assets/images/return.png" alt="">
-
-                    </div>
-                    <div class="text">
-                        <h3>Return 30 Days</h3>
-                        <p>Free Shipping On Order Over $100</p>
+                    <div class="Description last">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <h3 class="titlePart">Delete</h3>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                             <span><img src="assets/images/delete.png" alt=""></span>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <span><img src="assets/images/delete.png" alt=""></span>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-3 col-sm-3 col-md-3">
+                                <span><img src="assets/images/delete.png" alt=""></span>  
+                            </div>
+                        </div>
                     </div>
                 </div>
               </div>
-            </div>
-       </section>
+          </div>
     </main>
    
     <!-- Footer Section -->
@@ -2214,7 +2122,7 @@
     </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-      <script src="assets/js/cart.js"></script>
+      <script src="assets/js/about.js"></script>
       <script src="assets/js/bootstrap.js"></script>
 </body>
 </html>

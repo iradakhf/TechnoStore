@@ -6174,6 +6174,40 @@ body footer .bottom p {
   background-color: #f28b00;
   color: white;
 }
+#blogMain #PrevNext {
+  margin: 20px 0 80px;
+}
+#blogMain #PrevNext .blog-pagination {
+  border-top: 1px solid rgb(229, 229, 229);
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 30px 0;
+}
+#blogMain #PrevNext .blog-pagination span {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(101, 101, 101);
+}
+#blogMain #PrevNext .blog-pagination ul li {
+  font-size: 13px;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+#blogMain #PrevNext .blog-pagination ul li:hover {
+  color: #f28b00;
+}
+#blogMain #PrevNext .blog-pagination ul li i {
+  margin: 0rem 10px;
+}
+#blogMain #PrevNext .blog-pagination ul li a {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 20px;
+  padding: 10px;
+}
+#blogMain #PrevNext .blog-pagination ul li a:hover {
+  background-color: #f28b00;
+  color: white;
+}
 #blogMain .right {
   margin-top: 20px;
 }
@@ -6293,4 +6327,209 @@ body footer .bottom p {
 }
 #blogMain .right .tags ul li:hover a {
   color: white;
+}
+
+#compareMain .compareMain {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+#compareMain .compareMain .title h3 {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+}
+#compareMain .compareMain .compare-content {
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+#compareMain .compareMain .compare-content .product {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+#compareMain .compareMain .compare-content .product .titlePart {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+  padding: 8rem 0 10rem;
+}
+#compareMain .compareMain .compare-content .product .img {
+  text-align: center;
+}
+#compareMain .compareMain .compare-content .product .img img {
+  padding-top: 1rem;
+  width: 100%;
+}
+#compareMain .compareMain .compare-content .product .img .name {
+  font-size: 16px;
+  color: rgb(72, 72, 72);
+  margin-top: 2rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+#compareMain .compareMain .compare-content .price {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+#compareMain .compareMain .compare-content .price .titlePart {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+  padding: 2.1rem 0;
+}
+#compareMain .compareMain .compare-content .price h3 {
+  color: rgb(242, 139, 0);
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  padding: 2rem 0;
+}
+#compareMain .compareMain .compare-content .addToCart {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+#compareMain .compareMain .compare-content .addToCart .titlePart {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+  padding: 4rem 0;
+}
+#compareMain .compareMain .compare-content .addToCart button {
+  text-align: center;
+  margin-top: 3.5rem;
+  border: 1px none transparent;
+  background-color: rgb(249, 36, 0);
+  color: white;
+  border-radius: 30px;
+  padding: 0.5rem 0rem;
+  width: 80%;
+}
+#compareMain .compareMain .compare-content .addToCart button:hover {
+  background-color: rgb(242, 139, 0);
+}
+#compareMain .compareMain .compare-content .addToCart button img {
+  margin-left: 10px;
+}
+#compareMain .compareMain .compare-content .addToCart button span {
+  margin-left: 20px;
+}
+#compareMain .compareMain .compare-content .Description {
+  text-align: center;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+#compareMain .compareMain .compare-content .Description .titlePart {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+  padding: 4rem 0;
+}
+#compareMain .compareMain .compare-content .Description span {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(145, 145, 145);
+  line-height: 26px;
+}
+#compareMain .compareMain .compare-content .last {
+  border-bottom: 1px none transparent;
+}
+
+#wishlistMain .leftCart {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+#wishlistMain .leftCart h3 {
+  margin-bottom: 40px;
+}
+#wishlistMain .leftCart .wishlist {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+#wishlistMain .leftCart .wishlist p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(72, 72, 72);
+  border-bottom: 1px solid rgba(101, 101, 101, 0.5);
+  padding: 1rem 0;
+}
+#wishlistMain .leftCart .wishlist .img img {
+  width: 40%;
+}
+#wishlistMain .leftCart .wishlist .price {
+  color: #f28b00;
+  width: 100%;
+}
+#wishlistMain .leftCart .wishlist button {
+  background-color: rgb(249, 36, 0);
+  color: white;
+  border-radius: 30px;
+  border: 1px solid rgb(249, 36, 0);
+  font-size: 14px;
+  width: 50%;
+  padding: 0.5rem 0;
+}
+#wishlistMain .leftCart .wishlist a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.3rem 0;
+  background-color: rgb(101, 101, 101);
+  color: white;
+  border-radius: 30px;
+  border: 1px solid rgb(101, 101, 101);
+  width: 100%;
+}
+#wishlistMain .leftCart .wishlist a img {
+  margin: 0 20px;
+}
+#wishlistMain .leftCart .wishlist a:hover {
+  background-color: rgb(45, 45, 45);
+}
+#wishlistMain #servicesCart {
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+#wishlistMain #servicesCart .boox {
+  border: 1px solid rgb(229, 229, 229);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 10px;
+}
+#wishlistMain #servicesCart img {
+  margin-right: 20px;
+}
+#wishlistMain #servicesCart h3 {
+  width: 100%;
+  color: rgb(45, 45, 45);
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+#wishlistMain #servicesCart p {
+  color: rgb(145, 145, 145);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
