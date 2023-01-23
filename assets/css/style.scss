@@ -8,6 +8,9 @@ $secondary_font : 'Nunito', sans-serif;
 $primary_color : rgb(242, 139, 0);
 $secondary_color : rgb(229, 229, 229);
 $third_color_red : rgb(249, 36, 0);
+.active{
+    display: block;
+}
 body{
     .modal-content{
         padding: 2rem;
@@ -1186,7 +1189,7 @@ body{
                             justify-content: center;
                             img{
                                 transform-origin: center;
-                                
+                                width: 100%;
                             }
                             
                             i{
@@ -1215,27 +1218,7 @@ body{
                 .productBoxesSectionSliderForSingleProduct1{
                     @include productBoxesSectionSliderForSingleProduct();
                 }
-                .productBoxesSectionSliderForSingleProduct2{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct3{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct4{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct5{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct6{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct7{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct8{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
+               
                 .textPart{
                     .title{
                         position: relative;
@@ -1358,6 +1341,12 @@ body{
                     }
                 }
             }
+            }
+            .productBoxFeatured{
+                display: none;
+            }
+            .productBoxTopSelling{
+                display: none;
             }
         }
     }
@@ -1492,13 +1481,16 @@ body{
                     padding: 1.3rem 0rem;
                   ul{
                     li{
-                        a{
+                        button{
                             margin-right: 10px;
                             padding: 10px 20px;
                             font-size: 18px;
                             font-family: $secondary_font;
                             font-weight: 300;
                             color: rgb(145, 145, 145,.8);
+                            border: none;
+                            background-color: white;
+
                         }
                     }
                   }
@@ -2991,30 +2983,7 @@ body{
                 .productBoxesSectionSliderForSingleProduct1{
                     @include productBoxesSectionSliderForSingleProduct();
                 }
-                .productBoxesSectionSliderForSingleProduct2{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct3{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct4{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct5{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct6{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct7{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct8{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
-                .productBoxesSectionSliderForSingleProduct9{
-                    @include productBoxesSectionSliderForSingleProduct();
-                }
+               
                 .textPart{
                     .title{
                         position: relative;

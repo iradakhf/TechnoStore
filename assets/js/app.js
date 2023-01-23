@@ -1,5 +1,10 @@
 
+
 $(document).ready(function() {
+
+   $("#categories .productPart").css("display", "none");
+   $("#categories #Smart").css("display", "block");
+
    $('.mainSliderSection').slick({
       dots: true,
       infinite: false,
@@ -173,309 +178,30 @@ $(document).ready(function() {
         // instead of a settings object
       ]
     });
-    $('.productBoxesSectionSliderForSingleProduct1').slick({
-      dots: false,
-      infinite: false,
-      prevArrow: $('#product1 #iconLeft'),
-    nextArrow: $('#product1 #iconRight'),
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: false,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-    $('.productBoxesSectionSliderForSingleProduct2').slick({
-      dots: false,
-      infinite: false,
-      prevArrow: $('#product2 #iconLeft'),
-    nextArrow: $('#product2 #iconRight'),
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: false,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-    $('.productBoxesSectionSliderForSingleProduct3').slick({
-      dots: false,
-      infinite: false,
-      prevArrow: $('#product3 #iconLeft'),
-    nextArrow: $('#product3 #iconRight'),
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: false,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-    $('.productBoxesSectionSliderForSingleProduct4').slick({
-      dots: false,
-      infinite: false,
-      prevArrow: $('#product4 #iconLeft'),
-    nextArrow: $('#product4 #iconRight'),
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: false,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-    $('.productBoxesSectionSliderForSingleProduct5').slick({
-      dots: false,
-      infinite: false,
-      prevArrow: $('#product5 #iconLeft'),
-    nextArrow: $('#product5 #iconRight'),
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: false,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-    $('.productBoxesSectionSliderForSingleProduct6').slick({
-      dots: false,
-      infinite: false,
-      prevArrow: $('#product6 #iconLeft'),
-    nextArrow: $('#product6 #iconRight'),
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: false,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-    $('.productBoxesSectionSliderForSingleProduct7').slick({
-      dots: false,
-      infinite: false,
-      prevArrow: $('#product7 #iconLeft'),
-    nextArrow: $('#product7 #iconRight'),
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: false,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-    $('.productBoxesSectionSliderForSingleProduct8').slick({
-      dots: false,
-      infinite: false,
-      prevArrow: $('#product8 #iconLeft'),
-    nextArrow: $('#product8 #iconRight'),
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: false,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
     
    $(".modalBootstrap").modal("show");
    
      $(".bottomForMobileGeneral a").click(function(e){
         e.preventDefault();
      })
-    
+    $("#productBoxNewArrival").click(function(e){
+      e.preventDefault();
+      $(".productBoxNewArrival").css("display","block")
+      $(".productBoxFeatured").css("display","none");
+      $(".productBoxTopSelling").css("display","none");
+    })
+    $("#productBoxFeatured").click(function(e){
+      e.preventDefault();
+      $(".productBoxNewArrival").css("display","none")
+      $(".productBoxFeatured").css("display","block");
+      $(".productBoxTopSelling").css("display","none");
+    })
+    $("#productBoxTopSelling").click(function(e){
+      e.preventDefault();
+      $(".productBoxNewArrival").css("display","none")
+      $(".productBoxFeatured").css("display","none");
+      $(".productBoxTopSelling").css("display","block");
+    })
    $(".closeForModalOnBody").click(function(){
       $(".modalBootstrap").modal("hide");
    })
@@ -835,3 +561,24 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+function openCity(evt, cityName) {
+   // Declare all variables
+   var i, tabcontent, tablinks;
+ 
+   // Get all elements with class="tabcontent" and hide them
+   tabcontent = document.getElementsByClassName("tabcontent");
+   for (i = 0; i < tabcontent.length; i++) {
+     tabcontent[i].style.display = "none";
+   }
+ 
+   // Get all elements with class="tablinks" and remove the class "active"
+   tablinks = document.getElementsByClassName("tablinks");
+   for (i = 0; i < tablinks.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" active", "");
+   }
+ 
+   // Show the current tab, and add an "active" class to the button that opened the tab
+   document.getElementById(cityName).style.display = "block";
+   evt.currentTarget.className += " active";
+ }
