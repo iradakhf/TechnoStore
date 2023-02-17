@@ -2447,7 +2447,7 @@ body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBas
   display: flex;
   justify-content: center;
 }
-body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top a {
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top button {
   background-color: rgb(249, 36, 0);
   border: 1px solid rgb(249, 36, 0);
   border-radius: 30px;
@@ -2457,11 +2457,11 @@ body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBas
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
-body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top a:hover {
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top button:hover {
   background-color: rgb(242, 139, 0);
   border-color: rgb(242, 139, 0);
 }
-body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top a span {
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishList .top button span {
   color: white;
   padding-left: 1rem;
 }
@@ -2503,7 +2503,7 @@ body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBas
   display: flex;
   justify-content: center;
 }
-body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top a {
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top button {
   background-color: rgb(249, 36, 0);
   border: 1px solid rgb(249, 36, 0);
   border-radius: 30px;
@@ -2513,11 +2513,11 @@ body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBas
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
-body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top a:hover {
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top button:hover {
   background-color: rgb(242, 139, 0);
   border-color: rgb(242, 139, 0);
 }
-body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top a span {
+body main #categories .categoryGeneral .productPart .imageAndTextBox .onHoverBasketCompareWishListRight .top button span {
   color: white;
   padding-left: 1rem;
 }
@@ -2636,7 +2636,7 @@ body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHove
   display: flex;
   justify-content: center;
 }
-body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top a {
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top button {
   background-color: rgb(249, 36, 0);
   border: 1px solid rgb(249, 36, 0);
   border-radius: 30px;
@@ -2646,11 +2646,11 @@ body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHove
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
-body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top a:hover {
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top button:hover {
   background-color: rgb(242, 139, 0);
   border-color: rgb(242, 139, 0);
 }
-body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top a span {
+body main #categories .categoryGeneral .productPart .imageAndTextBoxLeft .onHoverBasketCompareWishListRight .top button span {
   color: white;
   padding-left: 1rem;
 }
@@ -5043,9 +5043,6 @@ body footer .bottom p {
 #singleProductMain #Reviews .Right input::-moz-placeholder {
   color: rgb(114, 114, 114);
 }
-#singleProductMain #Reviews .Right input:-ms-input-placeholder {
-  color: rgb(114, 114, 114);
-}
 #singleProductMain #Reviews .Right input::placeholder {
   color: rgb(114, 114, 114);
 }
@@ -5063,9 +5060,6 @@ body footer .bottom p {
   border: 1px solid transparent;
 }
 #singleProductMain #Reviews .Right textarea::-moz-placeholder {
-  color: rgb(114, 114, 114);
-}
-#singleProductMain #Reviews .Right textarea:-ms-input-placeholder {
   color: rgb(114, 114, 114);
 }
 #singleProductMain #Reviews .Right textarea::placeholder {
@@ -5180,10 +5174,6 @@ body footer .bottom p {
   padding-left: 20px;
 }
 #_404PageMain .general .form-search-error input::-moz-placeholder {
-  color: rgb(114, 114, 114);
-  font-size: 13px;
-}
-#_404PageMain .general .form-search-error input:-ms-input-placeholder {
   color: rgb(114, 114, 114);
   font-size: 13px;
 }
@@ -5676,10 +5666,6 @@ body footer .bottom p {
   color: rgb(173, 173, 173);
   font-size: 13px;
 }
-#_orderTrackingMain #trackOrder .inputs input:-ms-input-placeholder {
-  color: rgb(173, 173, 173);
-  font-size: 13px;
-}
 #_orderTrackingMain #trackOrder .inputs input::placeholder {
   color: rgb(173, 173, 173);
   font-size: 13px;
@@ -5850,10 +5836,6 @@ body footer .bottom p {
   padding-left: 18px;
 }
 #blogMain .right input::-moz-placeholder {
-  text-transform: capitalize;
-  color: rgba(114, 114, 114, 0.5);
-}
-#blogMain .right input:-ms-input-placeholder {
   text-transform: capitalize;
   color: rgba(114, 114, 114, 0.5);
 }

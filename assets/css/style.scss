@@ -391,7 +391,7 @@ body{
                     font-size: 13px;
                     font-family: $primary_font;
                 }
-                button{
+               button {
                     padding: .6rem 1.8rem;
                     background-color: $secondary_color;
                     border-radius: 4rem;
@@ -1492,6 +1492,7 @@ body{
                             background-color: white;
 
                         }
+                       
                     }
                   }
                 }
@@ -1581,7 +1582,7 @@ body{
                             .top{
                                 display: flex;
                                 justify-content: center;
-                                a{
+                                button{
                                   &:hover{
                                       background-color: $primary_color;
                                       border-color: $primary_color;
@@ -1642,7 +1643,7 @@ body{
                             .top{
                                 display: flex;
                                 justify-content: center;
-                                a{
+                                button{
                                   &:hover{
                                       background-color: $primary_color;
                                       border-color: $primary_color;
@@ -1655,6 +1656,7 @@ body{
                                 padding: .5rem 2rem;
                                 font-size: 14px;
                                 font-family: $primary_font;
+                                
                                 span{
                                     color: white;
                                    padding-left: 1rem;
@@ -1786,7 +1788,7 @@ body{
                                 .top{
                                     display: flex;
                                     justify-content: center;
-                                    a{
+                                    button{
                                       &:hover{
                                           background-color: $primary_color;
                                           border-color: $primary_color;
@@ -2425,6 +2427,7 @@ body{
     }
 #shopMain{
         #BestSeller{
+            
             .productTab{
                 position: relative;
                 #dotsForBestSeller{
